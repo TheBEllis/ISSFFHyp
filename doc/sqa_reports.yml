@@ -1,0 +1,6 @@
+Applications:
+    hyper:
+        app_types:
+            - hyperApp
+        content_directory: ${ROOT_DIR}/doc/content
+        log_default: WARNING
