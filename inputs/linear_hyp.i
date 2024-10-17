@@ -141,8 +141,8 @@
   
 [Materials]
   [CCZ_elasticity]
-    type = ADComputeVariableIsotropicElasticityTensor
-    youngs_modulus= 'ccz_ym'
+    type = ADComputeIsotropicElasticityTensor
+    youngs_modulus = 1.2e11
     poissons_ratio = 0.33
     block = 1
   []
@@ -150,31 +150,21 @@
   [CCZ_heat]
     type = ADHeatConductionMaterial
     temp = temperature
-    specific_heat_temperature_function = cucrzr_sh_fn
-    thermal_conductivity_temperature_function = cucrzr_tc_fn
-    block = 1
-  []
-
-  [CCZ_ym]
-    type = ADCoupledValueFunctionMaterial
-    function = cucrzr_ym_fn
-    prop_name = 'ccz_ym'
-    v = temperature
+    specific_heat = 400
+    thermal_conductivity = 340
     block = 1
   []
 
   [CCZ_density]
-    type = ADCoupledValueFunctionMaterial
-    function = cucrzr_rho_fn
-    prop_name = 'density'
-    v = temperature
+    type = ADGenericConstantMaterial
+    prop_names = 'density'
+    prop_values = '8900'
     block = 1
   []
 
   [CCZ_thermal_expansion]
-    type = ComputeMeanThermalExpansionFunctionEigenstrain
-    thermal_expansion_function = cucrzr_te_fn
-    thermal_expansion_function_reference_temperature = 0.5
+    type = ComputeThermalExpansionEigenstrain
+    thermal_expansion_coeff = 1.670e-05
     stress_free_temperature = 0.0
     temperature = temperature
     eigenstrain_name = eigenstrain
@@ -182,17 +172,9 @@
   []
 
   [nickel_elasticity]
-    type = ADComputeVariableIsotropicElasticityTensor
-    youngs_modulus = 'nickel_ym'
+    type = ADComputeIsotropicElasticityTensor
+    youngs_modulus = 1.8e11
     poissons_ratio = 0.31
-    block = 2
-  []
-
-  [nickel_ym]
-    type = ADCoupledValueFunctionMaterial
-    function = nickel_ym_fn
-    prop_name = 'nickel_ym'
-    v = temperature
     block = 2
   []
   
@@ -200,7 +182,7 @@
     type = ADHeatConductionMaterial
     temp = temperature
     specific_heat = 456
-    thermal_conductivity_temperature_function = nickel_tc_fn
+    thermal_conductivity = 60
     block = 2
   []
 
@@ -212,9 +194,8 @@
   []
 
   [nickel_thermal_expansion]
-    type = ComputeMeanThermalExpansionFunctionEigenstrain
-    thermal_expansion_function = nickel_te_fn
-    thermal_expansion_function_reference_temperature = 0.5
+    type = ComputeThermalExpansionEigenstrain
+    thermal_expansion_coeff = 1.2e-05
     stress_free_temperature = 0.0
     temperature = temperature
     eigenstrain_name = eigenstrain
@@ -281,7 +262,7 @@
     full = true
   [../]
 []
-  
+
 [Executioner]
   type = Transient
   start_time = 0
@@ -291,9 +272,9 @@
   steady_state_detection = true
   automatic_scaling = true
   compute_scaling_once = false
-  solve_type = PJFNK
-  petsc_options_iname = '-ksp_gmres_restart -pc_type -sub_pc_type'
-  petsc_options_value = '300                 asm      cholesky'
+  solve_type = NEWTON
+  #petsc_options_iname = '-ksp_gmres_restart -pc_type -sub_pc_type'
+  #petsc_options_value = '300                 asm      cholesky'
   nl_rel_tol = 1e-8
   nl_abs_tol = 1e-10
   l_tol = 1e-8
