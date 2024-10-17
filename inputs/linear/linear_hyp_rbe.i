@@ -5,7 +5,7 @@
 [Mesh]
   [hyp]
     type = FileMeshGenerator
-    file = '../mesh/IS_hyp.e'
+    file = '../../mesh/IS_hyp_rbe.e'
   []
 [] 
   
@@ -44,7 +44,7 @@
 [UserObjects]
   [heat_flux_csv]
      type = PropertyReadFile
-     prop_file_name = ../HeatFlux/HeatFlux.csv
+     prop_file_name = ../../HeatFlux/HeatFlux.csv
      read_type = 'voronoi'
      nprop = 4
      nvoronoi = 5682
@@ -53,7 +53,14 @@
 
 # Functions to control variable material parameters
 [Functions]
-  #Gaussian Heat profile
+  [htc_function]
+    type = PiecewiseLinear
+    scale_factor = 1.0
+    axis = x
+    data_file = ../../HeatFlux/HTC.csv
+    format = columns
+  []  
+  
   [heat_profile]
     type = PiecewiseConstantFromCSV
     read_type = voronoi
@@ -61,16 +68,16 @@
     column_number = 3
   []
 
-  [./pressure_constant]
+  [pressure_constant]
     type = ConstantFunction
     value = 0.7e6 # 0.7 MPa
-  [../]
+  []
   
   [./cucrzr_rho_fn]
     type = PiecewiseLinear
     scale_factor = 1.0
     axis = x
-    data_file = '../MaterialData/Copper/density.csv'
+    data_file = '../../MaterialData/Copper/density.csv'
     format = columns
   [../]
 
@@ -79,7 +86,7 @@
     type = PiecewiseLinear
     scale_factor = 1.0
     axis = x
-    data_file = '../MaterialData/Copper/youngs_modulus.csv'
+    data_file = '../../MaterialData/Copper/youngs_modulus.csv'
     format = columns
   [../]
   
@@ -88,7 +95,7 @@
     type = PiecewiseLinear
     scale_factor = 1.0
     axis = x
-    data_file = '../MaterialData/Copper/thermal_conductivity.csv'
+    data_file = '../../MaterialData/Copper/thermal_conductivity.csv'
     format = columns
   [../]
 
@@ -97,7 +104,7 @@
     type = PiecewiseLinear
     scale_factor = 1.0
     axis = x
-    data_file = '../MaterialData/Copper/thermal_expansion.csv'
+    data_file = '../../MaterialData/Copper/thermal_expansion.csv'
     format = columns
   [../]
 
@@ -106,7 +113,7 @@
     type = PiecewiseLinear
     scale_factor = 1.0
     axis = x
-    data_file = '../MaterialData/Copper/specific_heat.csv'
+    data_file = '../../MaterialData/Copper/specific_heat.csv'
     format = columns
   [../]
 
@@ -115,7 +122,7 @@
     type = PiecewiseLinear
     scale_factor = 1.0
     axis = x
-    data_file = '../MaterialData/Nickel/youngs_modulus.csv'
+    data_file = '../../MaterialData/Nickel/youngs_modulus.csv'
     format = columns
   [../]
   
@@ -124,7 +131,7 @@
     type = PiecewiseLinear
     scale_factor = 1.0
     axis = x
-    data_file = '../MaterialData/Nickel/thermal_conductivity.csv'
+    data_file = '../../MaterialData/Nickel/thermal_conductivity.csv'
     format = columns
   [../]
 
@@ -133,7 +140,7 @@
     type = PiecewiseLinear
     scale_factor = 1.0
     axis = x
-    data_file = '../MaterialData/Nickel/thermal_expansion.csv'
+    data_file = '../../MaterialData/Nickel/thermal_expansion.csv'
     format = columns
   []
 []
@@ -175,7 +182,7 @@
     type = ADComputeIsotropicElasticityTensor
     youngs_modulus = 1.8e11
     poissons_ratio = 0.31
-    block = 2
+    block = '2 4'
   []
   
   [nickel_heat]
@@ -183,14 +190,14 @@
     temp = temperature
     specific_heat = 456
     thermal_conductivity = 60
-    block = 2
+    block = '2 4'
   []
 
   [nickel_density]
     type = ADGenericConstantMaterial
     prop_names = 'density'
     prop_values = '8885'
-    block = 2
+    block = '2 4'
   []
 
   [nickel_thermal_expansion]
@@ -200,6 +207,15 @@
     temperature = temperature
     eigenstrain_name = eigenstrain
     block = 2
+  []
+
+  [rbe_thermal_expansion]
+    type = ComputeThermalExpansionEigenstrain
+    thermal_expansion_coeff = 0
+    stress_free_temperature = 0.0
+    temperature = temperature
+    eigenstrain_name = eigenstrain
+    block = 4
   []
 
   [steel]
@@ -229,6 +245,22 @@
     function = heat_profile
   []
  
+  [heat_removal_backplate]
+    type = ADConvectiveHeatFluxBC
+    variable = temperature
+    boundary = 'heat_flux_backplate'
+    heat_transfer_coefficient = 24200
+    T_infinity = 295.15
+  [../]
+
+  [heat_removal_fins]
+    type = ADConvectiveHeatFluxBC
+    variable = temperature
+    boundary = 'heat_flux_fins'
+    heat_transfer_coefficient = 48491
+    T_infinity = 295.15
+  [../]
+
   [Pressure]
     [bc]
       boundary = 'pressure'
@@ -238,13 +270,63 @@
   []
 []
   
-[Preconditioning]
-  [./SMP]
-    #Creates the entire Jacobian, for the Newton solve
-    type = SMP
-    full = true
-  [../]
+[Constraints]
+    [rbe3_x_hole]
+        type = RBEConstraint
+        primary_node_set = 'pin_in_hole_nodeset'
+        secondary_node_set = 'pin_in_hole_support'
+        variable = disp_x
+        penalty = 10000000
+    []
+
+    [rbe3_y_hole]
+        type = RBEConstraint
+        primary_node_set = 'pin_in_hole_nodeset'
+        secondary_node_set = 'pin_in_hole_support'
+        variable = disp_y
+        penalty = 10000000
+    []
+
+    [rbe3_z_hole]
+        type = RBEConstraint
+        primary_node_set = 'pin_in_hole_nodeset'
+        secondary_node_set = 'pin_in_hole_support'
+        variable = disp_z
+        penalty = 10000000
+    []
+
+    [rbe3_x_slot]
+        type = RBEConstraint
+        primary_node_set = 'pin_in_slot_nodeset'
+        secondary_node_set = 'pin_in_slot_support'
+        variable = disp_x
+        penalty = 10000000
+    []
+
+    [rbe3_y_slot]
+        type = RBEConstraint
+        primary_node_set = 'pin_in_slot_nodeset'
+        secondary_node_set = 'pin_in_slot_support'
+        variable = disp_y
+        penalty = 10000000
+    []
+
+    [rbe3_z_slot]
+        type = RBEConstraint
+        primary_node_set = 'pin_in_slot_nodeset'
+        secondary_node_set = 'pin_in_slot_support'
+        variable = disp_z
+        penalty = 10000000
+    []
 []
+
+##[Preconditioning]
+ # [./SMP]
+  #  #Creates the entire Jacobian, for the Newton solve
+  #  type = SMP
+  #  full = true
+  #[../]
+#[]
 
 [Executioner]
   type = Transient
@@ -256,8 +338,10 @@
   automatic_scaling = true
   compute_scaling_once = false
   solve_type = NEWTON
-  #petsc_options_iname = '-ksp_gmres_restart -pc_type -sub_pc_type'
-  #petsc_options_value = '300                 asm      cholesky'
+
+  petsc_options_iname = '-pc_type -pc_hypre_type'
+  petsc_options_value = 'hypre    boomeramg'
+
   nl_rel_tol = 1e-8
   nl_abs_tol = 1e-10
   l_tol = 1e-8
