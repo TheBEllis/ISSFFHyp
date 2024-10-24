@@ -47,11 +47,6 @@
     variable = temperature
     block = '1 2'
   []
-  [heat_conduction_time_derivative]
-    type = ADHeatConductionTimeDerivative
-    variable = temperature
-    block = '1 2'
-  []
 
   # LM kernels for average displacement constraint
   [x_lm_hole]
@@ -184,6 +179,14 @@
 
 # Functions to control variable material parameters
 [Functions]
+  [htc_function]
+    type = PiecewiseLinear
+    scale_factor = 1.0
+    axis = x
+    data_file = ../../HeatFlux/HTC.csv
+    format = columns
+  []  
+  
   #Gaussian Heat profile
   [heat_profile]
     type = PiecewiseConstantFromCSV
@@ -359,24 +362,23 @@
     boundary = 'heat_source'
     function = heat_profile
   []
-  [hold_x]
-    type = ADDirichletBC
-    variable = disp_x
-    boundary = 'pin_in_hole'
-    value = 0
-  []
-  [hold_y]
-    type = ADDirichletBC
-    variable = disp_y
-    boundary = 'pin_in_hole'
-    value = 0
-  []
-  [hold_z]
-    type = DirichletBC
-    variable = disp_z
-    boundary = 'pin_in_hole'
-    value = 0
-  []  
+
+  [heat_removal_backplate]
+    type = ADConvectiveHeatFluxBC
+    variable = temperature
+    boundary = 'heat_flux_backplate'
+    heat_transfer_coefficient = 24200
+    T_infinity = 295.15
+  [../]
+
+  [heat_removal_fins]
+    type = ADConvectiveHeatFluxBC
+    variable = temperature
+    boundary = 'heat_flux_fins'
+    heat_transfer_coefficient = 48491
+    T_infinity = 295.15
+  [../]
+  
   [Pressure]
     [bc]
       boundary = 'pressure'
@@ -387,20 +389,14 @@
 []
   
 [Preconditioning]
-  [./SMP]
-    #Creates the entire Jacobian, for the Newton solve
+  [SMP]
     type = SMP
     full = true
-  [../]
+  []
 []
 
 [Executioner]
-  type = Transient
-  start_time = 0
-  end_time = 1.5
-  dt = 0.1
-  steady_state_tolerance = 1e-6
-  steady_state_detection = true
+  type = Steady
   automatic_scaling = true
   compute_scaling_once = false
   solve_type = NEWTON
@@ -414,7 +410,7 @@
 []
 
 [Outputs]
-  print_linear_residuals = false
+  #print_linear_residuals = false
   exodus = true
   perf_graph = true
 []
