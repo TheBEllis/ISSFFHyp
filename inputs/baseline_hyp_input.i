@@ -126,6 +126,13 @@
     column_number = 3
   [../]
 
+  [./htc_function]
+    type = PiecewiseLinear
+    scale_factor = 1.0
+    axis = x
+    data_file = ../HeatFlux/HTC.csv
+  [../]
+
   [./pressure_constant]
     type = ConstantFunction
     value = 0.7e6 # 0.7 MPa
