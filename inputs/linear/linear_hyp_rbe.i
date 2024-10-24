@@ -23,11 +23,11 @@
     block = '1 2'
 
   []
-  [heat_conduction_time_derivative]
-    type = ADHeatConductionTimeDerivative
-    variable = temperature
-    block = '1 2'
-  []
+#  [heat_conduction_time_derivative]
+  #  type = ADHeatConductionTimeDerivative
+ #   variable = temperature
+  #  block = '1 2'
+  #[]
 []
 
 [Modules/TensorMechanics/Master]
@@ -276,7 +276,7 @@
         primary_node_set = 'pin_in_hole_nodeset'
         secondary_node_set = 'pin_in_hole_support'
         variable = disp_x
-        penalty = 10000000
+        penalty = 100000
     []
 
     [rbe3_y_hole]
@@ -284,7 +284,7 @@
         primary_node_set = 'pin_in_hole_nodeset'
         secondary_node_set = 'pin_in_hole_support'
         variable = disp_y
-        penalty = 10000000
+        penalty = 100000
     []
 
     [rbe3_z_hole]
@@ -292,7 +292,7 @@
         primary_node_set = 'pin_in_hole_nodeset'
         secondary_node_set = 'pin_in_hole_support'
         variable = disp_z
-        penalty = 10000000
+        penalty = 100000
     []
 
     [rbe3_x_slot]
@@ -300,7 +300,7 @@
         primary_node_set = 'pin_in_slot_nodeset'
         secondary_node_set = 'pin_in_slot_support'
         variable = disp_x
-        penalty = 10000000
+        penalty = 100000
     []
 
     [rbe3_y_slot]
@@ -308,7 +308,7 @@
         primary_node_set = 'pin_in_slot_nodeset'
         secondary_node_set = 'pin_in_slot_support'
         variable = disp_y
-        penalty = 10000000
+        penalty = 100000
     []
 
     [rbe3_z_slot]
@@ -316,7 +316,7 @@
         primary_node_set = 'pin_in_slot_nodeset'
         secondary_node_set = 'pin_in_slot_support'
         variable = disp_z
-        penalty = 10000000
+        penalty = 100000
     []
 []
 
@@ -329,28 +329,31 @@
 #[]
 
 [Executioner]
-  type = Transient
-  start_time = 0
-  end_time = 1.5
-  dt = 0.1
-  steady_state_tolerance = 1e-6
-  steady_state_detection = true
+  type = Steady
+  #start_time = 0
+  #end_time = 1.5
+  #dt = 0.1
+  #steady_state_tolerance = 1e-6
+  #steady_state_detection = true
   automatic_scaling = true
   compute_scaling_once = false
   solve_type = NEWTON
 
   petsc_options_iname = '-pc_type -pc_hypre_type'
   petsc_options_value = 'hypre    boomeramg'
+#  petsc_options_iname = '-pc_type'
+#  petsc_options_value = 'bjacobi'
 
   nl_rel_tol = 1e-8
-  nl_abs_tol = 1e-10
-  l_tol = 1e-8
+  nl_abs_tol = 1e-6
+  l_tol = 1e-80
   l_abs_tol = 1e-10
+  l_max_its = 400
   line_search = none
 []
 
 [Outputs]
-  print_linear_residuals = false
+#  print_linear_residuals = false
   exodus = true
   perf_graph = true
 []
