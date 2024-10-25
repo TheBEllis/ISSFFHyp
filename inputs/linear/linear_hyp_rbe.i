@@ -268,6 +268,27 @@
       displacements = 'disp_x disp_y disp_z'
     []
   []
+
+  [hole_x]
+    type = ADDirichletBC
+    variable = disp_x
+    boundary = 9
+    value = 0
+  [../]
+
+  [hole_y]
+    type = ADDirichletBC
+    variable = disp_y
+    boundary = 9
+    value = 0
+  [../]
+
+  [hole_z]
+    type = ADDirichletBC
+    variable = disp_z
+    boundary = 9
+    value = 0
+  [../]
 []
   
 [Constraints]
