@@ -160,7 +160,7 @@ penalty = 1e11
   [CCZ_ym]
     type = ADPiecewiseLinearInterpolationMaterial
     variable = temperature
-    prop_name = 'ccz_ym'
+    property = 'ccz_ym'
     x = '2.000E+01 1.000E+02 1.500E+02 2.000E+02 2.500E+02 3.000E+02 3.500E+02 4.000E+02 4.500E+02 5.000E+02 6.000E+02 7.000E+02'
     y = '1.275E+11 1.270E+11 1.250E+11 1.230E+11 1.210E+11 1.180E+11 1.160E+11 1.130E+11 1.100E+11 1.060E+11 9.500E+10 8.600E+10'
     block = 1
@@ -169,7 +169,7 @@ penalty = 1e11
   [CCZ_density]
     type = ADPiecewiseLinearInterpolationMaterial
     variable = temperature
-    prop_name = 'density'
+    property = 'density'
     x = '0 50 100 150 200 250 300 350 400 450 500'
     y = '8900 8886 8863 8840 8816 8791 8767 8742 8716 8691 8665'
     
@@ -195,7 +195,7 @@ penalty = 1e11
 
   [nickel_ym]
     type = ADPiecewiseLinearInterpolationMaterial
-    prop_name = 'nickel_ym'
+    property = 'nickel_ym'
     variable = temperature
     x = '-75 25 100 150 200 300 400 500 600 700'
     y = '2.13E+11 2.07E+11 2.02E+11 1.99E+11 1.97E+11 1.91E+11 1.86E+11 1.8E+11 1.76E+11 1.64E+11'
