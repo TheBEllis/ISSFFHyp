@@ -327,15 +327,7 @@ penalty = 1e11
         penalty = ${penalty}
     []
 []
-  
-[Preconditioning]
-  [./SMP]
-    #Creates the entire Jacobian, for the Newton solve
-    type = SMP
-    full = true
-  [../]
-[]
-  
+    
 [Executioner]
   type = Steady
   #start_time = 0
