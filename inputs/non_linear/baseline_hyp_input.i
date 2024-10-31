@@ -5,10 +5,8 @@ penalty = 1e11
 []
 
 [Mesh]
-  [hyp]
-    type = FileMeshGenerator
-    file = '../../mesh/IS_hyp_rbe_no_edges.e'
-  []
+  type = FileMesh
+  file = '../../mesh/IS_hyp_rbe_no_edges.e'
 [] 
   
 [Variables]
