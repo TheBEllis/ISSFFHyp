@@ -46,12 +46,23 @@ RBEConstraint::RBEConstraint(const InputParameters & parameters)
     // mooseError("Please specify secondary_node_ids or secondary_node_set.");
 
 
+  // Get secondary nodes
+  std::vector<dof_id_type> nodelist =
+      _mesh.getNodeList(_mesh.getBoundaryID(_secondary_node_set_id));
+  std::vector<dof_id_type>::iterator in;
+  
+  for (in = nodelist.begin(); in != nodelist.end(); ++in)
+  {
+    const Node * const node = lm_mesh.query_node_ptr(*in);
 
-    // Get primary nodes
+    if (node && node->processor_id() == _subproblem.processor_id())
+      _connected_nodes.push_back(*in); // defining secondary nodes in the base class
+  }
+
+  // Get primary nodes
   std::vector<dof_id_type> primary_nodelist =
       _mesh.getNodeList(_mesh.getBoundaryID(_primary_node_set_id));
-  std::vector<dof_id_type>::iterator in;
-
+  
   const auto & node_to_elem_map = _mesh.nodeToElemMap();      
 
   for (in = primary_nodelist.begin(); in != primary_nodelist.end(); ++in)
@@ -61,32 +72,17 @@ RBEConstraint::RBEConstraint(const InputParameters & parameters)
     // Our mesh may be distributed
     if (node_to_elem_pair == node_to_elem_map.end())
       continue;
-    
-    const Node * const node = lm_mesh.query_node_ptr(*in);
+        
     // defining primary nodes in base class
-    if (node && node->processor_id() == _subproblem.processor_id())
-      _primary_node_vector.push_back(*in); // defining primary nodes in the base class
+    _primary_node_vector.push_back(*in); // defining primary nodes in the base class
     
     const std::vector<dof_id_type> & elems = node_to_elem_pair->second;
 
     for (const auto & elem_id : elems)
       _subproblem.addGhostedElem(elem_id);
   }
-
-  // Get secondary nodes
-  std::vector<dof_id_type> nodelist =
-      _mesh.getNodeList(_mesh.getBoundaryID(_secondary_node_set_id));
-
-  for (in = nodelist.begin(); in != nodelist.end(); ++in)
-  {
-    const Node * const node = lm_mesh.query_node_ptr(*in);
-
-    if (node && node->processor_id() == _subproblem.processor_id())
-      _connected_nodes.push_back(*in); // defining secondary nodes in the base class
-  }
-
   // Calculate weights
-  _weights = std::vector<Real>(_primary_node_vector.size(), 1.0/_primary_node_vector.size());
+  _weights = std::vector<Real>(primary_nodelist.size(), 1.0/primary_nodelist.size());
 }
 
 Real
@@ -100,7 +96,7 @@ RBEConstraint::computeQpResidual(Moose::ConstraintType type)
    *secondary residual resembles the above expression.
    **/
 
-  unsigned int primary_size = _primary_node_vector.size();
+  unsigned int primary_size = _weights.size();
 
   switch (type)
   {
