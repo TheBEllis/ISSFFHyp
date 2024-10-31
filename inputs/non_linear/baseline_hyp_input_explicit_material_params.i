@@ -11,7 +11,6 @@ penalty = 1e11
   
 [Variables]
   [temperature]
-    initial_condition = 293.15 # Start at room temperature
   []
 []
   
