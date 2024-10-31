@@ -61,7 +61,8 @@ RBEConstraint::RBEConstraint(const InputParameters & parameters)
     // Our mesh may be distributed
     if (node_to_elem_pair == node_to_elem_map.end())
       continue;
-
+    
+    const Node * const node = lm_mesh.query_node_ptr(*in);
     // defining primary nodes in base class
     if (node && node->processor_id() == _subproblem.processor_id())
       _primary_node_vector.push_back(*in); // defining primary nodes in the base class
