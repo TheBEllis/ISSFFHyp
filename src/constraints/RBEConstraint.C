@@ -23,6 +23,7 @@ RBEConstraint::validParams()
   params.addRequiredParam<BoundaryName>(
       "secondary_node_set", "The boundary ID associated with the secondary side");
   params.addRequiredParam<Real>("penalty", "The penalty used for the boundary term");
+  params.addRequiredParam<Real>("primary_size", "The number of nodes in the primary node set");
   // params.addRequiredParam<std::vector<Real>>("weights",
   //                                            "The weights associated with the primary node ids. "
   //                                            "Must be of the same size as primary nodes");
@@ -33,9 +34,9 @@ RBEConstraint::RBEConstraint(const InputParameters & parameters)
   : NodalConstraint(parameters),
     _primary_node_set_id(getParam<BoundaryName>("primary_node_set")),
     _secondary_node_set_id(getParam<BoundaryName>("secondary_node_set")),
-    _penalty(getParam<Real>("penalty"))
+    _penalty(getParam<Real>("penalty")),
+    _primary_size(getParam<Real>("primary_size"))
 {
-  
 
   // if (_primary_node_ids.size() != _weights.size())
     // mooseError("primary and weights should be of equal size.");
@@ -67,11 +68,14 @@ RBEConstraint::RBEConstraint(const InputParameters & parameters)
 
   for (in = primary_nodelist.begin(); in != primary_nodelist.end(); ++in)
   {
+    std::cout << *in << std::endl;
     auto node_to_elem_pair = node_to_elem_map.find(*in);
 
     // Our mesh may be distributed
     if (node_to_elem_pair == node_to_elem_map.end())
+    {
       continue;
+    }
         
     // defining primary nodes in base class
     _primary_node_vector.push_back(*in); // defining primary nodes in the base class
@@ -79,10 +83,12 @@ RBEConstraint::RBEConstraint(const InputParameters & parameters)
     const std::vector<dof_id_type> & elems = node_to_elem_pair->second;
 
     for (const auto & elem_id : elems)
+    {
       _subproblem.addGhostedElem(elem_id);
+    }
   }
-  // Calculate weights
-  _weights = std::vector<Real>(primary_nodelist.size(), 1.0/primary_nodelist.size());
+  _weights = std::vector<Real>(_primary_size, 1.0/_primary_size);
+  std::cout << "Fin" << std::endl;
 }
 
 Real
@@ -95,8 +101,8 @@ RBEConstraint::computeQpResidual(Moose::ConstraintType type)
    *secondary node at a time. To get around this, the residual is split up such that the final
    *secondary residual resembles the above expression.
    **/
-
-  unsigned int primary_size = _weights.size();
+  std::cout << "Resid start" << std::endl;
+  unsigned int primary_size = _primary_size;
 
   switch (type)
   {
@@ -105,13 +111,16 @@ RBEConstraint::computeQpResidual(Moose::ConstraintType type)
     case Moose::Secondary:
       return (_u_secondary[_i] / primary_size - _u_primary[_j] * _weights[_j]) * _penalty;
   }
+  std::cout << "Residual End" << std::endl;
   return 0.;
+  
 }
 
 Real
 RBEConstraint::computeQpJacobian(Moose::ConstraintJacobianType type)
 {
-  unsigned int primary_size = _primary_node_vector.size();
+  std::cout << "Jacob Start" << std::endl;
+  unsigned int primary_size = _primary_size;
 
   switch (type)
   {

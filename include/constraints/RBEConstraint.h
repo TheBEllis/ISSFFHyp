@@ -41,6 +41,7 @@ protected:
   // Holds the secondary node set or side set                                                                                                                                                                                               
   std::string _secondary_node_set_id;                                                                                                                                                                                                       
   // Penalty if constraint is not satisfied                                                                                                                                                                                                 
-  Real _penalty;                                                                                                                                                                                                                            
+  Real _penalty;
+  Real _primary_size;
 };                                                                                                                                                                                                                                          
     
