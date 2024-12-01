@@ -1,0 +1,2 @@
+srun: Job step aborted: Waiting up to 122 seconds for job step to finish.
+slurmstepd: error: *** STEP 65551122.0 ON cpu-r-22 CANCELLED AT 2024-12-01T21:31:20 ***

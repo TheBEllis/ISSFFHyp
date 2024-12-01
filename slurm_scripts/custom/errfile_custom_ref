@@ -1,0 +1,4158 @@
+  Elem Information
+   id()=401827, unique_id()=2547137, subdomain_id()=1, processor_id()=17
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=84820, processor_id()=17, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/339280) (0/1/339281) (0/2/339282) (0/3/339283) 
+    1  Node id()=84821, processor_id()=17, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/339284) (0/1/339285) (0/2/339286) (0/3/339287) 
+    2  Node id()=84822, processor_id()=17, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/339288) (0/1/339289) (0/2/339290) (0/3/339291) 
+    3  Node id()=84823, processor_id()=17, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/339292) (0/1/339293) (0/2/339294) (0/3/339295) 
+   n_sides()=4
+    neighbor(0)=402463
+    neighbor(1)=403226
+    neighbor(2)=nullptr
+    neighbor(3)=401853
+   hmin()=0.000262328, hmax()=0.000518701
+   volume()=-4.36392e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3483116, unique_id()=3234661, subdomain_id()=1, processor_id()=148
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=717964, processor_id()=148, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2871852) (0/1/2871853) (0/2/2871854) (0/3/2871855) 
+    1  Node id()=717965, processor_id()=148, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2871856) (0/1/2871857) (0/2/2871858) (0/3/2871859) 
+    2  Node id()=717966, processor_id()=148, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2871860) (0/1/2871861) (0/2/2871862) (0/3/2871863) 
+    3  Node id()=717967, processor_id()=148, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2871864) (0/1/2871865) (0/2/2871866) (0/3/2871867) 
+   n_sides()=4
+    neighbor(0)=3483120
+    neighbor(1)=3486826
+    neighbor(2)=nullptr
+    neighbor(3)=3486472
+   hmin()=0.000250059, hmax()=0.000566338
+   volume()=-1.3145e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=919317, unique_id()=5552055, subdomain_id()=1, processor_id()=39
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=193293, processor_id()=39, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/773164) (0/1/773165) (0/2/773166) (0/3/773167) 
+    1  Node id()=193294, processor_id()=39, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/773168) (0/1/773169) (0/2/773170) (0/3/773171) 
+    2  Node id()=193295, processor_id()=39, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/773172) (0/1/773173) (0/2/773174) (0/3/773175) 
+    3  Node id()=193288, processor_id()=39, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/773144) (0/1/773145) (0/2/773146) (0/3/773147) 
+   n_sides()=4
+    neighbor(0)=919320
+    neighbor(1)=922287
+    neighbor(2)=nullptr
+    neighbor(3)=921853
+   hmin()=0.000207682, hmax()=0.000569822
+   volume()=-4.33135e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5244356, unique_id()=1172589, subdomain_id()=1, processor_id()=223
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1086936, processor_id()=223, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4347744) (0/1/4347745) (0/2/4347746) (0/3/4347747) 
+    1  Node id()=1086937, processor_id()=223, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4347748) (0/1/4347749) (0/2/4347750) (0/3/4347751) 
+    2  Node id()=1086938, processor_id()=223, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4347752) (0/1/4347753) (0/2/4347754) (0/3/4347755) 
+    3  Node id()=1086939, processor_id()=223, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4347756) (0/1/4347757) (0/2/4347758) (0/3/4347759) 
+   n_sides()=4
+    neighbor(0)=5244648
+    neighbor(1)=5246691
+    neighbor(2)=nullptr
+    neighbor(3)=5247012
+   hmin()=0.000127892, hmax()=0.000378732
+   volume()=-5.83237e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1717312, unique_id()=1858141, subdomain_id()=1, processor_id()=73
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=355571, processor_id()=73, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1422276) (0/1/1422277) (0/2/1422278) (0/3/1422279) 
+    1  Node id()=355573, processor_id()=73, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1422284) (0/1/1422285) (0/2/1422286) (0/3/1422287) 
+    2  Node id()=355572, processor_id()=73, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1422280) (0/1/1422281) (0/2/1422282) (0/3/1422283) 
+    3  Node id()=355565, processor_id()=73, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1422244) (0/1/1422245) (0/2/1422246) (0/3/1422247) 
+   n_sides()=4
+    neighbor(0)=1720665
+    neighbor(1)=1718894
+    neighbor(2)=nullptr
+    neighbor(3)=1717311
+   hmin()=0.000118747, hmax()=0.000467888
+   volume()=-1.56615e-12
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4446475, unique_id()=3235114, subdomain_id()=1, processor_id()=189
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=920377, processor_id()=189, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3681492) (0/1/3681493) (0/2/3681494) (0/3/3681495) 
+    1  Node id()=920378, processor_id()=189, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3681496) (0/1/3681497) (0/2/3681498) (0/3/3681499) 
+    2  Node id()=920379, processor_id()=189, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3681500) (0/1/3681501) (0/2/3681502) (0/3/3681503) 
+    3  Node id()=920376, processor_id()=189, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3681488) (0/1/3681489) (0/2/3681490) (0/3/3681491) 
+   n_sides()=4
+    neighbor(0)=4449571
+    neighbor(1)=4446531
+    neighbor(2)=nullptr
+    neighbor(3)=4451759
+   hmin()=0.000166628, hmax()=0.00043219
+   volume()=-1.41516e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=167784, unique_id()=2566106, subdomain_id()=1, processor_id()=7
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=36903, processor_id()=7, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/147536) (0/1/147537) (0/2/147538) (0/3/147539) 
+    1  Node id()=36977, processor_id()=7, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/147780) (0/1/147781) (0/2/147782) (0/3/147783) 
+    2  Node id()=36974, processor_id()=7, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/147768) (0/1/147769) (0/2/147770) (0/3/147771) 
+    3  Node id()=37514, processor_id()=7, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/149868) (0/1/149869) (0/2/149870) (0/3/149871) 
+   n_sides()=4
+    neighbor(0)=171996
+    neighbor(1)=170446
+    neighbor(2)=168241
+    neighbor(3)=170450
+   hmin()=0.000241534, hmax()=0.000668084
+   volume()=-1.69109e-12
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4844150, unique_id()=2042453, subdomain_id()=1, processor_id()=206
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1003318, processor_id()=206, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4013268) (0/1/4013269) (0/2/4013270) (0/3/4013271) 
+    1  Node id()=1003420, processor_id()=206, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4013624) (0/1/4013625) (0/2/4013626) (0/3/4013627) 
+    2  Node id()=1003319, processor_id()=206, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4013272) (0/1/4013273) (0/2/4013274) (0/3/4013275) 
+    3  Node id()=1003321, processor_id()=206, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4013280) (0/1/4013281) (0/2/4013282) (0/3/4013283) 
+   n_sides()=4
+    neighbor(0)=4844707
+    neighbor(1)=4844528
+    neighbor(2)=nullptr
+    neighbor(3)=4844083
+   hmin()=0.000219138, hmax()=0.00048637
+   volume()=-1.01134e-12
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5526895, unique_id()=1185234, subdomain_id()=1, processor_id()=235
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1144627, processor_id()=235, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4578508) (0/1/4578509) (0/2/4578510) (0/3/4578511) 
+    1  Node id()=1144628, processor_id()=235, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4578512) (0/1/4578513) (0/2/4578514) (0/3/4578515) 
+    2  Node id()=1144238, processor_id()=235, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4576952) (0/1/4576953) (0/2/4576954) (0/3/4576955) 
+    3  Node id()=1144388, processor_id()=235, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4577552) (0/1/4577553) (0/2/4577554) (0/3/4577555) 
+   n_sides()=4
+    neighbor(0)=5532377
+    neighbor(1)=5529491
+    neighbor(2)=nullptr
+    neighbor(3)=5532379
+   hmin()=0.000207577, hmax()=0.000463843
+   volume()=-1.26121e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=191573, unique_id()=2557235, subdomain_id()=1, processor_id()=8
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=41947, processor_id()=8, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/167776) (0/1/167777) (0/2/167778) (0/3/167779) 
+    1  Node id()=42078, processor_id()=8, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/168292) (0/1/168293) (0/2/168294) (0/3/168295) 
+    2  Node id()=36832, processor_id()=7, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/161236) (0/1/161237) (0/2/161238) (0/3/161239) 
+    3  Node id()=36834, processor_id()=7, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/147264) (0/1/147265) (0/2/147266) (0/3/147267) 
+   n_sides()=4
+    neighbor(0)=199515
+    neighbor(1)=194698
+    neighbor(2)=nullptr
+    neighbor(3)=191475
+   hmin()=0.000261439, hmax()=0.000633389
+   volume()=-3.24185e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3412432, unique_id()=1175432, subdomain_id()=1, processor_id()=145
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=703719, processor_id()=145, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2814876) (0/1/2814877) (0/2/2814878) (0/3/2814879) 
+    1  Node id()=703720, processor_id()=145, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2814880) (0/1/2814881) (0/2/2814882) (0/3/2814883) 
+    2  Node id()=703721, processor_id()=145, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2814884) (0/1/2814885) (0/2/2814886) (0/3/2814887) 
+    3  Node id()=703722, processor_id()=145, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2814888) (0/1/2814889) (0/2/2814890) (0/3/2814891) 
+   n_sides()=4
+    neighbor(0)=3415467
+    neighbor(1)=3412704
+    neighbor(2)=nullptr
+    neighbor(3)=3415672
+   hmin()=0.000168711, hmax()=0.000444883
+   volume()=-5.18104e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5268197, unique_id()=3260334, subdomain_id()=1, processor_id()=224
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1091796, processor_id()=224, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4367184) (0/1/4367185) (0/2/4367186) (0/3/4367187) 
+    1  Node id()=1091795, processor_id()=224, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4367180) (0/1/4367181) (0/2/4367182) (0/3/4367183) 
+    2  Node id()=1091797, processor_id()=224, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4367188) (0/1/4367189) (0/2/4367190) (0/3/4367191) 
+    3  Node id()=1091777, processor_id()=224, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4367108) (0/1/4367109) (0/2/4367110) (0/3/4367111) 
+   n_sides()=4
+    neighbor(0)=5291559
+    neighbor(1)=5291575
+    neighbor(2)=nullptr
+    neighbor(3)=5270398
+   hmin()=7.63893e-05, hmax()=0.000217002
+   volume()=-9.4739e-15
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=215700, unique_id()=2595336, subdomain_id()=1, processor_id()=9
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=46980, processor_id()=9, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/187892) (0/1/187893) (0/2/187894) (0/3/187895) 
+    1  Node id()=46985, processor_id()=9, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/187912) (0/1/187913) (0/2/187914) (0/3/187915) 
+    2  Node id()=47076, processor_id()=9, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/188276) (0/1/188277) (0/2/188278) (0/3/188279) 
+    3  Node id()=46934, processor_id()=9, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/187712) (0/1/187713) (0/2/187714) (0/3/187715) 
+   n_sides()=4
+    neighbor(0)=217146
+    neighbor(1)=217161
+    neighbor(2)=nullptr
+    neighbor(3)=216647
+   hmin()=0.0002285, hmax()=0.000562833
+   volume()=-5.58368e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3952022, unique_id()=3235595, subdomain_id()=1, processor_id()=168
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=816259, processor_id()=168, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3265020) (0/1/3265021) (0/2/3265022) (0/3/3265023) 
+    1  Node id()=816260, processor_id()=168, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3265024) (0/1/3265025) (0/2/3265026) (0/3/3265027) 
+    2  Node id()=816015, processor_id()=168, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3264060) (0/1/3264061) (0/2/3264062) (0/3/3264063) 
+    3  Node id()=816012, processor_id()=168, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3264048) (0/1/3264049) (0/2/3264050) (0/3/3264051) 
+   n_sides()=4
+    neighbor(0)=3955101
+    neighbor(1)=3952198
+    neighbor(2)=nullptr
+    neighbor(3)=3955092
+   hmin()=0.000112711, hmax()=0.000489843
+   volume()=-1.30562e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5292199, unique_id()=2043127, subdomain_id()=1, processor_id()=225
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1096783, processor_id()=225, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4387048) (0/1/4387049) (0/2/4387050) (0/3/4387051) 
+    1  Node id()=1096784, processor_id()=225, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4387052) (0/1/4387053) (0/2/4387054) (0/3/4387055) 
+    2  Node id()=1096668, processor_id()=225, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4386580) (0/1/4386581) (0/2/4386582) (0/3/4386583) 
+    3  Node id()=1096273, processor_id()=225, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4385068) (0/1/4385069) (0/2/4385070) (0/3/4385071) 
+   n_sides()=4
+    neighbor(0)=5295737
+    neighbor(1)=5293031
+    neighbor(2)=nullptr
+    neighbor(3)=5297543
+   hmin()=7.63893e-05, hmax()=0.000374074
+   volume()=-3.82509e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=  Elem Information
+   id()=308697, unique_id()=2566432, subdomain_id()=1, processor_id()=13
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=66049, processor_id()=13, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/264096) (0/1/264097) (0/2/264098) (0/3/264099) 
+    1  Node id()=66050, processor_id()=13, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/264100) (0/1/264101) (0/2/264102) (0/3/264103) 
+    2  Node id()=66051, processor_id()=13, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/264104) (0/1/264105) (0/2/264106) (0/3/264107) 
+    3  Node id()=66052, processor_id()=13, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/264108) (0/1/264109) (0/2/264110) (0/3/264111) 
+   n_sides()=4
+    neighbor(0)=312254
+    neighbor(1)=312248
+    neighbor(2)=nullptr
+    neighbor(3)=311729
+   hmin()=0.000196596, hmax()=0.000570166
+   volume()=-3.55863e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2918481, unique_id()=1177568, subdomain_id()=1, processor_id()=124
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=598788, processor_id()=124, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2395152) (0/1/2395153) (0/2/2395154) (0/3/2395155) 
+    1  Node id()=598801, processor_id()=124, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2395204) (0/1/2395205) (0/2/2395206) (0/3/2395207) 
+    2  Node id()=598797, processor_id()=124, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2395188) (0/1/2395189) (0/2/2395190) (0/3/2395191) 
+    3  Node id()=598783, processor_id()=124, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2395132) (0/1/2395133) (0/2/2395134) (0/3/2395135) 
+   n_sides()=4
+    neighbor(0)=2922679
+    neighbor(1)=2918482
+    neighbor(2)=nullptr
+    neighbor(3)=2918477
+   hmin()=0.000148136, hmax()=0.000399087
+   volume()=-2.96059e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+
+  Elem Information
+   id()=426057, unique_id()=2556406, subdomain_id()=1, processor_id()=18
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=89783, processor_id()=18, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/359124) (0/1/359125) (0/2/359126) (0/3/359127) 
+    1  Node id()=90098, processor_id()=18, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/360372) (0/1/360373) (0/2/360374) (0/3/360375) 
+    2  Node id()=89608, processor_id()=18, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/358432) (0/1/358433) (0/2/358434) (0/3/358435) 
+    3  Node id()=89784, processor_id()=18, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/359128) (0/1/359129) (0/2/359130) (0/3/359131) 
+   n_sides()=4
+    neighbor(0)=427612
+    neighbor(1)=427613
+    neighbor(2)=nullptr
+    neighbor(3)=425827
+   hmin()=0.000141144, hmax()=0.000463073
+   volume()=-5.8975e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2776423, unique_id()=1701084, subdomain_id()=1, processor_id()=118
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=569827, processor_id()=118, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2279296) (0/1/2279297) (0/2/2279298) (0/3/2279299) 
+    1  Node id()=569828, processor_id()=118, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2279300) (0/1/2279301) (0/2/2279302) (0/3/2279303) 
+    2  Node id()=569731, processor_id()=118, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2278912) (0/1/2278913) (0/2/2278914) (0/3/2278915) 
+    3  Node id()=569736, processor_id()=118, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2278932) (0/1/2278933) (0/2/2278934) (0/3/2278935) 
+   n_sides()=4
+    neighbor(0)=2778095
+    neighbor(1)=2777296
+    neighbor(2)=nullptr
+    neighbor(3)=2777319
+   hmin()=7.63893e-05, hmax()=0.00041375
+   volume()=-1.7053e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=566951, unique_id()=2569906, subdomain_id()=1, processor_id()=24
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=119816, processor_id()=24, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/479256) (0/1/479257) (0/2/479258) (0/3/479259) 
+    1  Node id()=119819, processor_id()=24, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/479268) (0/1/479269) (0/2/479270) (0/3/479271) 
+    2  Node id()=119817, processor_id()=24, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/479260) (0/1/479261) (0/2/479262) (0/3/479263) 
+    3  Node id()=119815, processor_id()=24, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/479252) (0/1/479253) (0/2/479254) (0/3/479255) 
+   n_sides()=4
+    neighbor(0)=570426
+    neighbor(1)=570965
+    neighbor(2)=nullptr
+    neighbor(3)=566948
+   hmin()=0.00015561, hmax()=0.000596705
+   volume()=-2.56091e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3011323, unique_id()=3241912, subdomain_id()=1, processor_id()=128
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=618702, processor_id()=128, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2474808) (0/1/2474809) (0/2/2474810) (0/3/2474811) 
+    1  Node id()=618703, processor_id()=128, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2474812) (0/1/2474813) (0/2/2474814) (0/3/2474815) 
+    2  Node id()=618704, processor_id()=128, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2474816) (0/1/2474817) (0/2/2474818) (0/3/2474819) 
+    3  Node id()=618705, processor_id()=128, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2474820) (0/1/2474821) (0/2/2474822) (0/3/2474823) 
+   n_sides()=4
+    neighbor(0)=nullptr
+    neighbor(1)=3011326
+    neighbor(2)=nullptr
+    neighbor(3)=3011733
+   hmin()=0.000153349, hmax()=0.000323418
+   volume()=-2.00728e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=824651, unique_id()=2555600, subdomain_id()=1, processor_id()=35
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=173625, processor_id()=35, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/694476) (0/1/694477) (0/2/694478) (0/3/694479) 
+    1  Node id()=173626, processor_id()=35, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/694480) (0/1/694481) (0/2/694482) (0/3/694483) 
+    2  Node id()=173357, processor_id()=35, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/693428) (0/1/693429) (0/2/693430) (0/3/693431) 
+    3  Node id()=173072, processor_id()=35, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/692288) (0/1/692289) (0/2/692290) (0/3/692291) 
+   n_sides()=4
+    neighbor(0)=825087
+    neighbor(1)=827908
+    neighbor(2)=nullptr
+    neighbor(3)=829398
+   hmin()=0.000105991, hmax()=0.000586037
+   volume()=-1.28549e-12
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3998722, unique_id()=1176867, subdomain_id()=1, processor_id()=170
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=825526, processor_id()=170, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3302104) (0/1/3302105) (0/2/3302106) (0/3/3302107) 
+    1  Node id()=825697, processor_id()=170, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3302776) (0/1/3302777) (0/2/3302778) (0/3/3302779) 
+    2  Node id()=825528, processor_id()=170, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3302112) (0/1/3302113) (0/2/3302114) (0/3/3302115) 
+    3  Node id()=825527, processor_id()=170, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3302108) (0/1/3302109) (0/2/3302110) (0/3/3302111) 
+   n_sides()=4
+    neighbor(0)=4001726
+    neighbor(1)=3998988
+    neighbor(2)=nullptr
+    neighbor(3)=3998633
+   hmin()=0.00018567, hmax()=0.0005251
+   volume()=-5.34387e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=895873, unique_id()=5553242, subdomain_id()=1, processor_id()=38
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=188789, processor_id()=38, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/755096) (0/1/755097) (0/2/755098) (0/3/755099) 
+    1  Node id()=188790, processor_id()=38, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/755100) (0/1/755101) (0/2/755102) (0/3/755103) 
+    2  Node id()=188673, processor_id()=38, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/754648) (0/1/754649) (0/2/754650) (0/3/754651) 
+    3  Node id()=188670, processor_id()=38, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/754636) (0/1/754637) (0/2/754638) (0/3/754639) 
+   n_sides()=4
+    neighbor(0)=899286
+    neighbor(1)=896047
+    neighbor(2)=nullptr
+    neighbor(3)=899270
+   hmin()=0.00012449, hmax()=0.000441336
+   volume()=-7.70939e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3624120, unique_id()=1171652, subdomain_id()=1, processor_id()=154
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=748093, processor_id()=154, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2992372) (0/1/2992373) (0/2/2992374) (0/3/2992375) 
+    1  Node id()=748171, processor_id()=154, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2992684) (0/1/2992685) (0/2/2992686) (0/3/2992687) 
+    2  Node id()=748172, processor_id()=154, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2992688) (0/1/2992689) (0/2/2992690) (0/3/2992691) 
+    3  Node id()=748090, processor_id()=154, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2992360) (0/1/2992361) (0/2/2992362) (0/3/2992363) 
+   n_sides()=4
+    neighbor(0)=3627419
+    neighbor(1)=3627402
+    neighbor(2)=nullptr
+    neighbor(3)=3624125
+   hmin()=0.000120692, hmax()=0.000452906
+   volume()=-2.82145e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1013208, unique_id()=2555125, subdomain_id()=1, processor_id()=43
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=212920, processor_id()=43, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/851652) (0/1/851653) (0/2/851654) (0/3/851655) 
+    1  Node id()=212921, processor_id()=43, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/851656) (0/1/851657) (0/2/851658) (0/3/851659) 
+    2  Node id()=212747, processor_id()=43, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/850984) (0/1/850985) (0/2/850986) (0/3/850987) 
+    3  Node id()=212719, processor_id()=43, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/850868) (0/1/850869) (0/2/850870) (0/3/850871) 
+   n_sides()=4
+    neighbor(0)=1013470
+    neighbor(1)=1014186
+    neighbor(2)=nullptr
+    neighbor(3)=1015337
+   hmin()=0.000121652, hmax()=0.000485412
+   volume()=-1.05397e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3717558, unique_id()=3259498, subdomain_id()=1, processor_id()=158
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=768324, processor_id()=158, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3073284) (0/1/3073285) (0/2/3073286) (0/3/3073287) 
+    1  Node id()=768325, processor_id()=158, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3073288) (0/1/3073289) (0/2/3073290) (0/3/3073291) 
+    2  Node id()=768326, processor_id()=158, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3073292) (0/1/3073293) (0/2/3073294) (0/3/3073295) 
+    3  Node id()=768327, processor_id()=158, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3073296) (0/1/3073297) (0/2/3073298) (0/3/3073299) 
+   n_sides()=4
+    neighbor(0)=3717750
+    neighbor(1)=3717749
+    neighbor(2)=nullptr
+    neighbor(3)=3717682
+   hmin()=0.000105991, hmax()=0.00043776
+   volume()=-7.95216e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1130234, unique_id()=2569389, subdomain_id()=1, processor_id()=48
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=238613, processor_id()=48, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/954364) (0/1/954365) (0/2/954366) (0/3/954367) 
+    1  Node id()=238614, processor_id()=48, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/954368) (0/1/954369) (0/2/954370) (0/3/954371) 
+    2  Node id()=238615, processor_id()=48, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/954372) (0/1/954373) (0/2/954374) (0/3/954375) 
+    3  Node id()=238616, processor_id()=48, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/954376) (0/1/954377) (0/2/954378) (0/3/954379) 
+   n_sides()=4
+    neighbor(0)=1135142
+    neighbor(1)=1135654
+    neighbor(2)=nullptr
+    neighbor(3)=1135119
+   hmin()=6.82394e-05, hmax()=0.000429759
+   volume()=-4.61853e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4093366, unique_id()=2022437, subdomain_id()=1, processor_id()=174
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=845358, processor_id()=174, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3381416) (0/1/3381417) (0/2/3381418) (0/3/3381419) 
+    1  Node id()=845430, processor_id()=174, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3381704) (0/1/3381705) (0/2/3381706) (0/3/3381707) 
+    2  Node id()=845152, processor_id()=174, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3380600) (0/1/3380601) (0/2/3380602) (0/3/3380603) 
+    3  Node id()=845256, processor_id()=174, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3381004) (0/1/3381005) (0/2/3381006) (0/3/3381007) 
+   n_sides()=4
+    neighbor(0)=4094866
+    neighbor(1)=4093986
+    neighbor(2)=nullptr
+    neighbor(3)=4093324
+   hmin()=0.000165797, hmax()=0.000509344
+   volume()=-3.68298e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1223883, unique_id()=5553056, subdomain_id()=1, processor_id()=52
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=257820, processor_id()=52, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1031268) (0/1/1031269) (0/2/1031270) (0/3/1031271) 
+    1  Node id()=257821, processor_id()=52, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1031272) (0/1/1031273) (0/2/1031274) (0/3/1031275) 
+    2  Node id()=257822, processor_id()=52, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1031276) (0/1/1031277) (0/2/1031278) (0/3/1031279) 
+    3  Node id()=257811, processor_id()=52, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1031232) (0/1/1031233) (0/2/1031234) (0/3/1031235) 
+   n_sides()=4
+    neighbor(0)=1224618
+    neighbor(1)=1227436
+    neighbor(2)=nullptr
+    neighbor(3)=1226439
+   hmin()=7.51408e-05, hmax()=0.000493277
+   volume()=-7.10543e-15
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3201319, unique_id()=1179715, subdomain_id()=1, processor_id()=136
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=659108, processor_id()=136, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2636432) (0/1/2636433) (0/2/2636434) (0/3/2636435) 
+    1  Node id()=659536, processor_id()=136, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2638128) (0/1/2638129) (0/2/2638130) (0/3/2638131) 
+    2  Node id()=659511, processor_id()=136, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2638028) (0/1/2638029) (0/2/2638030) (0/3/2638031) 
+    3  Node id()=659109, processor_id()=136, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2636436) (0/1/2636437) (0/2/2636438) (0/3/2636439) 
+   n_sides()=4
+    neighbor(0)=3206516
+    neighbor(1)=3203906
+    neighbor(2)=nullptr
+    neighbor(3)=3201295
+   hmin()=0.000156403, hmax()=0.000424941
+   volume()=-2.57572e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1364360, unique_id()=2557142, subdomain_id()=1, processor_id()=58
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=286255, processor_id()=58, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1144992) (0/1/1144993) (0/2/1144994) (0/3/1144995) 
+    1  Node id()=286256, processor_id()=58, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1144996) (0/1/1144997) (0/2/1144998) (0/3/1144999) 
+    2  Node id()=285937, processor_id()=58, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1143744) (0/1/1143745) (0/2/1143746) (0/3/1143747) 
+    3  Node id()=285655, processor_id()=58, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1142620) (0/1/1142621) (0/2/1142622) (0/3/1142623) 
+   n_sides()=4
+    neighbor(0)=1369132
+    neighbor(1)=1364531
+    neighbor(2)=nullptr
+    neighbor(3)=1368488
+   hmin()=7.4068e-05, hmax()=0.000547632
+   volume()=-9.17784e-15
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4258032, unique_id()=1173145, subdomain_id()=1, processor_id()=181
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=879720, processor_id()=181, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3518876) (0/1/3518877) (0/2/3518878) (0/3/3518879) 
+    1  Node id()=879721, processor_id()=181, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3518880) (0/1/3518881) (0/2/3518882) (0/3/3518883) 
+    2  Node id()=879504, processor_id()=181, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3518016) (0/1/3518017) (0/2/3518018) (0/3/3518019) 
+    3  Node id()=879501, processor_id()=181, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3518004) (0/1/3518005) (0/2/3518006) (0/3/3518007) 
+   n_sides()=4
+    neighbor(0)=4261405
+    neighbor(1)=4258040
+    neighbor(2)=nullptr
+    neighbor(3)=4261402
+   hmin()=7.00285e-05, hmax()=0.000462822
+   volume()=-7.25346e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1411533, unique_id()=1170727, subdomain_id()=1, processor_id()=60
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=295094, processor_id()=60, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1180376) (0/1/1180377) (0/2/1180378) (0/3/1180379) 
+    1  Node id()=295149, processor_id()=60, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1180596) (0/1/1180597) (0/2/1180598) (0/3/1180599) 
+    2  Node id()=295089, processor_id()=60, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1180356) (0/1/1180357) (0/2/1180358) (0/3/1180359) 
+    3  Node id()=295095, processor_id()=60, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1180380) (0/1/1180381) (0/2/1180382) (0/3/1180383) 
+   n_sides()=4
+    neighbor(0)=1411563
+    neighbor(1)=1412260
+    neighbor(2)=nullptr
+    neighbor(3)=1412263
+   hmin()=9.77039e-05, hmax()=0.00043052
+   volume()=-9.87654e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4493879, unique_id()=3248395, subdomain_id()=1, processor_id()=191
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=930643, processor_id()=191, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3722556) (0/1/3722557) (0/2/3722558) (0/3/3722559) 
+    1  Node id()=930642, processor_id()=191, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3722552) (0/1/3722553) (0/2/3722554) (0/3/3722555) 
+    2  Node id()=930530, processor_id()=191, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3722104) (0/1/3722105) (0/2/3722106) (0/3/3722107) 
+    3  Node id()=930537, processor_id()=191, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3722132) (0/1/3722133) (0/2/3722134) (0/3/3722135) 
+   n_sides()=4
+    neighbor(0)=4497702
+    neighbor(1)=4493950
+    neighbor(2)=nullptr
+    neighbor(3)=4497551
+   hmin()=3.43323e-05, hmax()=0.000520814
+   volume()=-6.49554e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1623555, unique_id()=1860053, subdomain_id()=1, processor_id()=69
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=338279, processor_id()=69, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1353092) (0/1/1353093) (0/2/1353094) (0/3/1353095) 
+    1  Node id()=338244, processor_id()=69, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1352964) (0/1/1352965) (0/2/1352966) (0/3/1352967) 
+    2  Node id()=338245, processor_id()=69, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1352968) (0/1/1352969) (0/2/1352970) (0/3/1352971) 
+    3  Node id()=338251, processor_id()=69, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1352992) (0/1/1352993) (0/2/1352994) (0/3/1352995) 
+   n_sides()=4
+    neighbor(0)=1626292
+    neighbor(1)=1624724
+    neighbor(2)=nullptr
+    neighbor(3)=1625118
+   hmin()=0.000104887, hmax()=0.0002827
+   volume()=-1.0895e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5080174, unique_id()=2023808, subdomain_id()=1, processor_id()=216
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1052739, processor_id()=216, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4210948) (0/1/4210949) (0/2/4210950) (0/3/4210951) 
+    1  Node id()=1052986, processor_id()=216, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4211936) (0/1/4211937) (0/2/4211938) (0/3/4211939) 
+    2  Node id()=1052738, processor_id()=216, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4210944) (0/1/4210945) (0/2/4210946) (0/3/4210947) 
+    3  Node id()=1052731, processor_id()=216, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4210916) (0/1/4210917) (0/2/4210918) (0/3/4210919) 
+   n_sides()=4
+    neighbor(0)=5081143
+    neighbor(1)=5081145
+    neighbor(2)=nullptr
+    neighbor(3)=5079987
+   hmin()=0.000136692, hmax()=0.000453692
+   volume()=-9.61601e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1926426, unique_id()=5552458, subdomain_id()=1, processor_id()=82
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=396972, processor_id()=82, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1587880) (0/1/1587881) (0/2/1587882) (0/3/1587883) 
+    1  Node id()=396973, processor_id()=82, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1587884) (0/1/1587885) (0/2/1587886) (0/3/1587887) 
+    2  Node id()=396974, processor_id()=82, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1587888) (0/1/1587889) (0/2/1587890) (0/3/1587891) 
+    3  Node id()=396975, processor_id()=82, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1587892) (0/1/1587893) (0/2/1587894) (0/3/1587895) 
+   n_sides()=4
+    neighbor(0)=1927641
+    neighbor(1)=1930258
+    neighbor(2)=nullptr
+    neighbor(3)=1929827
+   hmin()=0.000129531, hmax()=0.000441072
+   volume()=-7.75676e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5174598, unique_id()=1181811, subdomain_id()=1, processor_id()=220
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1072995, processor_id()=220, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4291980) (0/1/4291981) (0/2/4291982) (0/3/4291983) 
+    1  Node id()=1073057, processor_id()=220, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4292224) (0/1/4292225) (0/2/4292226) (0/3/4292227) 
+    2  Node id()=1072996, processor_id()=220, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4291984) (0/1/4291985) (0/2/4291986) (0/3/4291987) 
+    3  Node id()=1073044, processor_id()=220, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4292172) (0/1/4292173) (0/2/4292174) (0/3/4292175) 
+   n_sides()=4
+    neighbor(0)=5174414
+    neighbor(1)=5178545
+    neighbor(2)=nullptr
+    neighbor(3)=5174402
+   hmin()=0.00018951, hmax()=0.000467888
+   volume()=-5.30539e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1973381, unique_id()=2568261, subdomain_id()=1, processor_id()=84
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=406911, processor_id()=84, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1627608) (0/1/1627609) (0/2/1627610) (0/3/1627611) 
+    1  Node id()=406912, processor_id()=84, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1627612) (0/1/1627613) (0/2/1627614) (0/3/1627615) 
+    2  Node id()=406909, processor_id()=84, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1627600) (0/1/1627601) (0/2/1627602) (0/3/1627603) 
+    3  Node id()=406901, processor_id()=84, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1627568) (0/1/1627569) (0/2/1627570) (0/3/1627571) 
+   n_sides()=4
+    neighbor(0)=1975163
+    neighbor(1)=1975155
+    neighbor(2)=nullptr
+    neighbor(3)=1974753
+   hmin()=0.000190926, hmax()=0.000469812
+   volume()=-4.20404e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3506753, unique_id()=3247851, subdomain_id()=1, processor_id()=149
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=723282, processor_id()=149, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2893128) (0/1/2893129) (0/2/2893130) (0/3/2893131) 
+    1  Node id()=723283, processor_id()=149, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2893132) (0/1/2893133) (0/2/2893134) (0/3/2893135) 
+    2  Node id()=722973, processor_id()=149, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2891892) (0/1/2891893) (0/2/2891894) (0/3/2891895) 
+    3  Node id()=723100, processor_id()=149, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2892400) (0/1/2892401) (0/2/2892402) (0/3/2892403) 
+   n_sides()=4
+    neighbor(0)=3510133
+    neighbor(1)=3506760
+    neighbor(2)=nullptr
+    neighbor(3)=3510056
+   hmin()=0.000114441, hmax()=0.000489011
+   volume()=-8.66862e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4868341, unique_id()=2023101, subdomain_id()=1, processor_id()=207
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1008010, processor_id()=207, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4032036) (0/1/4032037) (0/2/4032038) (0/3/4032039) 
+    1  Node id()=1008344, processor_id()=207, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4033372) (0/1/4033373) (0/2/4033374) (0/3/4033375) 
+    2  Node id()=1008012, processor_id()=207, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4032044) (0/1/4032045) (0/2/4032046) (0/3/4032047) 
+    3  Node id()=1008009, processor_id()=207, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4032032) (0/1/4032033) (0/2/4032034) (0/3/4032035) 
+   n_sides()=4
+    neighbor(0)=4876038
+    neighbor(1)=4869897
+    neighbor(2)=nullptr
+    neighbor(3)=4868296
+   hmin()=7.32779e-05, hmax()=0.000420102
+   volume()=-1.17447e-12
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2965027, unique_id()=2041938, subdomain_id()=1, processor_id()=126
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=608709, processor_id()=126, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2434788) (0/1/2434789) (0/2/2434790) (0/3/2434791) 
+    1  Node id()=608710, processor_id()=126, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2434792) (0/1/2434793) (0/2/2434794) (0/3/2434795) 
+    2  Node id()=608711, processor_id()=126, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2434796) (0/1/2434797) (0/2/2434798) (0/3/2434799) 
+    3  Node id()=608358, processor_id()=126, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2433428) (0/1/2433429) (0/2/2433430) (0/3/2433431) 
+   n_sides()=4
+    neighbor(0)=2967451
+    neighbor(1)=2968636
+    neighbor(2)=nullptr
+    neighbor(3)=2965532
+   hmin()=4.8852e-05, hmax()=0.000359655
+   volume()=-4.81393e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3129840, unique_id()=2031620, subdomain_id()=1, processor_id()=133
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=644494, processor_id()=133, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2577924) (0/1/2577925) (0/2/2577926) (0/3/2577927) 
+    1  Node id()=644495, processor_id()=133, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2577928) (0/1/2577929) (0/2/2577930) (0/3/2577931) 
+    2  Node id()=644496, processor_id()=133, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2577932) (0/1/2577933) (0/2/2577934) (0/3/2577935) 
+    3  Node id()=644260, processor_id()=133, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2577020) (0/1/2577021) (0/2/2577022) (0/3/2577023) 
+   n_sides()=4
+    neighbor(0)=3132262
+    neighbor(1)=3132244
+    neighbor(2)=nullptr
+    neighbor(3)=3131541
+   hmin()=9.68062e-05, hmax()=0.000490422
+   volume()=-3.07902e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4022967, unique_id()=1186824, subdomain_id()=1, processor_id()=171
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=830733, processor_id()=171, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3322932) (0/1/3322933) (0/2/3322934) (0/3/3322935) 
+    1  Node id()=830734, processor_id()=171, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3322936) (0/1/3322937) (0/2/3322938) (0/3/3322939) 
+    2  Node id()=830476, processor_id()=171, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3321904) (0/1/3321905) (0/2/3321906) (0/3/3321907) 
+    3  Node id()=830478, processor_id()=171, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3321912) (0/1/3321913) (0/2/3321914) (0/3/3321915) 
+   n_sides()=4
+    neighbor(0)=4024815
+    neighbor(1)=4023169
+    neighbor(2)=nullptr
+    neighbor(3)=4026064
+   hmin()=0.000168582, hmax()=0.000354931
+   volume()=-5.2817e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5151205, unique_id()=1182006, subdomain_id()=1, processor_id()=219
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1068139, processor_id()=219, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4272556) (0/1/4272557) (0/2/4272558) (0/3/4272559) 
+    1  Node id()=1068189, processor_id()=219, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4272756) (0/1/4272757) (0/2/4272758) (0/3/4272759) 
+    2  Node id()=1068140, processor_id()=219, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4272560) (0/1/4272561) (0/2/4272562) (0/3/4272563) 
+    3  Node id()=1068146, processor_id()=219, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4272584) (0/1/4272585) (0/2/4272586) (0/3/4272587) 
+   n_sides()=4
+    neighbor(0)=5153374
+    neighbor(1)=5153415
+    neighbor(2)=nullptr
+    neighbor(3)=5150915
+   hmin()=0.000167847, hmax()=0.000462334
+   volume()=-6.98996e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2800477, unique_id()=1701898, subdomain_id()=1, processor_id()=119
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=574601, processor_id()=119, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2298404) (0/1/2298405) (0/2/2298406) (0/3/2298407) 
+    1  Node id()=574323, processor_id()=119, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2297292) (0/1/2297293) (0/2/2297294) (0/3/2297295) 
+    2  Node id()=574262, processor_id()=119, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2297048) (0/1/2297049) (0/2/2297050) (0/3/2297051) 
+    3  Node id()=574324, processor_id()=119, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2297296) (0/1/2297297) (0/2/2297298) (0/3/2297299) 
+   n_sides()=4
+    neighbor(0)=2802797
+    neighbor(1)=2802807
+    neighbor(2)=nullptr
+    neighbor(3)=2802946
+   hmin()=0.000102359, hmax()=0.000376633
+   volume()=-2.16716e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4657877, unique_id()=2032317, subdomain_id()=1, processor_id()=198
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=965335, processor_id()=198, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3861256) (0/1/3861257) (0/2/3861258) (0/3/3861259) 
+    1  Node id()=965334, processor_id()=198, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3861252) (0/1/3861253) (0/2/3861254) (0/3/3861255) 
+    2  Node id()=965336, processor_id()=198, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3861260) (0/1/3861261) (0/2/3861262) (0/3/3861263) 
+    3  Node id()=965333, processor_id()=198, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3861248) (0/1/3861249) (0/2/3861250) (0/3/3861251) 
+   n_sides()=4
+    neighbor(0)=4657878
+    neighbor(1)=4661598
+    neighbor(2)=nullptr
+    neighbor(3)=4663566
+   hmin()=0.000139223, hmax()=0.00029901
+   volume()=-1.18424e-15
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4750146, unique_id()=1180315, subdomain_id()=1, processor_id()=202
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=984602, processor_id()=202, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3938408) (0/1/3938409) (0/2/3938410) (0/3/3938411) 
+    1  Node id()=984335, processor_id()=202, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3937340) (0/1/3937341) (0/2/3937342) (0/3/3937343) 
+    2  Node id()=984337, processor_id()=202, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3937348) (0/1/3937349) (0/2/3937350) (0/3/3937351) 
+    3  Node id()=984346, processor_id()=202, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3937384) (0/1/3937385) (0/2/3937386) (0/3/3937387) 
+   n_sides()=4
+    neighbor(0)=4753401
+    neighbor(1)=4753413
+    neighbor(2)=nullptr
+    neighbor(3)=4754758
+   hmin()=0.00012998, hmax()=0.000381851
+   volume()=-1.5099e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3460499, unique_id()=1175472, subdomain_id()=1, processor_id()=147
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=713399, processor_id()=147, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2853596) (0/1/2853597) (0/2/2853598) (0/3/2853599) 
+    1  Node id()=713400, processor_id()=147, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2853600) (0/1/2853601) (0/2/2853602) (0/3/2853603) 
+    2  Node id()=713397, processor_id()=147, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2853588) (0/1/2853589) (0/2/2853590) (0/3/2853591) 
+    3  Node id()=713396, processor_id()=147, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2853584) (0/1/2853585) (0/2/2853586) (0/3/2853587) 
+   n_sides()=4
+    neighbor(0)=3463408
+    neighbor(1)=3460761
+    neighbor(2)=nullptr
+    neighbor(3)=3463937
+   hmin()=0.000243454, hmax()=0.000527698
+   volume()=-1.39651e-12
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3600885, unique_id()=1218030, subdomain_id()=1, processor_id()=153
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=743209, processor_id()=153, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2972768) (0/1/2972769) (0/2/2972770) (0/3/2972771) 
+    1  Node id()=743218, processor_id()=153, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2972804) (0/1/2972805) (0/2/2972806) (0/3/2972807) 
+    2  Node id()=743219, processor_id()=153, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2972808) (0/1/2972809) (0/2/2972810) (0/3/2972811) 
+    3  Node id()=743216, processor_id()=153, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2972796) (0/1/2972797) (0/2/2972798) (0/3/2972799) 
+   n_sides()=4
+    neighbor(0)=3602945
+    neighbor(1)=3603344
+    neighbor(2)=nullptr
+    neighbor(3)=3602416
+   hmin()=0.000221417, hmax()=0.000479864
+   volume()=-7.56728e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4210842, unique_id()=2034818, subdomain_id()=1, processor_id()=179
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=869859, processor_id()=179, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3479436) (0/1/3479437) (0/2/3479438) (0/3/3479439) 
+    1  Node id()=870356, processor_id()=179, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3481424) (0/1/3481425) (0/2/3481426) (0/3/3481427) 
+    2  Node id()=869860, processor_id()=179, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3479440) (0/1/3479441) (0/2/3479442) (0/3/3479443) 
+    3  Node id()=869731, processor_id()=179, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3478924) (0/1/3478925) (0/2/3478926) (0/3/3478927) 
+   n_sides()=4
+    neighbor(0)=4211389
+    neighbor(1)=4214556
+    neighbor(2)=nullptr
+    neighbor(3)=4210525
+   hmin()=0.000238136, hmax()=0.000427314
+   volume()=-2.0138e-12
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5220913, unique_id()=2050870, subdomain_id()=1, processor_id()=222
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1082924, processor_id()=222, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4331696) (0/1/4331697) (0/2/4331698) (0/3/4331699) 
+    1  Node id()=1082925, processor_id()=222, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4331700) (0/1/4331701) (0/2/4331702) (0/3/4331703) 
+    2  Node id()=1082780, processor_id()=222, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4331120) (0/1/4331121) (0/2/4331122) (0/3/4331123) 
+    3  Node id()=1082923, processor_id()=222, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4331692) (0/1/4331693) (0/2/4331694) (0/3/4331695) 
+   n_sides()=4
+    neighbor(0)=5222771
+    neighbor(1)=5220915
+    neighbor(2)=nullptr
+    neighbor(3)=5223122
+   hmin()=0.000207857, hmax()=0.000493558
+   volume()=-6.79753e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1037764, unique_id()=2593542, subdomain_id()=1, processor_id()=44
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=218569, processor_id()=44, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/874256) (0/1/874257) (0/2/874258) (0/3/874259) 
+    1  Node id()=218570, processor_id()=44, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/874260) (0/1/874261) (0/2/874262) (0/3/874263) 
+    2  Node id()=218303, processor_id()=44, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/873192) (0/1/873193) (0/2/873194) (0/3/873195) 
+    3  Node id()=218407, processor_id()=44, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/873612) (0/1/873613) (0/2/873614) (0/3/873615) 
+   n_sides()=4
+    neighbor(0)=1040613
+    neighbor(1)=1037774
+    neighbor(2)=nullptr
+    neighbor(3)=1040265
+   hmin()=0.000141144, hmax()=0.000384282
+   volume()=-1.42109e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4681144, unique_id()=2032011, subdomain_id()=1, processor_id()=199
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=970428, processor_id()=199, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3881684) (0/1/3881685) (0/2/3881686) (0/3/3881687) 
+    1  Node id()=970430, processor_id()=199, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3881692) (0/1/3881693) (0/2/3881694) (0/3/3881695) 
+    2  Node id()=970429, processor_id()=199, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3881688) (0/1/3881689) (0/2/3881690) (0/3/3881691) 
+    3  Node id()=970427, processor_id()=199, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3881680) (0/1/3881681) (0/2/3881682) (0/3/3881683) 
+   n_sides()=4
+    neighbor(0)=4685094
+    neighbor(1)=4686106
+    neighbor(2)=nullptr
+    neighbor(3)=4681143
+   hmin()=0.000185984, hmax()=0.000420932
+   volume()=-1.95103e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5503920, unique_id()=1214989, subdomain_id()=1, processor_id()=234
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1140349, processor_id()=234, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4561360) (0/1/4561361) (0/2/4561362) (0/3/4561363) 
+    1  Node id()=1140351, processor_id()=234, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4561368) (0/1/4561369) (0/2/4561370) (0/3/4561371) 
+    2  Node id()=1140347, processor_id()=234, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4561352) (0/1/4561353) (0/2/4561354) (0/3/4561355) 
+    3  Node id()=1139903, processor_id()=234, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4559600) (0/1/4559601) (0/2/4559602) (0/3/4559603) 
+   n_sides()=4
+    neighbor(0)=5507096
+    neighbor(1)=5507942
+    neighbor(2)=nullptr
+    neighbor(3)=5503918
+   hmin()=0.000211019, hmax()=0.000414523
+   volume()=-4.26326e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=  Elem Information
+   id()=2139255, unique_id()=1192859, subdomain_id()=1, processor_id()=91
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=441229, processor_id()=91, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1764900) (0/1/1764901) (0/2/1764902) (0/3/1764903) 
+    1  Node id()=441324, processor_id()=91, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1765280) (0/1/1765281) (0/2/1765282) (0/3/1765283) 
+    2  Node id()=441230, processor_id()=91, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1764904) (0/1/1764905) (0/2/1764906) (0/3/1764907) 
+    3  Node id()=440772, processor_id()=91, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1763088) (0/1/1763089) (0/2/1763090) (0/3/1763091) 
+   n_sides()=4
+    neighbor(0)=2142332
+    neighbor(1)=2140909
+    neighbor(2)=nullptr
+    neighbor(3)=2139038
+   hmin()=0.000190926, hmax()=0.000355238
+   volume()=-2.36848e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3365975, unique_id()=2041805, subdomain_id()=1, processor_id()=143
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=694932, processor_id()=143, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2779708) (0/1/2779709) (0/2/2779710) (0/3/2779711) 
+    1  Node id()=694933, processor_id()=143, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2779712) (0/1/2779713) (0/2/2779714) (0/3/2779715) 
+    2  Node id()=694421, processor_id()=143, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2777660) (0/1/2777661) (0/2/2777662) (0/3/2777663) 
+    3  Node id()=694931, processor_id()=143, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2779704) (0/1/2779705) (0/2/2779706) (0/3/2779707) 
+   n_sides()=4
+    neighbor(0)=3365974
+    neighbor(1)=3370143
+    neighbor(2)=nullptr
+    neighbor(3)=3369714
+   hmin()=3.07551e-05, hmax()=0.000409721
+   volume()=-9.59233e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+
+  Elem Information
+   id()=355173, unique_id()=5560966, subdomain_id()=1, processor_id()=15
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=75240, processor_id()=15, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/300952) (0/1/300953) (0/2/300954) (0/3/300955) 
+    1  Node id()=75233, processor_id()=15, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/300924) (0/1/300925) (0/2/300926) (0/3/300927) 
+    2  Node id()=75023, processor_id()=15, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/300088) (0/1/300089) (0/2/300090) (0/3/300091) 
+    3  Node id()=75101, processor_id()=15, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/300396) (0/1/300397) (0/2/300398) (0/3/300399) 
+   n_sides()=4
+    neighbor(0)=355174
+    neighbor(1)=nullptr
+    neighbor(2)=355169
+    neighbor(3)=nullptr
+   hmin()=0.000254071, hmax()=0.000533962
+   volume()=-1.00394e-12
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3882005, unique_id()=2041184, subdomain_id()=1, processor_id()=165
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=802338, processor_id()=165, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3209292) (0/1/3209293) (0/2/3209294) (0/3/3209295) 
+    1  Node id()=802336, processor_id()=165, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3209284) (0/1/3209285) (0/2/3209286) (0/3/3209287) 
+    2  Node id()=801885, processor_id()=165, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3207528) (0/1/3207529) (0/2/3207530) (0/3/3207531) 
+    3  Node id()=802337, processor_id()=165, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3209288) (0/1/3209289) (0/2/3209290) (0/3/3209291) 
+   n_sides()=4
+    neighbor(0)=3882984
+    neighbor(1)=3885933
+    neighbor(2)=nullptr
+    neighbor(3)=3888879
+   hmin()=0.000214303, hmax()=0.000461074
+   volume()=-1.06581e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5409240, unique_id()=1197535, subdomain_id()=1, processor_id()=230
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1120999, processor_id()=230, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4483988) (0/1/4483989) (0/2/4483990) (0/3/4483991) 
+    1  Node id()=1121000, processor_id()=230, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4483992) (0/1/4483993) (0/2/4483994) (0/3/4483995) 
+    2  Node id()=1120880, processor_id()=230, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4483512) (0/1/4483513) (0/2/4483514) (0/3/4483515) 
+    3  Node id()=1120997, processor_id()=230, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4483980) (0/1/4483981) (0/2/4483982) (0/3/4483983) 
+   n_sides()=4
+    neighbor(0)=5409237
+    neighbor(1)=5413872
+    neighbor(2)=nullptr
+    neighbor(3)=5413436
+   hmin()=0.000141556, hmax()=0.000424238
+   volume()=-6.82713e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=  Elem Information
+   id()=1177507, unique_id()=2632431, subdomain_id()=1, processor_id()=50
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=248032, processor_id()=50, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/992104) (0/1/992105) (0/2/992106) (0/3/992107) 
+    1  Node id()=248033, processor_id()=50, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/992108) (0/1/992109) (0/2/992110) (0/3/992111) 
+    2  Node id()=248030, processor_id()=50, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/992096) (0/1/992097) (0/2/992098) (0/3/992099) 
+    3  Node id()=248114, processor_id()=50, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/992428) (0/1/992429) (0/2/992430) (0/3/992431) 
+   n_sides()=4
+    neighbor(0)=1178905
+    neighbor(1)=1178827
+    neighbor(2)=nullptr
+    neighbor(3)=1177275
+   hmin()=0.000258753, hmax()=0.000466221
+   volume()=-1.51879e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2941958, unique_id()=2042118, subdomain_id()=1, processor_id()=125
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=604317, processor_id()=125, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2417160) (0/1/2417161) (0/2/2417162) (0/3/2417163) 
+    1  Node id()=604318, processor_id()=125, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2417164) (0/1/2417165) (0/2/2417166) (0/3/2417167) 
+    2  Node id()=604319, processor_id()=125, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2417168) (0/1/2417169) (0/2/2417170) (0/3/2417171) 
+    3  Node id()=604308, processor_id()=125, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2417124) (0/1/2417125) (0/2/2417126) (0/3/2417127) 
+   n_sides()=4
+    neighbor(0)=2945540
+    neighbor(1)=2944707
+    neighbor(2)=nullptr
+    neighbor(3)=2946045
+   hmin()=7.71475e-05, hmax()=0.000571046
+   volume()=-6.67614e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+
+  Elem Information
+   id()=2517889, unique_id()=2584392, subdomain_id()=1, processor_id()=107
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=519886, processor_id()=107, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2079528) (0/1/2079529) (0/2/2079530) (0/3/2079531) 
+    1  Node id()=519060, processor_id()=107, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2076240) (0/1/2076241) (0/2/2076242) (0/3/2076243) 
+    2  Node id()=519364, processor_id()=107, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2077452) (0/1/2077453) (0/2/2077454) (0/3/2077455) 
+    3  Node id()=519363, processor_id()=107, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2077448) (0/1/2077449) (0/2/2077450) (0/3/2077451) 
+   n_sides()=4
+    neighbor(0)=2520291
+    neighbor(1)=2525466
+    neighbor(2)=2517527
+    neighbor(3)=2522089
+   hmin()=0.000219834, hmax()=0.000467841
+   volume()=-4.58892e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5009943, unique_id()=2036307, subdomain_id()=1, processor_id()=213
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1039161, processor_id()=213, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4156540) (0/1/4156541) (0/2/4156542) (0/3/4156543) 
+    1  Node id()=1039133, processor_id()=213, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4156428) (0/1/4156429) (0/2/4156430) (0/3/4156431) 
+    2  Node id()=1039164, processor_id()=213, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4156552) (0/1/4156553) (0/2/4156554) (0/3/4156555) 
+    3  Node id()=1039162, processor_id()=213, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4156544) (0/1/4156545) (0/2/4156546) (0/3/4156547) 
+   n_sides()=4
+    neighbor(0)=5013540
+    neighbor(1)=5013581
+    neighbor(2)=nullptr
+    neighbor(3)=5012563
+   hmin()=1.70598e-05, hmax()=0.00035785
+   volume()=-9.11863e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5598190, unique_id()=2037498, subdomain_id()=1, processor_id()=238
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1161053, processor_id()=238, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4644176) (0/1/4644177) (0/2/4644178) (0/3/4644179) 
+    1  Node id()=1161054, processor_id()=238, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4644180) (0/1/4644181) (0/2/4644182) (0/3/4644183) 
+    2  Node id()=1160273, processor_id()=238, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4641040) (0/1/4641041) (0/2/4641042) (0/3/4641043) 
+    3  Node id()=1161047, processor_id()=238, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4644152) (0/1/4644153) (0/2/4644154) (0/3/4644155) 
+   n_sides()=4
+    neighbor(0)=5600865
+    neighbor(1)=5603943
+    neighbor(2)=nullptr
+    neighbor(3)=5603386
+   hmin()=0.000157884, hmax()=0.000309061
+   volume()=-4.1774e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=  Elem Information
+   id()=331953, unique_id()=2566350, subdomain_id()=1, processor_id()=14
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=71098, processor_id()=14, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/284372) (0/1/284373) (0/2/284374) (0/3/284375) 
+    1  Node id()=71099, processor_id()=14, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/284376) (0/1/284377) (0/2/284378) (0/3/284379) 
+    2  Node id()=71100, processor_id()=14, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/284380) (0/1/284381) (0/2/284382) (0/3/284383) 
+    3  Node id()=71089, processor_id()=14, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/284336) (0/1/284337) (0/2/284338) (0/3/284339) 
+   n_sides()=4
+    neighbor(0)=336367
+    neighbor(1)=336341
+    neighbor(2)=nullptr
+    neighbor(3)=331954
+   hmin()=0.00011844, hmax()=0.000431044
+   volume()=-6.09883e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4892560, unique_id()=2066308, subdomain_id()=1, processor_id()=208
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1013570, processor_id()=208, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4054088) (0/1/4054089) (0/2/4054090) (0/3/4054091) 
+    1  Node id()=1012929, processor_id()=208, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4051564) (0/1/4051565) (0/2/4051566) (0/3/4051567) 
+    2  Node id()=1012638, processor_id()=208, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4050544) (0/1/4050545) (0/2/4050546) (0/3/4050547) 
+    3  Node id()=1013014, processor_id()=208, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4051904) (0/1/4051905) (0/2/4051906) (0/3/4051907) 
+   n_sides()=4
+    neighbor(0)=4894715
+    neighbor(1)=4894560
+    neighbor(2)=nullptr
+    neighbor(3)=4892561
+   hmin()=0.000243693, hmax()=0.00055607
+   volume()=-3.84285e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+
+  Elem Information
+   id()=730669, unique_id()=2608366, subdomain_id()=1, processor_id()=31
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=153359, processor_id()=31, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/613428) (0/1/613429) (0/2/613430) (0/3/613431) 
+    1  Node id()=153217, processor_id()=31, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/612860) (0/1/612861) (0/2/612862) (0/3/612863) 
+    2  Node id()=153360, processor_id()=31, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/613432) (0/1/613433) (0/2/613434) (0/3/613435) 
+    3  Node id()=153358, processor_id()=31, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/613424) (0/1/613425) (0/2/613426) (0/3/613427) 
+   n_sides()=4
+    neighbor(0)=730680
+    neighbor(1)=730676
+    neighbor(2)=nullptr
+    neighbor(3)=733451
+   hmin()=0.000188471, hmax()=0.000342304
+   volume()=-5.62513e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3154219, unique_id()=2031462, subdomain_id()=1, processor_id()=134
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=650147, processor_id()=134, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2600588) (0/1/2600589) (0/2/2600590) (0/3/2600591) 
+    1  Node id()=650139, processor_id()=134, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2600556) (0/1/2600557) (0/2/2600558) (0/3/2600559) 
+    2  Node id()=650148, processor_id()=134, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2600592) (0/1/2600593) (0/2/2600594) (0/3/2600595) 
+    3  Node id()=650138, processor_id()=134, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2600552) (0/1/2600553) (0/2/2600554) (0/3/2600555) 
+   n_sides()=4
+    neighbor(0)=3154224
+    neighbor(1)=3158694
+    neighbor(2)=nullptr
+    neighbor(3)=3159996
+   hmin()=0.000161664, hmax()=0.000468835
+   volume()=-1.9836e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1810570, unique_id()=2604781, subdomain_id()=1, processor_id()=77
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=374925, processor_id()=77, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1499692) (0/1/1499693) (0/2/1499694) (0/3/1499695) 
+    1  Node id()=374390, processor_id()=77, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1497560) (0/1/1497561) (0/2/1497562) (0/3/1497563) 
+    2  Node id()=374926, processor_id()=77, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1499696) (0/1/1499697) (0/2/1499698) (0/3/1499699) 
+    3  Node id()=374927, processor_id()=77, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1499700) (0/1/1499701) (0/2/1499702) (0/3/1499703) 
+   n_sides()=4
+    neighbor(0)=1811601
+    neighbor(1)=1810574
+    neighbor(2)=nullptr
+    neighbor(3)=1815401
+   hmin()=6.51856e-05, hmax()=0.000406297
+   volume()=-7.48438e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4916599, unique_id()=2046806, subdomain_id()=1, processor_id()=209
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1018592, processor_id()=209, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4074368) (0/1/4074369) (0/2/4074370) (0/3/4074371) 
+    1  Node id()=1018593, processor_id()=209, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4074372) (0/1/4074373) (0/2/4074374) (0/3/4074375) 
+    2  Node id()=1018586, processor_id()=209, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4074344) (0/1/4074345) (0/2/4074346) (0/3/4074347) 
+    3  Node id()=1018805, processor_id()=209, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4075220) (0/1/4075221) (0/2/4075222) (0/3/4075223) 
+   n_sides()=4
+    neighbor(0)=4916484
+    neighbor(1)=4921524
+    neighbor(2)=nullptr
+    neighbor(3)=4918426
+   hmin()=6.15101e-05, hmax()=0.000333802
+   volume()=-1.30266e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2257551, unique_id()=2040468, subdomain_id()=1, processor_id()=96
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=466358, processor_id()=96, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1865384) (0/1/1865385) (0/2/1865386) (0/3/1865387) 
+    1  Node id()=466542, processor_id()=96, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1866120) (0/1/1866121) (0/2/1866122) (0/3/1866123) 
+    2  Node id()=466543, processor_id()=96, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1866124) (0/1/1866125) (0/2/1866126) (0/3/1866127) 
+    3  Node id()=465989, processor_id()=96, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1863944) (0/1/1863945) (0/2/1863946) (0/3/1863947) 
+   n_sides()=4
+    neighbor(0)=2262005
+    neighbor(1)=2264647
+    neighbor(2)=nullptr
+    neighbor(3)=2258688
+   hmin()=0.000151871, hmax()=0.000410076
+   volume()=-3.28626e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5033545, unique_id()=2036629, subdomain_id()=1, processor_id()=214
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1044236, processor_id()=214, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4176896) (0/1/4176897) (0/2/4176898) (0/3/4176899) 
+    1  Node id()=1044240, processor_id()=214, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4176912) (0/1/4176913) (0/2/4176914) (0/3/4176915) 
+    2  Node id()=1044241, processor_id()=214, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4176916) (0/1/4176917) (0/2/4176918) (0/3/4176919) 
+    3  Node id()=1044238, processor_id()=214, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4176904) (0/1/4176905) (0/2/4176906) (0/3/4176907) 
+   n_sides()=4
+    neighbor(0)=5037834
+    neighbor(1)=5033816
+    neighbor(2)=nullptr
+    neighbor(3)=5037881
+   hmin()=0.000137541, hmax()=0.000497039
+   volume()=-1.89478e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2471210, unique_id()=2572697, subdomain_id()=1, processor_id()=105
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=510227, processor_id()=105, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2040756) (0/1/2040757) (0/2/2040758) (0/3/2040759) 
+    1  Node id()=510229, processor_id()=105, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2040764) (0/1/2040765) (0/2/2040766) (0/3/2040767) 
+    2  Node id()=510224, processor_id()=105, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2040744) (0/1/2040745) (0/2/2040746) (0/3/2040747) 
+    3  Node id()=510225, processor_id()=105, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2040748) (0/1/2040749) (0/2/2040750) (0/3/2040751) 
+   n_sides()=4
+    neighbor(0)=2474926
+    neighbor(1)=2474936
+    neighbor(2)=nullptr
+    neighbor(3)=2471208
+   hmin()=0.000170598, hmax()=0.000556279
+   volume()=-1.1191e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3742515, unique_id()=1218333, subdomain_id()=1, processor_id()=159
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=774720, processor_id()=159, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3098836) (0/1/3098837) (0/2/3098838) (0/3/3098839) 
+    1  Node id()=774724, processor_id()=159, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3098852) (0/1/3098853) (0/2/3098854) (0/3/3098855) 
+    2  Node id()=774722, processor_id()=159, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3098844) (0/1/3098845) (0/2/3098846) (0/3/3098847) 
+    3  Node id()=774721, processor_id()=159, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3098840) (0/1/3098841) (0/2/3098842) (0/3/3098843) 
+   n_sides()=4
+    neighbor(0)=3746848
+    neighbor(1)=3756516
+    neighbor(2)=nullptr
+    neighbor(3)=3742513
+   hmin()=0.000191952, hmax()=0.000383012
+   volume()=-4.6955e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2233706, unique_id()=2063158, subdomain_id()=1, processor_id()=95
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=461187, processor_id()=95, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1844668) (0/1/1844669) (0/2/1844670) (0/3/1844671) 
+    1  Node id()=461188, processor_id()=95, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1844672) (0/1/1844673) (0/2/1844674) (0/3/1844675) 
+    2  Node id()=461038, processor_id()=95, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1844108) (0/1/1844109) (0/2/1844110) (0/3/1844111) 
+    3  Node id()=461039, processor_id()=95, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1844624) (0/1/1844625) (0/2/1844626) (0/3/1844627) 
+   n_sides()=4
+    neighbor(0)=2234671
+    neighbor(1)=2233378
+    neighbor(2)=nullptr
+    neighbor(3)=2234571
+   hmin()=0.000103771, hmax()=0.000443556
+   volume()=-1.53951e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=660170, unique_id()=2579434, subdomain_id()=1, processor_id()=28
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=138941, processor_id()=28, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/555752) (0/1/555753) (0/2/555754) (0/3/555755) 
+    1  Node id()=138942, processor_id()=28, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/555756) (0/1/555757) (0/2/555758) (0/3/555759) 
+    2  Node id()=138818, processor_id()=28, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/555260) (0/1/555261) (0/2/555262) (0/3/555263) 
+    3  Node id()=138812, processor_id()=28, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/555236) (0/1/555237) (0/2/555238) (0/3/555239) 
+   n_sides()=4
+    neighbor(0)=660174
+    neighbor(1)=663346
+    neighbor(2)=nullptr
+    neighbor(3)=663085
+   hmin()=0.000253153, hmax()=0.000582288
+   volume()=-2.69414e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1154703, unique_id()=2571492, subdomain_id()=1, processor_id()=49
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=243808, processor_id()=49, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/975200) (0/1/975201) (0/2/975202) (0/3/975203) 
+    1  Node id()=243809, processor_id()=49, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/975204) (0/1/975205) (0/2/975206) (0/3/975207) 
+    2  Node id()=243515, processor_id()=49, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/974028) (0/1/974029) (0/2/974030) (0/3/974031) 
+    3  Node id()=243520, processor_id()=49, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/974048) (0/1/974049) (0/2/974050) (0/3/974051) 
+   n_sides()=4
+    neighbor(0)=1154486
+    neighbor(1)=1159167
+    neighbor(2)=nullptr
+    neighbor(3)=1158390
+   hmin()=0.000198107, hmax()=0.000428606
+   volume()=-2.34479e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=378928, unique_id()=2577763, subdomain_id()=1, processor_id()=16
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=80044, processor_id()=16, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/320172) (0/1/320173) (0/2/320174) (0/3/320175) 
+    1  Node id()=81027, processor_id()=16, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/324032) (0/1/324033) (0/2/324034) (0/3/324035) 
+    2  Node id()=80738, processor_id()=16, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/322892) (0/1/322893) (0/2/322894) (0/3/322895) 
+    3  Node id()=79922, processor_id()=16, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/319676) (0/1/319677) (0/2/319678) (0/3/319679) 
+   n_sides()=4
+    neighbor(0)=385553
+    neighbor(1)=382263
+    neighbor(2)=nullptr
+    neighbor(3)=378721
+   hmin()=0.00023441, hmax()=0.000468074
+   volume()=-1.66652e-12
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=637126, unique_id()=2578657, subdomain_id()=1, processor_id()=27
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=133590, processor_id()=27, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/534344) (0/1/534345) (0/2/534346) (0/3/534347) 
+    1  Node id()=133740, processor_id()=27, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/534932) (0/1/534933) (0/2/534934) (0/3/534935) 
+    2  Node id()=133409, processor_id()=27, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/533624) (0/1/533625) (0/2/533626) (0/3/533627) 
+    3  Node id()=134454, processor_id()=27, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/537784) (0/1/537785) (0/2/537786) (0/3/537787) 
+   n_sides()=4
+    neighbor(0)=640990
+    neighbor(1)=637773
+    neighbor(2)=nullptr
+    neighbor(3)=637130
+   hmin()=0.000215927, hmax()=0.000466096
+   volume()=-5.37348e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1270499, unique_id()=2576356, subdomain_id()=1, processor_id()=54
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=268262, processor_id()=54, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1072996) (0/1/1072997) (0/2/1072998) (0/3/1072999) 
+    1  Node id()=268263, processor_id()=54, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1073000) (0/1/1073001) (0/2/1073002) (0/3/1073003) 
+    2  Node id()=268086, processor_id()=54, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1072296) (0/1/1072297) (0/2/1072298) (0/3/1072299) 
+    3  Node id()=267451, processor_id()=54, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1069772) (0/1/1069773) (0/2/1069774) (0/3/1069775) 
+   n_sides()=4
+    neighbor(0)=1270507
+    neighbor(1)=1274970
+    neighbor(2)=nullptr
+    neighbor(3)=1275565
+   hmin()=0.00025122, hmax()=0.000514984
+   volume()=-1.19904e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2588529, unique_id()=2572277, subdomain_id()=1, processor_id()=110
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=535165, processor_id()=110, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2140624) (0/1/2140625) (0/2/2140626) (0/3/2140627) 
+    1  Node id()=535166, processor_id()=110, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2140628) (0/1/2140629) (0/2/2140630) (0/3/2140631) 
+    2  Node id()=534362, processor_id()=110, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2137440) (0/1/2137441) (0/2/2137442) (0/3/2137443) 
+    3  Node id()=535167, processor_id()=110, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2140632) (0/1/2140633) (0/2/2140634) (0/3/2140635) 
+   n_sides()=4
+    neighbor(0)=2593601
+    neighbor(1)=2595666
+    neighbor(2)=nullptr
+    neighbor(3)=2590725
+   hmin()=0.000140731, hmax()=0.000369376
+   volume()=0
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=849518, unique_id()=2612772, subdomain_id()=1, processor_id()=36
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=178371, processor_id()=36, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/713484) (0/1/713485) (0/2/713486) (0/3/713487) 
+    1  Node id()=178742, processor_id()=36, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/714964) (0/1/714965) (0/2/714966) (0/3/714967) 
+    2  Node id()=178491, processor_id()=36, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/713964) (0/1/713965) (0/2/713966) (0/3/713967) 
+    3  Node id()=178322, processor_id()=36, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/713288) (0/1/713289) (0/2/713290) (0/3/713291) 
+   n_sides()=4
+    neighbor(0)=852809
+    neighbor(1)=850501
+    neighbor(2)=nullptr
+    neighbor(3)=848660
+   hmin()=0.000139901, hmax()=0.000469068
+   volume()=-1.89478e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=496937, unique_id()=5570490, subdomain_id()=1, processor_id()=21
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=104922, processor_id()=21, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/419688) (0/1/419689) (0/2/419690) (0/3/419691) 
+    1  Node id()=105624, processor_id()=21, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/422496) (0/1/422497) (0/2/422498) (0/3/422499) 
+    2  Node id()=104930, processor_id()=21, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/419720) (0/1/419721) (0/2/419722) (0/3/419723) 
+    3  Node id()=105676, processor_id()=21, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/422704) (0/1/422705) (0/2/422706) (0/3/422707) 
+   n_sides()=4
+    neighbor(0)=501305
+    neighbor(1)=501335
+    neighbor(2)=nullptr
+    neighbor(3)=502412
+   hmin()=0.000298645, hmax()=0.00057854
+   volume()=-1.10608e-12
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1997784, unique_id()=2585729, subdomain_id()=1, processor_id()=85
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=413098, processor_id()=85, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1652392) (0/1/1652393) (0/2/1652394) (0/3/1652395) 
+    1  Node id()=413099, processor_id()=85, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1652396) (0/1/1652397) (0/2/1652398) (0/3/1652399) 
+    2  Node id()=412848, processor_id()=85, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1651392) (0/1/1651393) (0/2/1651394) (0/3/1651395) 
+    3  Node id()=412844, processor_id()=85, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1651376) (0/1/1651377) (0/2/1651378) (0/3/1651379) 
+   n_sides()=4
+    neighbor(0)=2002598
+    neighbor(1)=2003112
+    neighbor(2)=nullptr
+    neighbor(3)=2003103
+   hmin()=0.000213929, hmax()=0.00047586
+   volume()=-1.01992e-12
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2682580, unique_id()=1709460, subdomain_id()=1, processor_id()=114
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=553434, processor_id()=114, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2213688) (0/1/2213689) (0/2/2213690) (0/3/2213691) 
+    1  Node id()=553435, processor_id()=114, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2213692) (0/1/2213693) (0/2/2213694) (0/3/2213695) 
+    2  Node id()=553436, processor_id()=114, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2213696) (0/1/2213697) (0/2/2213698) (0/3/2213699) 
+    3  Node id()=553437, processor_id()=114, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2213700) (0/1/2213701) (0/2/2213702) (0/3/2213703) 
+   n_sides()=4
+    neighbor(0)=2682977
+    neighbor(1)=2685762
+    neighbor(2)=nullptr
+    neighbor(3)=2685771
+   hmin()=0.000168236, hmax()=0.000443818
+   volume()=-1.87406e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5386321, unique_id()=2066656, subdomain_id()=1, processor_id()=229
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1117044, processor_id()=229, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4468176) (0/1/4468177) (0/2/4468178) (0/3/4468179) 
+    1  Node id()=1116109, processor_id()=229, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4464436) (0/1/4464437) (0/2/4464438) (0/3/4464439) 
+    2  Node id()=1115682, processor_id()=229, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4462728) (0/1/4462729) (0/2/4462730) (0/3/4462731) 
+    3  Node id()=1116238, processor_id()=229, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4464952) (0/1/4464953) (0/2/4464954) (0/3/4464955) 
+   n_sides()=4
+    neighbor(0)=5390687
+    neighbor(1)=5388901
+    neighbor(2)=nullptr
+    neighbor(3)=5386320
+   hmin()=0.000222204, hmax()=0.000560436
+   volume()=-3.17968e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=286521, unique_id()=2596998, subdomain_id()=1, processor_id()=12
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=61885, processor_id()=12, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/247476) (0/1/247477) (0/2/247478) (0/3/247479) 
+    1  Node id()=62280, processor_id()=12, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/249028) (0/1/249029) (0/2/249030) (0/3/249031) 
+    2  Node id()=62281, processor_id()=12, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/249032) (0/1/249033) (0/2/249034) (0/3/249035) 
+    3  Node id()=62282, processor_id()=12, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/249036) (0/1/249037) (0/2/249038) (0/3/249039) 
+   n_sides()=4
+    neighbor(0)=290949
+    neighbor(1)=286687
+    neighbor(2)=292632
+    neighbor(3)=292631
+   hmin()=0.000253957, hmax()=0.000703819
+   volume()=-1.20615e-12
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3106723, unique_id()=2043893, subdomain_id()=1, processor_id()=132
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=640746, processor_id()=132, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2562920) (0/1/2562921) (0/2/2562922) (0/3/2562923) 
+    1  Node id()=640452, processor_id()=132, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2561744) (0/1/2561745) (0/2/2561746) (0/3/2561747) 
+    2  Node id()=640460, processor_id()=132, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2561776) (0/1/2561777) (0/2/2561778) (0/3/2561779) 
+    3  Node id()=640461, processor_id()=132, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2561780) (0/1/2561781) (0/2/2561782) (0/3/2561783) 
+   n_sides()=4
+    neighbor(0)=3107540
+    neighbor(1)=3113550
+    neighbor(2)=nullptr
+    neighbor(3)=3112081
+   hmin()=0.000137805, hmax()=0.000486864
+   volume()=-2.36255e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5622891, unique_id()=2083547, subdomain_id()=1, processor_id()=239
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1165965, processor_id()=239, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4663860) (0/1/4663861) (0/2/4663862) (0/3/4663863) 
+    1  Node id()=1165925, processor_id()=239, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4663700) (0/1/4663701) (0/2/4663702) (0/3/4663703) 
+    2  Node id()=1165165, processor_id()=239, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4660660) (0/1/4660661) (0/2/4660662) (0/3/4660663) 
+    3  Node id()=1165318, processor_id()=239, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4661272) (0/1/4661273) (0/2/4661274) (0/3/4661275) 
+   n_sides()=4
+    neighbor(0)=5622866
+    neighbor(1)=5627330
+    neighbor(2)=nullptr
+    neighbor(3)=5627320
+   hmin()=0.000177004, hmax()=0.000383372
+   volume()=0
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1106641, unique_id()=5566609, subdomain_id()=1, processor_id()=47
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=232769, processor_id()=47, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/931076) (0/1/931077) (0/2/931078) (0/3/931079) 
+    1  Node id()=232778, processor_id()=47, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/931112) (0/1/931113) (0/2/931114) (0/3/931115) 
+    2  Node id()=232771, processor_id()=47, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/931084) (0/1/931085) (0/2/931086) (0/3/931087) 
+    3  Node id()=232768, processor_id()=47, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/931072) (0/1/931073) (0/2/931074) (0/3/931075) 
+   n_sides()=4
+    neighbor(0)=1110556
+    neighbor(1)=1112657
+    neighbor(2)=1106937
+    neighbor(3)=1106877
+   hmin()=0.000251307, hmax()=0.000579834
+   volume()=-7.25346e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3225159, unique_id()=1217220, subdomain_id()=1, processor_id()=137
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=665482, processor_id()=137, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2661884) (0/1/2661885) (0/2/2661886) (0/3/2661887) 
+    1  Node id()=665487, processor_id()=137, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2661904) (0/1/2661905) (0/2/2661906) (0/3/2661907) 
+    2  Node id()=665486, processor_id()=137, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2661900) (0/1/2661901) (0/2/2661902) (0/3/2661903) 
+    3  Node id()=665484, processor_id()=137, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2661892) (0/1/2661893) (0/2/2661894) (0/3/2661895) 
+   n_sides()=4
+    neighbor(0)=3229666
+    neighbor(1)=3230535
+    neighbor(2)=nullptr
+    neighbor(3)=3225158
+   hmin()=0.000248395, hmax()=0.000486864
+   volume()=-3.63265e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1741680, unique_id()=1869655, subdomain_id()=1, processor_id()=74
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=359840, processor_id()=74, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1439360) (0/1/1439361) (0/2/1439362) (0/3/1439363) 
+    1  Node id()=359828, processor_id()=74, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1439312) (0/1/1439313) (0/2/1439314) (0/3/1439315) 
+    2  Node id()=359694, processor_id()=74, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1438776) (0/1/1438777) (0/2/1438778) (0/3/1438779) 
+    3  Node id()=359835, processor_id()=74, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1439340) (0/1/1439341) (0/2/1439342) (0/3/1439343) 
+   n_sides()=4
+    neighbor(0)=1741677
+    neighbor(1)=1741676
+    neighbor(2)=1740363
+    neighbor(3)=1740379
+   hmin()=0.000229422, hmax()=0.000464141
+   volume()=-2.14939e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3812670, unique_id()=1199193, subdomain_id()=1, processor_id()=162
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=789069, processor_id()=162, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3156276) (0/1/3156277) (0/2/3156278) (0/3/3156279) 
+    1  Node id()=789072, processor_id()=162, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3156288) (0/1/3156289) (0/2/3156290) (0/3/3156291) 
+    2  Node id()=788690, processor_id()=162, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3154760) (0/1/3154761) (0/2/3154762) (0/3/3154763) 
+    3  Node id()=789066, processor_id()=162, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3156264) (0/1/3156265) (0/2/3156266) (0/3/3156267) 
+   n_sides()=4
+    neighbor(0)=3812668
+    neighbor(1)=3817759
+    neighbor(2)=nullptr
+    neighbor(3)=3817684
+   hmin()=0.00022815, hmax()=0.000570983
+   volume()=-1.39651e-12
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4235599, unique_id()=1216343, subdomain_id()=1, processor_id()=180
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=876101, processor_id()=180, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3504376) (0/1/3504377) (0/2/3504378) (0/3/3504379) 
+    1  Node id()=876104, processor_id()=180, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3504388) (0/1/3504389) (0/2/3504390) (0/3/3504391) 
+    2  Node id()=876105, processor_id()=180, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3504392) (0/1/3504393) (0/2/3504394) (0/3/3504395) 
+    3  Node id()=876102, processor_id()=180, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3504380) (0/1/3504381) (0/2/3504382) (0/3/3504383) 
+   n_sides()=4
+    neighbor(0)=4240161
+    neighbor(1)=4240126
+    neighbor(2)=nullptr
+    neighbor(3)=4238725
+   hmin()=0.00014715, hmax()=0.00035532
+   volume()=-1.7053e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4188376, unique_id()=2044199, subdomain_id()=1, processor_id()=178
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=865272, processor_id()=178, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3461080) (0/1/3461081) (0/2/3461082) (0/3/3461083) 
+    1  Node id()=866579, processor_id()=178, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3466296) (0/1/3466297) (0/2/3466298) (0/3/3466299) 
+    2  Node id()=865273, processor_id()=178, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3461084) (0/1/3461085) (0/2/3461086) (0/3/3461087) 
+    3  Node id()=865108, processor_id()=178, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3460428) (0/1/3460429) (0/2/3460430) (0/3/3460431) 
+   n_sides()=4
+    neighbor(0)=4195261
+    neighbor(1)=4193622
+    neighbor(2)=nullptr
+    neighbor(3)=4187411
+   hmin()=0.000192141, hmax()=0.000455485
+   volume()=-1.15818e-12
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3083198, unique_id()=2060712, subdomain_id()=1, processor_id()=131
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=636247, processor_id()=131, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2544896) (0/1/2544897) (0/2/2544898) (0/3/2544899) 
+    1  Node id()=636248, processor_id()=131, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2544900) (0/1/2544901) (0/2/2544902) (0/3/2544903) 
+    2  Node id()=635558, processor_id()=131, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2542164) (0/1/2542165) (0/2/2542166) (0/3/2542167) 
+    3  Node id()=636307, processor_id()=131, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2545136) (0/1/2545137) (0/2/2545138) (0/3/2545139) 
+   n_sides()=4
+    neighbor(0)=3084082
+    neighbor(1)=3087822
+    neighbor(2)=nullptr
+    neighbor(3)=3091100
+   hmin()=0.000246513, hmax()=0.000452713
+   volume()=-6.27646e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=591548, unique_id()=2620025, subdomain_id()=1, processor_id()=25
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=125062, processor_id()=25, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/500196) (0/1/500197) (0/2/500198) (0/3/500199) 
+    1  Node id()=124204, processor_id()=25, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/496792) (0/1/496793) (0/2/496794) (0/3/496795) 
+    2  Node id()=126056, processor_id()=25, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/504172) (0/1/504173) (0/2/504174) (0/3/504175) 
+    3  Node id()=125060, processor_id()=25, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/500188) (0/1/500189) (0/2/500190) (0/3/500191) 
+   n_sides()=4
+    neighbor(0)=591801
+    neighbor(1)=591546
+    neighbor(2)=nullptr
+    neighbor(3)=594994
+   hmin()=0.000193612, hmax()=0.000427536
+   volume()=-1.61945e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3789995, unique_id()=1268623, subdomain_id()=1, processor_id()=161
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=782894, processor_id()=161, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3131572) (0/1/3131573) (0/2/3131574) (0/3/3131575) 
+    1  Node id()=782828, processor_id()=161, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3131308) (0/1/3131309) (0/2/3131310) (0/3/3131311) 
+    2  Node id()=782829, processor_id()=161, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3131312) (0/1/3131313) (0/2/3131314) (0/3/3131315) 
+    3  Node id()=782825, processor_id()=161, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3131296) (0/1/3131297) (0/2/3131298) (0/3/3131299) 
+   n_sides()=4
+    neighbor(0)=3789994
+    neighbor(1)=3789722
+    neighbor(2)=3788171
+    neighbor(3)=3788216
+   hmin()=0.000185984, hmax()=0.000469068
+   volume()=-4.5001e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2613259, unique_id()=2645879, subdomain_id()=1, processor_id()=111
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=540282, processor_id()=111, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2161128) (0/1/2161129) (0/2/2161130) (0/3/2161131) 
+    1  Node id()=540095, processor_id()=111, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2160380) (0/1/2160381) (0/2/2160382) (0/3/2160383) 
+    2  Node id()=538929, processor_id()=111, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2155716) (0/1/2155717) (0/2/2155718) (0/3/2155719) 
+    3  Node id()=540054, processor_id()=111, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2160216) (0/1/2160217) (0/2/2160218) (0/3/2160219) 
+   n_sides()=4
+    neighbor(0)=2614845
+    neighbor(1)=2616731
+    neighbor(2)=nullptr
+    neighbor(3)=2613488
+   hmin()=0.00012998, hmax()=0.000462067
+   volume()=-5.3794e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3977455, unique_id()=2078530, subdomain_id()=1, processor_id()=169
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=822048, processor_id()=169, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3288180) (0/1/3288181) (0/2/3288182) (0/3/3288183) 
+    1  Node id()=822051, processor_id()=169, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3288192) (0/1/3288193) (0/2/3288194) (0/3/3288195) 
+    2  Node id()=821929, processor_id()=169, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3287704) (0/1/3287705) (0/2/3287706) (0/3/3287707) 
+    3  Node id()=821926, processor_id()=169, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3287692) (0/1/3287693) (0/2/3287694) (0/3/3287695) 
+   n_sides()=4
+    neighbor(0)=3976654
+    neighbor(1)=3982605
+    neighbor(2)=nullptr
+    neighbor(3)=3980681
+   hmin()=0.000207682, hmax()=0.000429302
+   volume()=-6.56068e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3389573, unique_id()=3365763, subdomain_id()=1, processor_id()=144
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=700572, processor_id()=144, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2802244) (0/1/2802245) (0/2/2802246) (0/3/2802247) 
+    1  Node id()=700661, processor_id()=144, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2802604) (0/1/2802605) (0/2/2802606) (0/3/2802607) 
+    2  Node id()=700571, processor_id()=144, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2802240) (0/1/2802241) (0/2/2802242) (0/3/2802243) 
+    3  Node id()=700573, processor_id()=144, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2802248) (0/1/2802249) (0/2/2802250) (0/3/2802251) 
+   n_sides()=4
+    neighbor(0)=3398704
+    neighbor(1)=3394760
+    neighbor(2)=nullptr
+    neighbor(3)=3389531
+   hmin()=0.000190926, hmax()=0.000669748
+   volume()=-1.97176e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2496306, unique_id()=2556738, subdomain_id()=1, processor_id()=106
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=514921, processor_id()=106, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2059584) (0/1/2059585) (0/2/2059586) (0/3/2059587) 
+    1  Node id()=514922, processor_id()=106, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2059588) (0/1/2059589) (0/2/2059590) (0/3/2059591) 
+    2  Node id()=514553, processor_id()=106, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2058124) (0/1/2058125) (0/2/2058126) (0/3/2058127) 
+    3  Node id()=514724, processor_id()=106, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2058804) (0/1/2058805) (0/2/2058806) (0/3/2058807) 
+   n_sides()=4
+    neighbor(0)=2500145
+    neighbor(1)=2496653
+    neighbor(2)=nullptr
+    neighbor(3)=2500131
+   hmin()=0.000133514, hmax()=0.000441253
+   volume()=-4.76656e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4565891, unique_id()=1235171, subdomain_id()=1, processor_id()=194
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=946049, processor_id()=194, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3784196) (0/1/3784197) (0/2/3784198) (0/3/3784199) 
+    1  Node id()=946059, processor_id()=194, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3784236) (0/1/3784237) (0/2/3784238) (0/3/3784239) 
+    2  Node id()=946041, processor_id()=194, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3784164) (0/1/3784165) (0/2/3784166) (0/3/3784167) 
+    3  Node id()=946037, processor_id()=194, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3784148) (0/1/3784149) (0/2/3784150) (0/3/3784151) 
+   n_sides()=4
+    neighbor(0)=4564899
+    neighbor(1)=4570441
+    neighbor(2)=nullptr
+    neighbor(3)=4570425
+   hmin()=0.000238868, hmax()=0.000470818
+   volume()=-1.61648e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1390228, unique_id()=2634355, subdomain_id()=1, processor_id()=59
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=291978, processor_id()=59, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1167912) (0/1/1167913) (0/2/1167914) (0/3/1167915) 
+    1  Node id()=292345, processor_id()=59, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1169380) (0/1/1169381) (0/2/1169382) (0/3/1169383) 
+    2  Node id()=291968, processor_id()=59, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1167872) (0/1/1167873) (0/2/1167874) (0/3/1167875) 
+    3  Node id()=291967, processor_id()=59, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1167868) (0/1/1167869) (0/2/1167870) (0/3/1167871) 
+   n_sides()=4
+    neighbor(0)=1389440
+    neighbor(1)=1396069
+    neighbor(2)=nullptr
+    neighbor(3)=1394323
+   hmin()=0.000199279, hmax()=0.00044728
+   volume()=-3.19744e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=615504, unique_id()=2683514, subdomain_id()=1, processor_id()=26
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=129400, processor_id()=26, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/517584) (0/1/517585) (0/2/517586) (0/3/517587) 
+    1  Node id()=129402, processor_id()=26, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/517592) (0/1/517593) (0/2/517594) (0/3/517595) 
+    2  Node id()=129815, processor_id()=26, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/519232) (0/1/519233) (0/2/519234) (0/3/519235) 
+    3  Node id()=129403, processor_id()=26, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/517596) (0/1/517597) (0/2/517598) (0/3/517599) 
+   n_sides()=4
+    neighbor(0)=617739
+    neighbor(1)=613689
+    neighbor(2)=nullptr
+    neighbor(3)=615512
+   hmin()=6.91923e-05, hmax()=0.000407441
+   volume()=-1.66681e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4706122, unique_id()=2303590, subdomain_id()=1, processor_id()=200
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=974805, processor_id()=200, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3899208) (0/1/3899209) (0/2/3899210) (0/3/3899211) 
+    1  Node id()=974487, processor_id()=200, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3897908) (0/1/3897909) (0/2/3897910) (0/3/3897911) 
+    2  Node id()=974337, processor_id()=200, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3897312) (0/1/3897313) (0/2/3897314) (0/3/3897315) 
+    3  Node id()=974651, processor_id()=200, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3898564) (0/1/3898565) (0/2/3898566) (0/3/3898567) 
+   n_sides()=4
+    neighbor(0)=4706656
+    neighbor(1)=4705589
+    neighbor(2)=4704820
+    neighbor(3)=4706655
+   hmin()=0.00024772, hmax()=0.000550375
+   volume()=-2.6675e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5365619, unique_id()=1322116, subdomain_id()=1, processor_id()=228
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1111205, processor_id()=228, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4444816) (0/1/4444817) (0/2/4444818) (0/3/4444819) 
+    1  Node id()=1111203, processor_id()=228, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4444808) (0/1/4444809) (0/2/4444810) (0/3/4444811) 
+    2  Node id()=1110776, processor_id()=228, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4443104) (0/1/4443105) (0/2/4443106) (0/3/4443107) 
+    3  Node id()=1111204, processor_id()=228, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4444812) (0/1/4444813) (0/2/4444814) (0/3/4444815) 
+   n_sides()=4
+    neighbor(0)=5365618
+    neighbor(1)=5365617
+    neighbor(2)=5362326
+    neighbor(3)=5362497
+   hmin()=0.000200734, hmax()=0.000406028
+   volume()=-9.65154e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1649480, unique_id()=1874277, subdomain_id()=1, processor_id()=70
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=342777, processor_id()=70, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1371096) (0/1/1371097) (0/2/1371098) (0/3/1371099) 
+    1  Node id()=342855, processor_id()=70, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1371384) (0/1/1371385) (0/2/1371386) (0/3/1371387) 
+    2  Node id()=342666, processor_id()=70, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1370652) (0/1/1370653) (0/2/1370654) (0/3/1370655) 
+    3  Node id()=342863, processor_id()=70, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1371400) (0/1/1371401) (0/2/1371402) (0/3/1371403) 
+   n_sides()=4
+    neighbor(0)=1649449
+    neighbor(1)=1649478
+    neighbor(2)=1647027
+    neighbor(3)=1647307
+   hmin()=0.000220198, hmax()=0.00051971
+   volume()=-1.36187e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4799451, unique_id()=1335970, subdomain_id()=1, processor_id()=204
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=995034, processor_id()=204, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3980100) (0/1/3980101) (0/2/3980102) (0/3/3980103) 
+    1  Node id()=994483, processor_id()=204, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3977892) (0/1/3977893) (0/2/3977894) (0/3/3977895) 
+    2  Node id()=994476, processor_id()=204, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3977864) (0/1/3977865) (0/2/3977866) (0/3/3977867) 
+    3  Node id()=994879, processor_id()=204, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3979464) (0/1/3979465) (0/2/3979466) (0/3/3979467) 
+   n_sides()=4
+    neighbor(0)=4801390
+    neighbor(1)=4800713
+    neighbor(2)=4799454
+    neighbor(3)=4800711
+   hmin()=0.000273197, hmax()=0.000560864
+   volume()=-3.8695e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1789198, unique_id()=2555733, subdomain_id()=1, processor_id()=76
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=369817, processor_id()=76, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1479264) (0/1/1479265) (0/2/1479266) (0/3/1479267) 
+    1  Node id()=370028, processor_id()=76, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1480104) (0/1/1480105) (0/2/1480106) (0/3/1480107) 
+    2  Node id()=369815, processor_id()=76, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1479256) (0/1/1479257) (0/2/1479258) (0/3/1479259) 
+    3  Node id()=369812, processor_id()=76, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1479244) (0/1/1479245) (0/2/1479246) (0/3/1479247) 
+   n_sides()=4
+    neighbor(0)=1795512
+    neighbor(1)=1789476
+    neighbor(2)=nullptr
+    neighbor(3)=1789028
+   hmin()=9.71812e-05, hmax()=0.000465346
+   volume()=-4.75175e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5058443, unique_id()=2145488, subdomain_id()=1, processor_id()=215
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1049435, processor_id()=215, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4197680) (0/1/4197681) (0/2/4197682) (0/3/4197683) 
+    1  Node id()=1048138, processor_id()=215, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4192492) (0/1/4192493) (0/2/4192494) (0/3/4192495) 
+    2  Node id()=1048141, processor_id()=215, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4192504) (0/1/4192505) (0/2/4192506) (0/3/4192507) 
+    3  Node id()=1048140, processor_id()=215, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4192500) (0/1/4192501) (0/2/4192502) (0/3/4192503) 
+   n_sides()=4
+    neighbor(0)=5063033
+    neighbor(1)=5058870
+    neighbor(2)=5058445
+    neighbor(3)=5058460
+   hmin()=0.000265197, hmax()=0.000556174
+   volume()=-2.80664e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2068970, unique_id()=5648819, subdomain_id()=1, processor_id()=88
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=428144, processor_id()=88, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1712476) (0/1/1712477) (0/2/1712478) (0/3/1712479) 
+    1  Node id()=427057, processor_id()=88, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1708184) (0/1/1708185) (0/2/1708186) (0/3/1708187) 
+    2  Node id()=428063, processor_id()=88, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1712152) (0/1/1712153) (0/2/1712154) (0/3/1712155) 
+    3  Node id()=428061, processor_id()=88, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1712144) (0/1/1712145) (0/2/1712146) (0/3/1712147) 
+   n_sides()=4
+    neighbor(0)=2069171
+    neighbor(1)=2074625
+    neighbor(2)=nullptr
+    neighbor(3)=2074582
+   hmin()=0.000305009, hmax()=0.000554432
+   volume()=-3.92575e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5199799, unique_id()=2196144, subdomain_id()=1, processor_id()=221
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1078414, processor_id()=221, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4313580) (0/1/4313581) (0/2/4313582) (0/3/4313583) 
+    1  Node id()=1078171, processor_id()=221, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4312624) (0/1/4312625) (0/2/4312626) (0/3/4312627) 
+    2  Node id()=1078413, processor_id()=221, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4313576) (0/1/4313577) (0/2/4313578) (0/3/4313579) 
+    3  Node id()=1078448, processor_id()=221, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4313704) (0/1/4313705) (0/2/4313706) (0/3/4313707) 
+   n_sides()=4
+    neighbor(0)=5200260
+    neighbor(1)=5198330
+    neighbor(2)=nullptr
+    neighbor(3)=5200263
+   hmin()=0.000224905, hmax()=0.000459176
+   volume()=-8.92323e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=992616, unique_id()=2708550, subdomain_id()=1, processor_id()=42
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=208549, processor_id()=42, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/834148) (0/1/834149) (0/2/834150) (0/3/834151) 
+    1  Node id()=208545, processor_id()=42, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/834132) (0/1/834133) (0/2/834134) (0/3/834135) 
+    2  Node id()=208550, processor_id()=42, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/834152) (0/1/834153) (0/2/834154) (0/3/834155) 
+    3  Node id()=208544, processor_id()=42, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/834128) (0/1/834129) (0/2/834130) (0/3/834131) 
+   n_sides()=4
+    neighbor(0)=992617
+    neighbor(1)=993043
+    neighbor(2)=991575
+    neighbor(3)=990077
+   hmin()=0.00017531, hmax()=0.00044918
+   volume()=-3.25665e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4543458, unique_id()=1262806, subdomain_id()=1, processor_id()=193
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=942384, processor_id()=193, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3769452) (0/1/3769453) (0/2/3769454) (0/3/3769455) 
+    1  Node id()=940064, processor_id()=193, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3760220) (0/1/3760221) (0/2/3760222) (0/3/3760223) 
+    2  Node id()=940067, processor_id()=193, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3760232) (0/1/3760233) (0/2/3760234) (0/3/3760235) 
+    3  Node id()=940052, processor_id()=193, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3760184) (0/1/3760185) (0/2/3760186) (0/3/3760187) 
+   n_sides()=4
+    neighbor(0)=4554289
+    neighbor(1)=4547903
+    neighbor(2)=4543595
+    neighbor(3)=4554276
+   hmin()=0.000237647, hmax()=0.000483504
+   volume()=-4.94123e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=240448, unique_id()=5645880, subdomain_id()=1, processor_id()=10
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=52595, processor_id()=10, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/210304) (0/1/210305) (0/2/210306) (0/3/210307) 
+    1  Node id()=51464, processor_id()=10, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/205828) (0/1/205829) (0/2/205830) (0/3/205831) 
+    2  Node id()=51467, processor_id()=10, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/205840) (0/1/205841) (0/2/205842) (0/3/205843) 
+    3  Node id()=51465, processor_id()=10, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/205832) (0/1/205833) (0/2/205834) (0/3/205835) 
+   n_sides()=4
+    neighbor(0)=261664
+    neighbor(1)=261662
+    neighbor(2)=238795
+    neighbor(3)=239576
+   hmin()=0.000133895, hmax()=0.000338993
+   volume()=-7.56432e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1506335, unique_id()=5248949, subdomain_id()=1, processor_id()=64
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=315370, processor_id()=64, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1261376) (0/1/1261377) (0/2/1261378) (0/3/1261379) 
+    1  Node id()=316077, processor_id()=64, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1264196) (0/1/1264197) (0/2/1264198) (0/3/1264199) 
+    2  Node id()=315156, processor_id()=64, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1260552) (0/1/1260553) (0/2/1260554) (0/3/1260555) 
+    3  Node id()=315371, processor_id()=64, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1261380) (0/1/1261381) (0/2/1261382) (0/3/1261383) 
+   n_sides()=4
+    neighbor(0)=1510980
+    neighbor(1)=1508766
+    neighbor(2)=nullptr
+    neighbor(3)=1505053
+   hmin()=6.86646e-05, hmax()=0.000331594
+   volume()=-1.0066e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3532532, unique_id()=1250759, subdomain_id()=1, processor_id()=150
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=727701, processor_id()=150, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2910800) (0/1/2910801) (0/2/2910802) (0/3/2910803) 
+    1  Node id()=727261, processor_id()=150, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2909040) (0/1/2909041) (0/2/2909042) (0/3/2909043) 
+    2  Node id()=727266, processor_id()=150, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2909060) (0/1/2909061) (0/2/2909062) (0/3/2909063) 
+    3  Node id()=727265, processor_id()=150, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2909056) (0/1/2909057) (0/2/2909058) (0/3/2909059) 
+   n_sides()=4
+    neighbor(0)=3532520
+    neighbor(1)=3537473
+    neighbor(2)=3529418
+    neighbor(3)=3529734
+   hmin()=0.000321183, hmax()=0.000557781
+   volume()=-4.15371e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4284702, unique_id()=1254167, subdomain_id()=1, processor_id()=182
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=884497, processor_id()=182, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3537988) (0/1/3537989) (0/2/3537990) (0/3/3537991) 
+    1  Node id()=884490, processor_id()=182, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3537960) (0/1/3537961) (0/2/3537962) (0/3/3537963) 
+    2  Node id()=884509, processor_id()=182, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3538036) (0/1/3538037) (0/2/3538038) (0/3/3538039) 
+    3  Node id()=884491, processor_id()=182, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3537964) (0/1/3537965) (0/2/3537966) (0/3/3537967) 
+   n_sides()=4
+    neighbor(0)=4284710
+    neighbor(1)=4285030
+    neighbor(2)=4281901
+    neighbor(3)=4281890
+   hmin()=0.00017766, hmax()=0.000442653
+   volume()=-5.25802e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3439239, unique_id()=2106452, subdomain_id()=1, processor_id()=146
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=709239, processor_id()=146, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2836860) (0/1/2836861) (0/2/2836862) (0/3/2836863) 
+    1  Node id()=709849, processor_id()=146, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2839316) (0/1/2839317) (0/2/2839318) (0/3/2839319) 
+    2  Node id()=709237, processor_id()=146, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2836852) (0/1/2836853) (0/2/2836854) (0/3/2836855) 
+    3  Node id()=709240, processor_id()=146, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2836864) (0/1/2836865) (0/2/2836866) (0/3/2836867) 
+   n_sides()=4
+    neighbor(0)=3439240
+    neighbor(1)=3442270
+    neighbor(2)=nullptr
+    neighbor(3)=3436489
+   hmin()=3.41197e-05, hmax()=0.000402555
+   volume()=-5.65474e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2708575, unique_id()=1738847, subdomain_id()=1, processor_id()=115
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=557473, processor_id()=115, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2229892) (0/1/2229893) (0/2/2229894) (0/3/2229895) 
+    1  Node id()=557446, processor_id()=115, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2229784) (0/1/2229785) (0/2/2229786) (0/3/2229787) 
+    2  Node id()=557448, processor_id()=115, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2229792) (0/1/2229793) (0/2/2229794) (0/3/2229795) 
+    3  Node id()=557588, processor_id()=115, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2230352) (0/1/2230353) (0/2/2230354) (0/3/2230355) 
+   n_sides()=4
+    neighbor(0)=2708142
+    neighbor(1)=2708569
+    neighbor(2)=2709884
+    neighbor(3)=2708574
+   hmin()=0.000184373, hmax()=0.000358683
+   volume()=-6.69094e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4822155, unique_id()=3481741, subdomain_id()=1, processor_id()=205
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1000415, processor_id()=205, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4001604) (0/1/4001605) (0/2/4001606) (0/3/4001607) 
+    1  Node id()=1000333, processor_id()=205, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4001272) (0/1/4001273) (0/2/4001274) (0/3/4001275) 
+    2  Node id()=1000414, processor_id()=205, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4001600) (0/1/4001601) (0/2/4001602) (0/3/4001603) 
+    3  Node id()=1000335, processor_id()=205, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4001280) (0/1/4001281) (0/2/4001282) (0/3/4001283) 
+   n_sides()=4
+    neighbor(0)=4825983
+    neighbor(1)=4821390
+    neighbor(2)=nullptr
+    neighbor(3)=4825973
+   hmin()=8.25245e-05, hmax()=0.000487386
+   volume()=-3.67706e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=947038, unique_id()=2708000, subdomain_id()=1, processor_id()=40
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=200318, processor_id()=40, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/801220) (0/1/801221) (0/2/801222) (0/3/801223) 
+    1  Node id()=199800, processor_id()=40, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/799124) (0/1/799125) (0/2/799126) (0/3/799127) 
+    2  Node id()=199161, processor_id()=40, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/796560) (0/1/796561) (0/2/796562) (0/3/796563) 
+    3  Node id()=200004, processor_id()=40, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/799940) (0/1/799941) (0/2/799942) (0/3/799943) 
+   n_sides()=4
+    neighbor(0)=947396
+    neighbor(1)=948833
+    neighbor(2)=947386
+    neighbor(3)=952097
+   hmin()=0.000220198, hmax()=0.000572268
+   volume()=-3.89318e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1554597, unique_id()=5253520, subdomain_id()=1, processor_id()=66
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=326094, processor_id()=66, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1304328) (0/1/1304329) (0/2/1304330) (0/3/1304331) 
+    1  Node id()=324762, processor_id()=66, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1299032) (0/1/1299033) (0/2/1299034) (0/3/1299035) 
+    2  Node id()=326095, processor_id()=66, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1304332) (0/1/1304333) (0/2/1304334) (0/3/1304335) 
+    3  Node id()=325845, processor_id()=66, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1303304) (0/1/1303305) (0/2/1303306) (0/3/1303307) 
+   n_sides()=4
+    neighbor(0)=1557391
+    neighbor(1)=1557536
+    neighbor(2)=1559496
+    neighbor(3)=1561733
+   hmin()=0.000212291, hmax()=0.000454702
+   volume()=-2.48098e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4520220, unique_id()=3605596, subdomain_id()=1, processor_id()=192
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=935391, processor_id()=192, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3741564) (0/1/3741565) (0/2/3741566) (0/3/3741567) 
+    1  Node id()=935389, processor_id()=192, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3741556) (0/1/3741557) (0/2/3741558) (0/3/3741559) 
+    2  Node id()=935272, processor_id()=192, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3741088) (0/1/3741089) (0/2/3741090) (0/3/3741091) 
+    3  Node id()=935390, processor_id()=192, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3741560) (0/1/3741561) (0/2/3741562) (0/3/3741563) 
+   n_sides()=4
+    neighbor(0)=4520221
+    neighbor(1)=4520219
+    neighbor(2)=4517463
+    neighbor(3)=4520196
+   hmin()=0.000256494, hmax()=0.000488177
+   volume()=-8.50875e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=547777, unique_id()=2715910, subdomain_id()=1, processor_id()=23
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=115410, processor_id()=23, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/461612) (0/1/461613) (0/2/461614) (0/3/461615) 
+    1  Node id()=115407, processor_id()=23, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/461600) (0/1/461601) (0/2/461602) (0/3/461603) 
+    2  Node id()=115409, processor_id()=23, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/461608) (0/1/461609) (0/2/461610) (0/3/461611) 
+    3  Node id()=115408, processor_id()=23, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/461604) (0/1/461605) (0/2/461606) (0/3/461607) 
+   n_sides()=4
+    neighbor(0)=547769
+    neighbor(1)=548583
+    neighbor(2)=543797
+    neighbor(3)=546328
+   hmin()=0.000252607, hmax()=0.000527533
+   volume()=-6.54884e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=4778184, unique_id()=6731030, subdomain_id()=2, processor_id()=203
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=990355, processor_id()=203, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3961412) (0/1/3961413) (0/2/3961414) (0/3/3961415) 
+    1  Node id()=990356, processor_id()=203, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3961416) (0/1/3961417) (0/2/3961418) (0/3/3961419) 
+    2  Node id()=990357, processor_id()=203, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3961420) (0/1/3961421) (0/2/3961422) (0/3/3961423) 
+    3  Node id()=990345, processor_id()=203, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3961372) (0/1/3961373) (0/2/3961374) (0/3/3961375) 
+   n_sides()=4
+    neighbor(0)=4778313
+    neighbor(1)=4781359
+    neighbor(2)=nullptr
+    neighbor(3)=4791446
+   hmin()=0.000157145, hmax()=0.000474558
+   volume()=-1.36483e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2119069, unique_id()=2128502, subdomain_id()=1, processor_id()=90
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=436621, processor_id()=90, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1746420) (0/1/1746421) (0/2/1746422) (0/3/1746423) 
+    1  Node id()=436903, processor_id()=90, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1747544) (0/1/1747545) (0/2/1747546) (0/3/1747547) 
+    2  Node id()=438445, processor_id()=90, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1753680) (0/1/1753681) (0/2/1753682) (0/3/1753683) 
+    3  Node id()=436622, processor_id()=90, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1746424) (0/1/1746425) (0/2/1746426) (0/3/1746427) 
+   n_sides()=4
+    neighbor(0)=2119064
+    neighbor(1)=2119066
+    neighbor(2)=2119095
+    neighbor(3)=2119112
+   hmin()=0.000173977, hmax()=0.000462822
+   volume()=-9.36436e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1297830, unique_id()=2707122, subdomain_id()=1, processor_id()=55
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=273743, processor_id()=55, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1094972) (0/1/1094973) (0/2/1094974) (0/3/1094975) 
+    1  Node id()=272245, processor_id()=55, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1088980) (0/1/1088981) (0/2/1088982) (0/3/1088983) 
+    2  Node id()=272636, processor_id()=55, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1090544) (0/1/1090545) (0/2/1090546) (0/3/1090547) 
+    3  Node id()=272244, processor_id()=55, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1088976) (0/1/1088977) (0/2/1088978) (0/3/1088979) 
+   n_sides()=4
+    neighbor(0)=1297519
+    neighbor(1)=1299767
+    neighbor(2)=1295255
+    neighbor(3)=1295231
+   hmin()=0.000246513, hmax()=0.000411015
+   volume()=-1.45424e-12
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=711214, unique_id()=2810086, subdomain_id()=1, processor_id()=30
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=147864, processor_id()=30, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/591444) (0/1/591445) (0/2/591446) (0/3/591447) 
+    1  Node id()=147398, processor_id()=30, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/589584) (0/1/589585) (0/2/589586) (0/3/589587) 
+    2  Node id()=147419, processor_id()=30, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/589668) (0/1/589669) (0/2/589670) (0/3/589671) 
+    3  Node id()=147399, processor_id()=30, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/589588) (0/1/589589) (0/2/589590) (0/3/589591) 
+   n_sides()=4
+    neighbor(0)=711212
+    neighbor(1)=711213
+    neighbor(2)=706314
+    neighbor(3)=706619
+   hmin()=0.000203721, hmax()=0.000576007
+   volume()=-2.96059e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=74434, unique_id()=5796347, subdomain_id()=1, processor_id()=3
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=16415, processor_id()=3, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/65584) (0/1/65585) (0/2/65586) (0/3/65587) 
+    1  Node id()=16412, processor_id()=3, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/65572) (0/1/65573) (0/2/65574) (0/3/65575) 
+    2  Node id()=16185, processor_id()=3, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/64712) (0/1/64713) (0/2/64714) (0/3/64715) 
+    3  Node id()=16291, processor_id()=3, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/65132) (0/1/65133) (0/2/65134) (0/3/65135) 
+   n_sides()=4
+    neighbor(0)=74514
+    neighbor(1)=74577
+    neighbor(2)=71544
+    neighbor(3)=71543
+   hmin()=0.000235401, hmax()=0.000436412
+   volume()=-6.71167e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=264944, unique_id()=5790984, subdomain_id()=1, processor_id()=11
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=56333, processor_id()=11, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/225332) (0/1/225333) (0/2/225334) (0/3/225335) 
+    1  Node id()=56330, processor_id()=11, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/225320) (0/1/225321) (0/2/225322) (0/3/225323) 
+    2  Node id()=56331, processor_id()=11, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/225324) (0/1/225325) (0/2/225326) (0/3/225327) 
+    3  Node id()=56332, processor_id()=11, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/225328) (0/1/225329) (0/2/225330) (0/3/225331) 
+   n_sides()=4
+    neighbor(0)=264945
+    neighbor(1)=266236
+    neighbor(2)=261944
+    neighbor(3)=261997
+   hmin()=0.00022403, hmax()=0.00048097
+   volume()=-1.80004e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2897488, unique_id()=3617704, subdomain_id()=1, processor_id()=123
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=593792, processor_id()=123, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2375160) (0/1/2375161) (0/2/2375162) (0/3/2375163) 
+    1  Node id()=593790, processor_id()=123, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2375152) (0/1/2375153) (0/2/2375154) (0/3/2375155) 
+    2  Node id()=593791, processor_id()=123, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2375156) (0/1/2375157) (0/2/2375158) (0/3/2375159) 
+    3  Node id()=593612, processor_id()=123, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2374436) (0/1/2374437) (0/2/2374438) (0/3/2374439) 
+   n_sides()=4
+    neighbor(0)=2898311
+    neighbor(1)=2897648
+    neighbor(2)=2894253
+    neighbor(3)=2894420
+   hmin()=0.000219138, hmax()=0.000507355
+   volume()=-3.88134e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1485006, unique_id()=5332890, subdomain_id()=1, processor_id()=63
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=312218, processor_id()=63, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1248628) (0/1/1248629) (0/2/1248630) (0/3/1248631) 
+    1  Node id()=311303, processor_id()=63, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1245048) (0/1/1245049) (0/2/1245050) (0/3/1245051) 
+    2  Node id()=311280, processor_id()=63, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1244968) (0/1/1244969) (0/2/1244970) (0/3/1244971) 
+    3  Node id()=311352, processor_id()=63, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1245228) (0/1/1245229) (0/2/1245230) (0/3/1245231) 
+   n_sides()=4
+    neighbor(0)=1492906
+    neighbor(1)=1492841
+    neighbor(2)=1484890
+    neighbor(3)=1485005
+   hmin()=0.000193612, hmax()=0.000437212
+   volume()=-2.3513e-12
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3861169, unique_id()=3624198, subdomain_id()=1, processor_id()=164
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=799665, processor_id()=164, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3198604) (0/1/3198605) (0/2/3198606) (0/3/3198607) 
+    1  Node id()=798208, processor_id()=164, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3192764) (0/1/3192765) (0/2/3192766) (0/3/3192767) 
+    2  Node id()=797233, processor_id()=164, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3188932) (0/1/3188933) (0/2/3188934) (0/3/3188935) 
+    3  Node id()=797010, processor_id()=164, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3188040) (0/1/3188041) (0/2/3188042) (0/3/3188043) 
+   n_sides()=4
+    neighbor(0)=3873731
+    neighbor(1)=3861685
+    neighbor(2)=3862868
+    neighbor(3)=3873721
+   hmin()=0.000232415, hmax()=0.000574033
+   volume()=-5.50079e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1343533, unique_id()=5795067, subdomain_id()=1, processor_id()=57
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=281513, processor_id()=57, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1126052) (0/1/1126053) (0/2/1126054) (0/3/1126055) 
+    1  Node id()=281435, processor_id()=57, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1125740) (0/1/1125741) (0/2/1125742) (0/3/1125743) 
+    2  Node id()=281436, processor_id()=57, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1125744) (0/1/1125745) (0/2/1125746) (0/3/1125747) 
+    3  Node id()=281433, processor_id()=57, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1125732) (0/1/1125733) (0/2/1125734) (0/3/1125735) 
+   n_sides()=4
+    neighbor(0)=1343531
+    neighbor(1)=1343361
+    neighbor(2)=1340213
+    neighbor(3)=1340265
+   hmin()=0.000204754, hmax()=0.000439353
+   volume()=-2.00728e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2849809, unique_id()=3515716, subdomain_id()=1, processor_id()=121
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=585362, processor_id()=121, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2341276) (0/1/2341277) (0/2/2341278) (0/3/2341279) 
+    1  Node id()=585295, processor_id()=121, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2341012) (0/1/2341013) (0/2/2341014) (0/3/2341015) 
+    2  Node id()=585294, processor_id()=121, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2341008) (0/1/2341009) (0/2/2341010) (0/3/2341011) 
+    3  Node id()=585296, processor_id()=121, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2341016) (0/1/2341017) (0/2/2341018) (0/3/2341019) 
+   n_sides()=4
+    neighbor(0)=2853375
+    neighbor(1)=nullptr
+    neighbor(2)=2848148
+    neighbor(3)=2853390
+   hmin()=0.000181829, hmax()=0.00049872
+   volume()=-7.10543e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1534620, unique_id()=2569186, subdomain_id()=1, processor_id()=65
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=321275, processor_id()=65, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1285020) (0/1/1285021) (0/2/1285022) (0/3/1285023) 
+    1  Node id()=321086, processor_id()=65, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1284280) (0/1/1284281) (0/2/1284282) (0/3/1284283) 
+    2  Node id()=321074, processor_id()=65, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1284232) (0/1/1284233) (0/2/1284234) (0/3/1284235) 
+    3  Node id()=321087, processor_id()=65, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1284284) (0/1/1284285) (0/2/1284286) (0/3/1284287) 
+   n_sides()=4
+    neighbor(0)=1536738
+    neighbor(1)=1537622
+    neighbor(2)=nullptr
+    neighbor(3)=1535523
+   hmin()=8.9055e-05, hmax()=0.000354664
+   volume()=-1.68754e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2188524, unique_id()=3605042, subdomain_id()=1, processor_id()=93
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=451072, processor_id()=93, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1804276) (0/1/1804277) (0/2/1804278) (0/3/1804279) 
+    1  Node id()=451058, processor_id()=93, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1804220) (0/1/1804221) (0/2/1804222) (0/3/1804223) 
+    2  Node id()=451059, processor_id()=93, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1804224) (0/1/1804225) (0/2/1804226) (0/3/1804227) 
+    3  Node id()=450978, processor_id()=93, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1803912) (0/1/1803913) (0/2/1803914) (0/3/1803915) 
+   n_sides()=4
+    neighbor(0)=2191740
+    neighbor(1)=2188522
+    neighbor(2)=2185256
+    neighbor(3)=2185267
+   hmin()=0.000254901, hmax()=0.000491504
+   volume()=-4.959e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=98977, unique_id()=5794564, subdomain_id()=1, processor_id()=4
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=21507, processor_id()=4, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/86020) (0/1/86021) (0/2/86022) (0/3/86023) 
+    1  Node id()=21505, processor_id()=4, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/86012) (0/1/86013) (0/2/86014) (0/3/86015) 
+    2  Node id()=21506, processor_id()=4, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/86016) (0/1/86017) (0/2/86018) (0/3/86019) 
+    3  Node id()=21329, processor_id()=4, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/85312) (0/1/85313) (0/2/85314) (0/3/85315) 
+   n_sides()=4
+    neighbor(0)=98979
+    neighbor(1)=98974
+    neighbor(2)=95536
+    neighbor(3)=95582
+   hmin()=0.000264538, hmax()=0.000500351
+   volume()=-6.12843e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3907766, unique_id()=3620449, subdomain_id()=1, processor_id()=166
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=806461, processor_id()=166, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3225844) (0/1/3225845) (0/2/3225846) (0/3/3225847) 
+    1  Node id()=806371, processor_id()=166, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3225484) (0/1/3225485) (0/2/3225486) (0/3/3225487) 
+    2  Node id()=806372, processor_id()=166, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3225488) (0/1/3225489) (0/2/3225490) (0/3/3225491) 
+    3  Node id()=806373, processor_id()=166, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3225492) (0/1/3225493) (0/2/3225494) (0/3/3225495) 
+   n_sides()=4
+    neighbor(0)=3907768
+    neighbor(1)=3907765
+    neighbor(2)=3904329
+    neighbor(3)=3904378
+   hmin()=0.000218073, hmax()=0.000489011
+   volume()=-2.83033e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=5318308, unique_id()=3516268, subdomain_id()=1, processor_id()=226
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=1103314, processor_id()=226, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4413028) (0/1/4413029) (0/2/4413030) (0/3/4413031) 
+    1  Node id()=1103313, processor_id()=226, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4413024) (0/1/4413025) (0/2/4413026) (0/3/4413027) 
+    2  Node id()=1103288, processor_id()=226, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4412932) (0/1/4412933) (0/2/4412934) (0/3/4412935) 
+    3  Node id()=1103301, processor_id()=226, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/4413036) (0/1/4413037) (0/2/4413038) (0/3/4413039) 
+   n_sides()=4
+    neighbor(0)=5323206
+    neighbor(1)=5316489
+    neighbor(2)=nullptr
+    neighbor(3)=5343180
+   hmin()=0.000226099, hmax()=0.000488058
+   volume()=-2.51354e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2212557, unique_id()=3624926, subdomain_id()=1, processor_id()=94
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=456198, processor_id()=94, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1824792) (0/1/1824793) (0/2/1824794) (0/3/1824795) 
+    1  Node id()=450866, processor_id()=93, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1803464) (0/1/1803465) (0/2/1803466) (0/3/1803467) 
+    2  Node id()=450869, processor_id()=93, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1803476) (0/1/1803477) (0/2/1803478) (0/3/1803479) 
+    3  Node id()=456071, processor_id()=94, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1824284) (0/1/1824285) (0/2/1824286) (0/3/1824287) 
+   n_sides()=4
+    neighbor(0)=2215404
+    neighbor(1)=2212558
+    neighbor(2)=2209171
+    neighbor(3)=2209172
+   hmin()=0.000305557, hmax()=0.000627573
+   volume()=-1.9007e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3345795, unique_id()=3909527, subdomain_id()=1, processor_id()=142
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=690678, processor_id()=142, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2762660) (0/1/2762661) (0/2/2762662) (0/3/2762663) 
+    1  Node id()=690671, processor_id()=142, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2762632) (0/1/2762633) (0/2/2762634) (0/3/2762635) 
+    2  Node id()=690434, processor_id()=142, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2761700) (0/1/2761701) (0/2/2761702) (0/3/2761703) 
+    3  Node id()=689992, processor_id()=142, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2759944) (0/1/2759945) (0/2/2759946) (0/3/2759947) 
+   n_sides()=4
+    neighbor(0)=3345794
+    neighbor(1)=3347619
+    neighbor(2)=3341981
+    neighbor(3)=3343421
+   hmin()=0.000145209, hmax()=0.000461815
+   volume()=-5.52447e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2094422, unique_id()=5792594, subdomain_id()=1, processor_id()=89
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=431431, processor_id()=89, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1725724) (0/1/1725725) (0/2/1725726) (0/3/1725727) 
+    1  Node id()=431301, processor_id()=89, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1725204) (0/1/1725205) (0/2/1725206) (0/3/1725207) 
+    2  Node id()=431303, processor_id()=89, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1725212) (0/1/1725213) (0/2/1725214) (0/3/1725215) 
+    3  Node id()=431304, processor_id()=89, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1725216) (0/1/1725217) (0/2/1725218) (0/3/1725219) 
+   n_sides()=4
+    neighbor(0)=2094609
+    neighbor(1)=2094604
+    neighbor(2)=2090896
+    neighbor(3)=2090988
+   hmin()=0.000165049, hmax()=0.000439618
+   volume()=-7.28306e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2873676, unique_id()=3604257, subdomain_id()=1, processor_id()=122
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=588617, processor_id()=122, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2354468) (0/1/2354469) (0/2/2354470) (0/3/2354471) 
+    1  Node id()=588614, processor_id()=122, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2354456) (0/1/2354457) (0/2/2354458) (0/3/2354459) 
+    2  Node id()=588615, processor_id()=122, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2354460) (0/1/2354461) (0/2/2354462) (0/3/2354463) 
+    3  Node id()=588616, processor_id()=122, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2354464) (0/1/2354465) (0/2/2354466) (0/3/2354467) 
+   n_sides()=4
+    neighbor(0)=2873678
+    neighbor(1)=2873677
+    neighbor(2)=2870077
+    neighbor(3)=2870119
+   hmin()=0.000243693, hmax()=0.000536355
+   volume()=-4.14483e-15
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=876885, unique_id()=5792176, subdomain_id()=1, processor_id()=37
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=183652, processor_id()=37, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/734596) (0/1/734597) (0/2/734598) (0/3/734599) 
+    1  Node id()=183649, processor_id()=37, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/734584) (0/1/734585) (0/2/734586) (0/3/734587) 
+    2  Node id()=183650, processor_id()=37, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/734588) (0/1/734589) (0/2/734590) (0/3/734591) 
+    3  Node id()=183651, processor_id()=37, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/734592) (0/1/734593) (0/2/734594) (0/3/734595) 
+   n_sides()=4
+    neighbor(0)=876886
+    neighbor(1)=878187
+    neighbor(2)=872723
+    neighbor(3)=872724
+   hmin()=0.000163321, hmax()=0.000446955
+   volume()=-5.32907e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=1252124, unique_id()=5841118, subdomain_id()=1, processor_id()=53
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=263292, processor_id()=53, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1053156) (0/1/1053157) (0/2/1053158) (0/3/1053159) 
+    1  Node id()=263327, processor_id()=53, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1053296) (0/1/1053297) (0/2/1053298) (0/3/1053299) 
+    2  Node id()=262749, processor_id()=53, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1050996) (0/1/1050997) (0/2/1050998) (0/3/1050999) 
+    3  Node id()=263291, processor_id()=53, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1053152) (0/1/1053153) (0/2/1053154) (0/3/1053155) 
+   n_sides()=4
+    neighbor(0)=1252221
+    neighbor(1)=1252223
+    neighbor(2)=1247328
+    neighbor(3)=1247300
+   hmin()=0.000194362, hmax()=0.000414821
+   volume()=0
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=978699, unique_id()=6781532, subdomain_id()=2, processor_id()=41
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=206158, processor_id()=41, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/824576) (0/1/824577) (0/2/824578) (0/3/824579) 
+    1  Node id()=206155, processor_id()=41, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/824564) (0/1/824565) (0/2/824566) (0/3/824567) 
+    2  Node id()=205886, processor_id()=41, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/823540) (0/1/823541) (0/2/823542) (0/3/823543) 
+    3  Node id()=205757, processor_id()=41, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/823024) (0/1/823025) (0/2/823026) (0/3/823027) 
+   n_sides()=4
+    neighbor(0)=980678
+    neighbor(1)=980683
+    neighbor(2)=nullptr
+    neighbor(3)=980668
+   hmin()=6.99246e-05, hmax()=0.000314406
+   volume()=-6.09883e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3849207, unique_id()=3235561, subdomain_id()=1, processor_id()=163
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=795379, processor_id()=163, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3181516) (0/1/3181517) (0/2/3181518) (0/3/3181519) 
+    1  Node id()=795380, processor_id()=163, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3181520) (0/1/3181521) (0/2/3181522) (0/3/3181523) 
+    2  Node id()=795318, processor_id()=163, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3181272) (0/1/3181273) (0/2/3181274) (0/3/3181275) 
+    3  Node id()=795312, processor_id()=163, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/3181248) (0/1/3181249) (0/2/3181250) (0/3/3181251) 
+   n_sides()=4
+    neighbor(0)=3850942
+    neighbor(1)=3849235
+    neighbor(2)=nullptr
+    neighbor(3)=3850927
+   hmin()=0.000193612, hmax()=0.000377482
+   volume()=-2.55795e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=3042406, unique_id()=3840805, subdomain_id()=1, processor_id()=129
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=624735, processor_id()=129, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2498904) (0/1/2498905) (0/2/2498906) (0/3/2498907) 
+    1  Node id()=625835, processor_id()=129, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2503256) (0/1/2503257) (0/2/2503258) (0/3/2503259) 
+    2  Node id()=624975, processor_id()=129, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2499860) (0/1/2499861) (0/2/2499862) (0/3/2499863) 
+    3  Node id()=624980, processor_id()=129, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/2499880) (0/1/2499881) (0/2/2499882) (0/3/2499883) 
+   n_sides()=4
+    neighbor(0)=3042407
+    neighbor(1)=3040562
+    neighbor(2)=3042392
+    neighbor(3)=3040563
+   hmin()=0.000167152, hmax()=0.000644594
+   volume()=-5.74355e-14
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=
+  Elem Information
+   id()=2319149, unique_id()=3792881, subdomain_id()=1, processor_id()=98
+   type()=TET4
+   dim()=3
+   n_nodes()=4
+   mapping=LAGRANGE_MAP
+    0  Node id()=479819, processor_id()=98, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1919264) (0/1/1919265) (0/2/1919266) (0/3/1919267) 
+    1  Node id()=477612, processor_id()=98, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1910444) (0/1/1910445) (0/2/1910446) (0/3/1910447) 
+    2  Node id()=478332, processor_id()=98, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1913308) (0/1/1913309) (0/2/1913310) (0/3/1913311) 
+    3  Node id()=477638, processor_id()=98, Point=(x,y,z)=(2.09722e+11, -7.77398e+10, -3.36475e+10)
+    DoFs=(0/0/1910548) (0/1/1910549) (0/2/1910550) (0/3/1910551) 
+   n_sides()=4
+    neighbor(0)=2319147
+    neighbor(1)=2317364
+    neighbor(2)=2319139
+    neighbor(3)=2319022
+   hmin()=0.000283932, hmax()=0.000513612
+   volume()=-1.38556e-13
+   active()=1, ancestor()=0, subactive()=0, has_children()=0
+   parent()=nullptr
+   level()=0, p_level()=0
+   refinement_flag()=DO_NOTHING
+   p_refinement_flag()=DO_NOTHING
+   DoFs=

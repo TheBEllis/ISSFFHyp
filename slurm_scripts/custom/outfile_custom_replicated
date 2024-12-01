@@ -1,0 +1,135 @@
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+
+[33m
+*** Warning, This code is deprecated and will be removed in future versions:
+/rds/project/rds-aSo1XX0UOlw/ir-elli2/moose_apps/ISSFFHyp/slurm_scripts/custom/../../inputs/custom/custom_hyp_replicated_mesh.i:28.1: The 'Modules/TensorMechanics/Master' syntax is deprecated. Please use 'Physics/SolidMechanics/QuasiStatic' instead.[39m
+
+
+[33m
+*** Warning, This code is deprecated and will be removed in future versions:
+/rds/project/rds-aSo1XX0UOlw/ir-elli2/moose_apps/ISSFFHyp/slurm_scripts/custom/../../inputs/custom/custom_hyp_replicated_mesh.i:29.3: The 'Modules/TensorMechanics/Master' syntax is deprecated. Please use 'Physics/SolidMechanics/QuasiStatic' instead.[39m
+
+
+[36m
+*** Info ***
+SolidMechanics Action: selecting 'total small strain' formulation. Use `incremental = true` to select 'incremental small strain' instead.[39m
+Currently Setting Up
+  Setting Mesh
+    Reading Mesh........                                                                 [[33m 46.55 s[39m] [[33m 2019 MB[39m]
+  Still Setting Mesh                                                                     [[33m 54.89 s[39m] [[33m 3449 MB[39m]
+  Currently Setting Up Undisplaced Mesh
+    Finished Preparing Mesh                                                              [[33m  5.41 s[39m] [[33m 3449 MB[39m]
+  Finished Setting Up Undisplaced Mesh                                                   [[33m  5.41 s[39m] [[33m 3449 MB[39m]
+  Currently Setting Up Displaced Mesh
+    Preparing Mesh
+      Finished Updating Mesh                                                             [[33m  5.15 s[39m] [[33m 3584 MB[39m]
+    Finished Preparing Mesh                                                              [[33m  5.52 s[39m] [[33m 3584 MB[39m]
+  Finished Setting Up Displaced Mesh                                                     [[33m  5.52 s[39m] [[33m 3584 MB[39m]
+0
+0
+0
+0
+0
+0
+  Finished Building Node To Elem Map                                                     [[33m  3.89 s[39m] [[33m 4294 MB[39m]
+  Initializing
+    Updating Because Mesh Changed
+      Finished Updating Mesh                                                             [[33m  5.42 s[39m] [[33m 4303 MB[39m]
+    Finished Updating Because Mesh Changed                                               [[33m  5.57 s[39m] [[33m 4303 MB[39m]
+    Currently Updating Because Mesh Changed
+      Finished Updating Mesh                                                             [[33m  5.45 s[39m] [[33m 4303 MB[39m]
+    Finished Updating Because Mesh Changed                                               [[33m  5.62 s[39m] [[33m 4303 MB[39m]
+    Currently Initializing Equation Systems..
+      Finished Building Node To Elem Map                                                 [[33m  3.79 s[39m] [[33m 4626 MB[39m]
+    Still Initializing Equation Systems                                                  [[33m 28.83 s[39m] [[33m 4911 MB[39m]
+    Initializing Displaced Equation System..                                             [[33m 22.58 s[39m] [[33m 5102 MB[39m]
+    Currently Updating Because Mesh Changed
+      Finished Updating Mesh                                                             [[33m  5.50 s[39m] [[33m 5114 MB[39m]
+    Finished Updating Because Mesh Changed                                               [[33m  5.74 s[39m] [[33m 5150 MB[39m]
+  Finished Initializing                                                                  [[33m 68.36 s[39m] [[33m 5150 MB[39m]
+Finished Setting Up                                                                      [[33m144.90 s[39m] [[33m 5150 MB[39m]
+Framework Information:
+MOOSE Version:           git commit 2ec280afc3 on 2024-10-15
+LibMesh Version:         80e8b6c591a704cd426fb50f8cc05d97994b2241
+PETSc Version:           3.20.0
+SLEPc Version:           3.19.2
+Current Time:            Sun Dec  1 21:27:34 2024
+Executable Timestamp:    Sun Dec  1 21:03:27 2024
+
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          30
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          3
+  Spatial Dimension:       3
+  Nodes:                   
+    Total:                 1170302
+    Local:                 40955
+    Min/Max/Avg:           36233/40955/39010
+  Elems:                   
+    Total:                 5645254
+    Local:                 187492
+    Min/Max/Avg:           187307/188691/188175
+  Num Subdomains:          4
+  Num Partitions:          30
+  Partitioner:             metis
+
+Nonlinear System:
+  Num DOFs:                4681208
+  Num Local DOFs:          163820
+  Variables:               { "temperature" "disp_x" "disp_y" "disp_z" } 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Steady
+  Solver Mode:             NEWTON
+  PETSc Preconditioner:    hypre boomeramg strong_threshold: 0.7 (auto)
+  MOOSE Preconditioner:    SMP (auto)
+
+Currently Executing
+  Performing Initial Setup
+    Initializing Functions...........                                                    [[33m 64.42 s[39m] [[33m 6039 MB[39m]
+    Currently Projecting Initial Solutions                                               [[33m  9.70 s[39m] [[33m 6040 MB[39m]
+    Currently Setting Up Materials
+      Finished Computing Initial Material Values                                         [[33m  8.99 s[39m] [[33m 6041 MB[39m]
+    Finished Setting Up Materials                                                        [[33m  8.99 s[39m] [[33m 6041 MB[39m]
+    Reinitializing Because of Geometric Search Objects............                       [[33m 67.23 s[39m] [[33m 7274 MB[39m]
+    Building SemiLocalElemMap............
