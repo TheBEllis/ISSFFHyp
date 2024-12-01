@@ -50,14 +50,17 @@ RBEConstraint::RBEConstraint(const InputParameters & parameters)
   // Get secondary nodes
   std::vector<dof_id_type> nodelist =
       _mesh.getNodeList(_mesh.getBoundaryID(_secondary_node_set_id));
-  std::vector<dof_id_type>::iterator in;
+  //  std::vector<dof_id_type>::iterator in;
   
-  for (in = nodelist.begin(); in != nodelist.end(); ++in)
+  for (std::vector<dof_id_type>::iterator in = nodelist.begin(); in != nodelist.end(); ++in)
   {
     const Node * const node = lm_mesh.query_node_ptr(*in);
 
     if (node && node->processor_id() == _subproblem.processor_id())
-      _connected_nodes.push_back(*in); // defining secondary nodes in the base class
+    {
+        _connected_nodes.push_back(*in); // defining secondary nodes in the base class
+    }
+    
   }
 
   // Get primary nodes
@@ -65,10 +68,10 @@ RBEConstraint::RBEConstraint(const InputParameters & parameters)
       _mesh.getNodeList(_mesh.getBoundaryID(_primary_node_set_id));
   
   const auto & node_to_elem_map = _mesh.nodeToElemMap();      
-
-  for (in = primary_nodelist.begin(); in != primary_nodelist.end(); ++in)
+  int node_counter = 0;
+  for (std::vector<dof_id_type>::iterator in = primary_nodelist.begin(); in != primary_nodelist.end(); ++in)
   {
-    std::cout << *in << std::endl;
+    //    std::cout << *in << std::endl;
     auto node_to_elem_pair = node_to_elem_map.find(*in);
 
     // Our mesh may be distributed
@@ -87,8 +90,9 @@ RBEConstraint::RBEConstraint(const InputParameters & parameters)
       _subproblem.addGhostedElem(elem_id);
     }
   }
+  std::cout << node_counter << std::endl;
+  node_counter++;
   _weights = std::vector<Real>(_primary_size, 1.0/_primary_size);
-  std::cout << "Fin" << std::endl;
 }
 
 Real
@@ -101,7 +105,6 @@ RBEConstraint::computeQpResidual(Moose::ConstraintType type)
    *secondary node at a time. To get around this, the residual is split up such that the final
    *secondary residual resembles the above expression.
    **/
-  std::cout << "Resid start" << std::endl;
   unsigned int primary_size = _primary_size;
 
   switch (type)
@@ -111,7 +114,7 @@ RBEConstraint::computeQpResidual(Moose::ConstraintType type)
     case Moose::Secondary:
       return (_u_secondary[_i] / primary_size - _u_primary[_j] * _weights[_j]) * _penalty;
   }
-  std::cout << "Residual End" << std::endl;
+
   return 0.;
   
 }
@@ -119,7 +122,7 @@ RBEConstraint::computeQpResidual(Moose::ConstraintType type)
 Real
 RBEConstraint::computeQpJacobian(Moose::ConstraintJacobianType type)
 {
-  std::cout << "Jacob Start" << std::endl;
+
   unsigned int primary_size = _primary_size;
 
   switch (type)
