@@ -37,9 +37,9 @@ protected:
   virtual Real computeQpJacobian(Moose::ConstraintJacobianType type) override;                                                                                                                                                              
                                                                                                                                                                                                                                             
   // Holds the primary node set or side set                                                                                                                                                                                               
-  std::string _primary_node_set_id;                                                                                                                                                                                             
+  int _primary_node_set_id;                                                                                                                                                                                             
   // Holds the secondary node set or side set                                                                                                                                                                                               
-  std::string _secondary_node_set_id;                                                                                                                                                                                                       
+  int _secondary_node_set_id;                                                                                                                                                                                                       
   // Penalty if constraint is not satisfied                                                                                                                                                                                                 
   Real _penalty;
   Real _primary_size;

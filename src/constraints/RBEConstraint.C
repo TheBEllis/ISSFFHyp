@@ -19,9 +19,9 @@ RBEConstraint::validParams()
   InputParameters params = NodalConstraint::validParams();
   params.addClassDescription(
       "Constrains secondary node to move as a linear combination of primary nodes.");
-  params.addRequiredParam<BoundaryName>("primary_node_set", "The boundary ID associated with the primary nodes.");
-  params.addRequiredParam<BoundaryName>(
-      "secondary_node_set", "The boundary ID associated with the secondary side");
+  params.addRequiredParam<Real>("primary_node_set_id", "The boundary ID associated with the primary nodes.");
+  params.addRequiredParam<Real>(
+      "secondary_node_set_id", "The boundary ID associated with the secondary side");
   params.addRequiredParam<Real>("penalty", "The penalty used for the boundary term");
   params.addRequiredParam<Real>("primary_size", "The number of nodes in the primary node set");
   // params.addRequiredParam<std::vector<Real>>("weights",
@@ -32,8 +32,8 @@ RBEConstraint::validParams()
 
 RBEConstraint::RBEConstraint(const InputParameters & parameters)
   : NodalConstraint(parameters),
-    _primary_node_set_id(getParam<BoundaryName>("primary_node_set")),
-    _secondary_node_set_id(getParam<BoundaryName>("secondary_node_set")),
+    _primary_node_set_id(getParam<Real>("primary_node_set_id")),
+    _secondary_node_set_id(getParam<Real>("secondary_node_set_id")),
     _penalty(getParam<Real>("penalty")),
     _primary_size(getParam<Real>("primary_size"))
 {
@@ -49,7 +49,7 @@ RBEConstraint::RBEConstraint(const InputParameters & parameters)
 
   // Get secondary nodes
   std::vector<dof_id_type> nodelist =
-      _mesh.getNodeList(_mesh.getBoundaryID(_secondary_node_set_id));
+      _mesh.getNodeList(_secondary_node_set_id);
   //  std::vector<dof_id_type>::iterator in;
   
   for (std::vector<dof_id_type>::iterator in = nodelist.begin(); in != nodelist.end(); ++in)
@@ -65,7 +65,7 @@ RBEConstraint::RBEConstraint(const InputParameters & parameters)
 
   // Get primary nodes
   std::vector<dof_id_type> primary_nodelist =
-      _mesh.getNodeList(_mesh.getBoundaryID(_primary_node_set_id));
+      _mesh.getNodeList(_primary_node_set_id);
   
   const auto & node_to_elem_map = _mesh.nodeToElemMap();      
   int node_counter = 0;
