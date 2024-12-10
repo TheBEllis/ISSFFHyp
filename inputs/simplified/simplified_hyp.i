@@ -25,7 +25,7 @@ pis_size = 124
   [heat_conduction]
     type = ADHeatConduction
     variable = temperature
-    block = '1 2'
+    block = '1'
   []
 []
 
@@ -127,7 +127,7 @@ pis_size = 124
     type = ADComputeVariableIsotropicElasticityTensor
     youngs_modulus= 'ccz_ym'
     poissons_ratio = 0.33
-    block = '1 2'
+    block = 1
   []
 
   [CCZ_heat]
@@ -135,7 +135,7 @@ pis_size = 124
     temp = temperature
     specific_heat_temperature_function = cucrzr_sh_fn
     thermal_conductivity_temperature_function = cucrzr_tc_fn
-    block = '1 2'
+    block = 1
   []
 
   [CCZ_ym]
@@ -144,7 +144,7 @@ pis_size = 124
     property = 'ccz_ym'
     x = '2.000E+01 1.000E+02 1.500E+02 2.000E+02 2.500E+02 3.000E+02 3.500E+02 4.000E+02 4.500E+02 5.000E+02 6.000E+02 7.000E+02'
     y = '1.275E+11 1.270E+11 1.250E+11 1.230E+11 1.210E+11 1.180E+11 1.160E+11 1.130E+11 1.100E+11 1.060E+11 9.500E+10 8.600E+10'
-    block = '1 2'
+    block = 1
   []
 
   [CCZ_density]
@@ -153,8 +153,7 @@ pis_size = 124
     property = 'density'
     x = '0 50 100 150 200 250 300 350 400 450 500'
     y = '8900 8886 8863 8840 8816 8791 8767 8742 8716 8691 8665'
-    
-    block = '1 2'
+    block = 1
   []
 
   [CCZ_thermal_expansion]
@@ -164,7 +163,23 @@ pis_size = 124
     stress_free_temperature = 0.0
     temperature = temperature
     eigenstrain_name = eigenstrain
-    block = '1 2'
+    block = 1
+  []
+
+  [rbe_elasticity]
+    type = ADComputeVariableIsotropicElasticityTensor
+    youngs_modulus= 1
+    poissons_ratio = 1
+    block = '2'
+  []
+  
+  [rbe_thermal_expansion]
+    type = ADComputeThermalExpansionEigenstrain
+    stress_free_temperature = 0
+    thermal_expansion_coeff = 0
+    temperature = temperature
+    eigenstrain_name = eigenstrain
+    block = 2
   []
 
   [stress]
