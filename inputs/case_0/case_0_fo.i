@@ -15,6 +15,7 @@ steel_blocks = "1 2"
   [meshy]
     type = FileMeshGenerator
     file = '../../mesh/case_0/case_0.cpa.gz'
+    skip_partitioning = True
   []
   [fo]
     type = ElementOrderConversionGenerator
