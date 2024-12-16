@@ -1,10 +1,9 @@
-penalty = 1e18
+penalty = 1e6
 pih_size = 11502
 pis_size = 13882
 
 ccz_blocks = "7 8 9 10 11 12 13 14"
 nickel_blocks = "3 4 5 6"
-nickel_blocks_rbe = "3 4 5 6 15"
 steel_blocks = "1 2"
 
   
@@ -15,14 +14,21 @@ steel_blocks = "1 2"
 [Mesh]
   [meshy]
     type = FileMeshGenerator
-    file = '/home/ir-elli2/rds/rds-ukaea-ap001/ir-elli2/moose_apps/ISSFFHyp/mesh/case_0/case_0_w_sidesets.cpa.gz'
+    file = '../../mesh/case_0/case_0.cpa.gz'
     skip_partitioning = True
   []
+  [fo]
+    type = ElementOrderConversionGenerator
+    input = meshy
+    conversion_type = FIRST_ORDER
+  []
+  construct_side_list_from_node_list=true
 [] 
   
 [Variables]
   [temperature]
     family = LAGRANGE
+    block = '3 4 5 6 7 8 9 10 11 12 13 14'
   []
 []
 
@@ -53,17 +59,29 @@ steel_blocks = "1 2"
     type = ADHeatConduction
     variable = temperature
     block = '3 4 5 6 7 8 9 10 11 12 13 14'
+    use_displaced_mesh = False
   []
 []
 
 [Modules/TensorMechanics/Master]
-  [all]
+  [copper_and_nickel]
+    use_automatic_differentiation = true
+    #volumetric_locking_correction = true
+    strain = SMALL
+    add_variables = true
+    eigenstrain_names = 'eigenstrain'
+    #incremental = false
+    generate_output = 'vonmises_stress'
+    block = '3 4 5 6 7 8 9 10 11 12 13 14'
+  []
+  [steel_and_rbe]
     use_automatic_differentiation = true
     #volumetric_locking_correction = true
     strain = SMALL
     add_variables = true
     #incremental = false
     generate_output = 'vonmises_stress'
+    block = '1 2 15'
   []
 []
   
@@ -209,7 +227,7 @@ steel_blocks = "1 2"
   []
 
   [CCZ_thermal_expansion]
-    type = ComputeMeanThermalExpansionFunctionEigenstrain
+    type = ADComputeMeanThermalExpansionFunctionEigenstrain
     thermal_expansion_function = cucrzr_te_fn
     thermal_expansion_function_reference_temperature = 0.5
     stress_free_temperature = 0.0
@@ -222,7 +240,7 @@ steel_blocks = "1 2"
     type = ADComputeVariableIsotropicElasticityTensor
     youngs_modulus = 'nickel_ym'
     poissons_ratio = 0.31
-    block = ${nickel_blocks_rbe}
+    block = ${nickel_blocks}
   []
 
   [nickel_ym]
@@ -231,7 +249,7 @@ steel_blocks = "1 2"
     variable = temperature
     x = '-75 25 100 150 200 300 400 500 600 700'
     y = '2.13E+11 2.07E+11 2.02E+11 1.99E+11 1.97E+11 1.91E+11 1.86E+11 1.8E+11 1.76E+11 1.64E+11'
-    block = ${nickel_blocks_rbe}
+    block = ${nickel_blocks}
   []
   
   [nickel_heat]
@@ -239,18 +257,18 @@ steel_blocks = "1 2"
     temp = temperature
     specific_heat = 456
     thermal_conductivity_temperature_function = nickel_tc_fn
-    block = ${nickel_blocks_rbe}
+    block = ${nickel_blocks}
   []
 
   [nickel_density]
     type = ADGenericConstantMaterial
     prop_names = 'density'
     prop_values = '8885'
-    block = ${nickel_blocks_rbe}
+    block = ${nickel_blocks}
   []
 
   [nickel_thermal_expansion]
-    type = ComputeMeanThermalExpansionFunctionEigenstrain
+    type = ADComputeMeanThermalExpansionFunctionEigenstrain
     thermal_expansion_function = nickel_te_fn
     thermal_expansion_function_reference_temperature = 0.5
     stress_free_temperature = 0.0
@@ -273,6 +291,20 @@ steel_blocks = "1 2"
     block = ${steel_blocks}
   []
 
+  [RBE_nodes_mat]
+    type = ADGenericConstantMaterial
+    prop_names = 'density'
+    prop_values = '7850'
+    block = 15
+  []
+
+  [RBE_nodes_elasticity]
+    type = ADComputeIsotropicElasticityTensor
+    youngs_modulus = 2e11
+    poissons_ratio = 0.3
+    block = 15
+  []
+
   [stress]
     type = ADComputeLinearElasticStress
   []
@@ -282,14 +314,14 @@ steel_blocks = "1 2"
   [heat_flux]
     type = ADFunctionNeumannBC
     variable = temperature
-    boundary = 4
+    boundary = NS.BEAM_RECEIPT_FACE
     function = heat_profile
   []
  
   [heat_removal_backplate]
     type = ADConvectiveHeatFluxBC
     variable = temperature
-    boundary = 1
+    boundary = 'NS.BACKPLATE_WETTED'
     heat_transfer_coefficient = 24200
     T_infinity = 295.15
   [../]
@@ -297,14 +329,14 @@ steel_blocks = "1 2"
   [heat_removal_fins]
     type = ConvectiveFluxFunction
     variable = temperature
-    boundary = 2
+    boundary = 'NS.BASE_WETTED'
     coefficient = htc_function
     T_infinity = 295.15
   [../]
 
   [Pressure]
     [bc]
-      boundary = '1 2 3'
+      boundary = 'NS.BASE_WETTED NS.BACKPLATE_WETTED NS.PIPES_WETTED'
       function = pressure_constant
       displacements = 'disp_x disp_y disp_z'
     []
@@ -314,8 +346,8 @@ steel_blocks = "1 2"
 [Constraints]
     [rbe3_x_hole]
         type = RBEConstraint
-        primary_node_set = 'NS.PIN_HOLE_CONTACT'
-        secondary_node_set = 'NS.PIN_HOLE_SUPPORT'
+        primary_node_set_id = 10
+        secondary_node_set_id = 13
         variable = disp_x
         primary_size = ${pih_size}
         penalty = ${penalty}
@@ -323,8 +355,8 @@ steel_blocks = "1 2"
 
     [rbe3_y_hole]
         type = RBEConstraint
-        primary_node_set = 'NS.PIN_HOLE_CONTACT'
-        secondary_node_set = 'NS.PIN_HOLE_SUPPORT'
+        primary_node_set_id = 10
+        secondary_node_set_id = 13
         variable = disp_y
         primary_size = ${pih_size}
         penalty = ${penalty}
@@ -332,8 +364,8 @@ steel_blocks = "1 2"
 
     [rbe3_z_hole]
         type = RBEConstraint
-        primary_node_set = 'NS.PIN_HOLE_CONTACT'
-        secondary_node_set = 'NS.PIN_HOLE_SUPPORT'
+        primary_node_set_id = 10
+        secondary_node_set_id = 13
         variable = disp_z
         primary_size = ${pih_size}
         penalty = ${penalty}
@@ -341,8 +373,8 @@ steel_blocks = "1 2"
 
     [rbe3_x_slot]
         type = RBEConstraint
-        primary_node_set = 'NS.PIN_SLOT_CONTACT'
-        secondary_node_set = 'NS.PIN_SLOT_SUPPORT'
+        primary_node_set_id = 11
+        secondary_node_set_id = 14
         variable = disp_x
         primary_size = ${pis_size}
         penalty = ${penalty}
@@ -350,8 +382,8 @@ steel_blocks = "1 2"
 
     [rbe3_y_slot]
         type = RBEConstraint
-        primary_node_set = 'NS.PIN_SLOT_CONTACT'
-        secondary_node_set = 'NS.PIN_SLOT_SUPPORT'
+        primary_node_set_id = 11
+        secondary_node_set_id = 14
         variable = disp_y
         primary_size = ${pis_size}
         penalty = ${penalty}
@@ -369,10 +401,8 @@ steel_blocks = "1 2"
 #  compute_scaling_once = true
   solve_type = NEWTON
 
-  petsc_options_iname = '-pc_type -pc_hypre_type'
-  petsc_options_value = 'hypre    boomeramg'
-#  petsc_options_iname = '-pc_type'
-#  petsc_options_value = 'bjacobi'
+  petsc_options_iname = '-pc_type -pc_hypre_type -ksp_gmres_restart -pc_hypre_boomeramg_strong_threshold -pc_hypre_boomeramg_interp_type -pc_hypre_boomeramg_coarsen_type -pc_hypre_boomeramg_agg_nl -pc_hypre_boomeramg_agg_num_paths -pc_hypre_boomeramg_truncfactor'
+  petsc_options_value = 'hypre boomeramg 301 0.25 ext+i PMIS 4 2 0.4'
 
   nl_rel_tol = 1e-8
   nl_abs_tol = 1e-6
@@ -386,4 +416,3 @@ steel_blocks = "1 2"
 #  nemesis = true
   perf_graph = true
 []
-
