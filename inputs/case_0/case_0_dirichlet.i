@@ -5,8 +5,9 @@ steel_blocks = "1 2"
   
 [GlobalParams]
   displacements = 'disp_x disp_y disp_z'
+  thermal_expansion_function_reference_temperature = 293.15
+  stress_free_temperature = 293.15
 []
-
 [Mesh]
   [meshy]
     type = FileMeshGenerator
@@ -220,8 +221,6 @@ steel_blocks = "1 2"
   [CCZ_thermal_expansion]
     type = ADComputeMeanThermalExpansionFunctionEigenstrain
     thermal_expansion_function = cucrzr_te_fn
-    thermal_expansion_function_reference_temperature = 0.5
-    stress_free_temperature = 0.0
     temperature = temperature
     eigenstrain_name = eigenstrain
     block = ${ccz_blocks}
@@ -261,8 +260,6 @@ steel_blocks = "1 2"
   [nickel_thermal_expansion]
     type = ADComputeMeanThermalExpansionFunctionEigenstrain
     thermal_expansion_function = nickel_te_fn
-    thermal_expansion_function_reference_temperature = 0.5
-    stress_free_temperature = 0.0
     temperature = temperature
     eigenstrain_name = eigenstrain
     block = ${nickel_blocks}
