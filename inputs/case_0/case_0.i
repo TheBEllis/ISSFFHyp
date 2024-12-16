@@ -88,7 +88,7 @@ steel_blocks = "1 2"
 [UserObjects]
   [heat_flux_csv]
      type = PropertyReadFile
-     prop_file_name = ../../HeatFlux/FixedHeatFlux.csv
+     prop_file_name = ../../HeatFlux/Case_0_rotated_HeatFlux.csv
      read_type = 'voronoi'
      nprop = 4
      nvoronoi = 5682
