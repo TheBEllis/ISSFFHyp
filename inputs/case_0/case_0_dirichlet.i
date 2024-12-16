@@ -10,7 +10,7 @@ steel_blocks = "1 2"
 [Mesh]
   [meshy]
     type = FileMeshGenerator
-    file = '../../mesh/case_0/case_0.cpa.gz'
+    file = '../../mesh/case_0/case_0_dirichlet.cpa.gz'
     skip_partitioning = True
   []
   construct_side_list_from_node_list=true
