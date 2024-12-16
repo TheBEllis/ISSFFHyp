@@ -14,7 +14,7 @@ steel_blocks = "1 2"
 [Mesh]
   [meshy]
     type = FileMeshGenerator
-    file = '../../mesh/case_0/case_0.e'
+    file = '../../mesh/case_0/case_0.cpa.gz'
   []
   [fo]
     type = ElementOrderConversionGenerator
