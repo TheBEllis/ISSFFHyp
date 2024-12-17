@@ -53,7 +53,7 @@ steel_blocks = "1 2"
     variable = temperature
     from_variable = temperature
     solution_uo = solution
-    block = ${ccz_blocks}
+    block = '3 4 5 6 7 8 9 10 11 12 13 14'
   []
 []
 
@@ -102,7 +102,7 @@ steel_blocks = "1 2"
 
   [solution]
     type = SolutionUserObject
-    mesh = ../../inputs/case_0/case_0_fsp_out.e
+    mesh = case_0_fsp_out.e
     system_variables = 'disp_x disp_y disp_z temperature'
   []
 []
