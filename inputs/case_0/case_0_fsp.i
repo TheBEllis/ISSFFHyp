@@ -407,6 +407,7 @@ steel_blocks = "1 2"
 []
 
 [Outputs]
+  exodus = true
 #  nemesis = true
   perf_graph = true
 []
@@ -436,4 +437,8 @@ steel_blocks = "1 2"
     sides = 'NS.PIN_HOLE_CONTACT NS.PIN_SLOT_CONTACT NS.PIN_HOLE_SUPPORT NS.PIN_SLOT_SUPPORT'
   [../]
   []
+[]
+
+[Debug]
+  show_var_residual_norms = true
 []
