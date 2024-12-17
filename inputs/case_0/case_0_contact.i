@@ -1,4 +1,4 @@
-penalty = 1e6
+penalty = 1e5
 
 ccz_blocks = "7 8 9 10 11 12 13 14"
 nickel_blocks = "3 4 5 6"
