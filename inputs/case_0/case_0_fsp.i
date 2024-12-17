@@ -1,6 +1,8 @@
 penalty = 1e6
-pih_size = 11502
-pis_size = 13882
+#pih_size = 11502
+#pis_size = 13882
+pih_size = 2952
+pis_size = 3561
 
 ccz_blocks = "7 8 9 10 11 12 13 14"
 nickel_blocks = "3 4 5 6"
