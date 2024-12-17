@@ -426,9 +426,7 @@ steel_blocks = "1 2 15"
       contact_displaced = '1 1'
       include_all_contact_nodes = 1
       petsc_options_iname = '-ksp_type -pc_type -pc_asm_overlap -sub_pc_type'
-      petsc_options_value = 'preonly   asm      1               lu'
-      #petsc_options_iname = '-ksp_type -pc_type -sub_pc_type -pc_factor_shift_type'
-      #petsc_options_value = 'preonly asm lu NONZERO'       
+      petsc_options_value = 'preonly   asm      1               ilu'
     []
     [temperature]
       vars = 'temperature'
