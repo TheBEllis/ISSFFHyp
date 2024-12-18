@@ -109,7 +109,7 @@ steel_blocks = "1 2"
     system_variables = 'disp_x disp_y disp_z temperature'
     force_preaux = true
     force_preic = true
-    execute_on = INITIAL
+#    execute_on = INITIAL
     timestep = LATEST
   []
 []
