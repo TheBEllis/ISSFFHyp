@@ -1,8 +1,8 @@
 penalty = 1e6
-#pih_size = 11502
-#pis_size = 13882
-pih_size = 2952
-pis_size = 3561
+pih_size = 11502
+pis_size = 13882
+#pih_size = 2952
+#pis_size = 3561
 
 ccz_blocks = "7 8 9 10 11 12 13 14"
 nickel_blocks = "3 4 5 6"
@@ -20,11 +20,11 @@ steel_blocks = "1 2"
     file = '../../mesh/case_0/case_0.cpa.gz'
     skip_partitioning = True
   []
-  [fo]
-    type = ElementOrderConversionGenerator
-    input = meshy
-    conversion_type = FIRST_ORDER
-  []
+ # [fo]
+ #   type = ElementOrderConversionGenerator
+ #   input = meshy
+ #   conversion_type = FIRST_ORDER
+ # []
   construct_side_list_from_node_list=true
 [] 
   
