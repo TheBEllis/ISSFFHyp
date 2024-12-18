@@ -1,6 +1,8 @@
 penalty = 1e5
 constraint_penalty = 1e6
-
+pih_size = 11502
+#pis_size = 13882
+  
 ccz_blocks = "7 8 9 10 11 12 13 14"
 nickel_blocks = "3 4 5 6"
 steel_blocks = "1 2 15"
