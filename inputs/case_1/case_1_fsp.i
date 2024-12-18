@@ -407,8 +407,8 @@ steel_blocks = "1 2"
 []
 
 [Outputs]
-  exodus = true
-#  nemesis = true
+#  exodus = true
+  nemesis = true
   perf_graph = true
 []
 
