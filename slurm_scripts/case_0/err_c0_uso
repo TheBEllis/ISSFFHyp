@@ -1,0 +1,9 @@
+
+[31m
+*** ERROR ***
+/rds/project/rds-aSo1XX0UOlw/ir-elli2/moose_apps/ISSFFHyp/slurm_scripts/case_0/../../inputs/case_0/case_0_fsp_uso.i:33.3:
+The following error occurred in the InitialCondition 'disp_x' of type SolutionIC.
+
+Block '1' does not exist in the file '/rds/project/rds-aSo1XX0UOlw/ir-elli2/moose_apps/ISSFFHyp/slurm_scripts/case_0/../../inputs/case_0/case_0_fsp_out.e'.[39m
+
+Abort(1) on node 231 (rank 231 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 231
