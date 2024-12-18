@@ -401,7 +401,7 @@ steel_blocks = "1 2"
   solve_type = NEWTON
 
   nl_rel_tol = 1e-15
-  nl_abs_tol = 1e-8
+  nl_abs_tol = 1e-9
   l_tol = 1e-80
   l_abs_tol = 1e-15
   l_max_its = 600
