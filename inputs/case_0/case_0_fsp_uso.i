@@ -35,18 +35,21 @@ steel_blocks = "1 2"
     variable = disp_x
     from_variable = disp_x
     solution_uo = solution
+    block = '1 2 3 4 5 6 7 8 9 10 11 12 13 14'
   []
   [disp_y]
     type = SolutionIC
     variable = disp_y
     from_variable = disp_y
-    solution_uo = solution 
+    solution_uo = solution
+    block = '1 2 3 4 5 6 7 8 9 10 11 12 13 14'
   []
   [disp_z]
     type = SolutionIC
     variable = disp_z
     from_variable = disp_z
-    solution_uo = solution 
+    solution_uo = solution
+    block = '1 2 3 4 5 6 7 8 9 10 11 12 13 14'
   []
   [temperature]
     type = SolutionIC
