@@ -19,11 +19,6 @@ steel_blocks = "1 2 15"
     file = '../../mesh/case_0/case_0_contact.cpa.gz'
     skip_partitioning = True
   []
-  [fo]
-    type = ElementOrderConversionGenerator
-    input = meshy
-    conversion_type = FIRST_ORDER
-  []
   construct_side_list_from_node_list=true
   patch_update_strategy = auto
 [] 
