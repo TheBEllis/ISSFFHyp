@@ -74,7 +74,7 @@ steel_blocks = "1 2"
     add_variables = true
     eigenstrain_names = 'eigenstrain'
     #incremental = false
-    generate_output = 'vonmises_stress'
+    generate_output = 'vonmises_stress max_principal_stress'
     block = '3 4 5 6 7 8 9 10 11 12 13 14'
   []
   [steel_and_rbe]
@@ -444,3 +444,42 @@ steel_blocks = "1 2"
 [Debug]
   show_var_residual_norms = true
 []
+
+[Postprocessors]
+  [max_temp]
+    type = NodalMaxValue
+    variable = temp
+    block = '3 4 5 6 7 8 9 10 11 12 13 14'
+  []
+
+  [max_nodal_principal_inner_fillet]
+    type = NodalMaxValue
+    variable = max_principal_stress
+    boundary = NS.MOUNT_INNER_FILLETS
+  []
+
+  [max_nodal_principal_outer_fillet]
+    type = NodalMaxValue
+    variable = max_principal_stress
+    boundary = NS.MOUNT_OUTER_FILLETS
+  []
+
+  [max_nodal_principal_mount_backplate]
+    type = NodalMaxValue
+    variable = max_principal_stress
+    boundary = NS.MOUNT_BACKPLATE_INTERFACE
+  []
+
+  [max_nodal_principal_backplate_step_fillet]
+    type = NodalMaxValue
+    variable = max_principal_stress
+    boundary = NS.BACKPLATE_STEP_FILLET
+  []
+
+  [max_nodal_principal_base_end_fillet]
+    type = NodalMaxValue
+    variable = max_principal_stress
+    boundary = NS.BASE_END_FILLET
+  []
+[]
+ 
