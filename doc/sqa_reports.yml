@@ -1,0 +1,6 @@
+Applications:
+    is_hypre:
+        app_types:
+            - is_hypreApp
+        content_directory: ${ROOT_DIR}/doc/content
+        log_default: WARNING
