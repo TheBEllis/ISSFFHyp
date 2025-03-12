@@ -51,7 +51,7 @@ module load rhel8/default-icl              # REQUIRED - loads the basic environm
 #! Insert additional module load commands after this line if needed:
 source /home/ir-elli2/rds/rds-ukaea-ap001/ir-elli2/.moose_prof_hypre
 #! Full path to application executable: 
-application="/home/ir-elli2/rds/rds-ukaea-ap001/ir-elli2/moose_apps/is_hypre/is_hypre-opt -i ../../inputs/case_0/case_0_fsp.i --distributed-mesh"
+application="/home/ir-elli2/rds/rds-ukaea-ap001/ir-elli2/moose_apps/is_hypre/is_hypre-opt -i ../../inputs/case_0/case_0.i --distributed-mesh"
 
 #! Run options for the application:
 options=">out_c0_fsp_960 2>&1"
