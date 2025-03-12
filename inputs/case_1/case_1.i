@@ -1,98 +1,36 @@
-
-pih_size = 11502
+penalty = 1e6
+pih_size = 273210
+pis_size = 332746
 
 ccz_blocks = "7 8 9 10 11 12 13 14"
 nickel_blocks = "3 4 5 6"
-steel_blocks = "1 2 15"
+steel_blocks = "1 2"
 
+  
 [GlobalParams]
   displacements = 'disp_x disp_y disp_z'
   thermal_expansion_function_reference_temperature = 293.15
   stress_free_temperature = 293.15
-  block = '1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16'
 []
-
 [Mesh]
   [meshy]
     type = FileMeshGenerator
-    file = '../../mesh/case_0/case_0_contact_rbe.cpa.gz'
-    skip_partitioning = true
-    allow_renumbering = false
-    show_info=true
-    #use_for_exodus_restart = true
+    file = '../../mesh/case_1/case_1.cpa.gz'
+    skip_partitioning = True
   []
-
+ # [fo]
+ #   type = ElementOrderConversionGenerator
+ #   input = meshy
+ #   conversion_type = FIRST_ORDER
+ # []
   allow_renumbering = false
-  #patch_update_strategy = auto
+  construct_side_list_from_node_list=true
 [] 
   
 [Variables]
   [temperature]
     family = LAGRANGE
     block = '3 4 5 6 7 8 9 10 11 12 13 14'
-  []
-[]
-
-[Problem]
-  error_on_jacobian_nonzero_reallocation = false
-  
-  prefer_hash_table_matrix_assembly = true
-[]
-
-[ICs]
-  [disp_x]
-    type = ConstantIC
-    variable = disp_x
-    value = 0.0000 # m
-  []
-  [disp_y]
-    type = ConstantIC
-    variable = disp_y
-    value = 0.0000  # m
-  [] 
-  [disp_z]
-    type = ConstantIC
-    variable = disp_z
-    value = 0.0000  # m
-  []
-[]
-
-  
-[Kernels]
-  # Heat conduction kernels
-  [heat_conduction]
-    type = ADHeatConduction 
-    variable = temperature
-    block = '3 4 5 6 7 8 9 10 11 12 13 14'
-    use_displaced_mesh = False
-  []
-  [dTdt]
-    type = ADHeatConductionTimeDerivative
-    variable = temperature
-    block = '3 4 5 6 7 8 9 10 11 12 13 14'
-    use_displaced_mesh = False
-  []
-[]
-
-[Modules/TensorMechanics/Master]
-  [ccz_nickel]
-    use_automatic_differentiation = true
-    #volumetric_locking_correction = true
-    strain = SMALL
-    add_variables = true
-    #incremental = false
-    generate_output = 'max_principal_stress'
-    eigenstrain_names = 'eigenstrain'
-    block = '3 4 5 6 7 8 9 10 11 12 13 14'
-  []
-  [steel_and_pins_and_rbe]
-    use_automatic_differentiation = true
-    #volumetric_locking_correction = true
-    strain = SMALL
-    add_variables = true
-    #incremental = false
-    generate_output = 'max_principal_stress'
-    block = '1 2 15 16'
   []
 []
 
@@ -112,6 +50,61 @@ steel_blocks = "1 2 15"
   [../]
 []
 
+[ICs]
+  [disp_x]
+    type = ConstantIC
+    variable = disp_x
+    value = 0.0000 # m
+  []
+  [disp_y]
+    type = ConstantIC
+    variable = disp_y
+    value = 0.0000  # m
+  []
+  [disp_z]
+    type = ConstantIC
+    variable = disp_z
+    value = 0.0000  # m
+  []
+[]
+
+[Problem]
+  error_on_jacobian_nonzero_reallocation = false
+  
+  prefer_hash_table_matrix_assembly = true
+[]  
+  
+[Kernels]
+  # Heat conduction kernels
+  [heat_conduction]
+    type = ADHeatConduction
+    variable = temperature
+    block = '3 4 5 6 7 8 9 10 11 12 13 14'
+    use_displaced_mesh = False
+  []
+[]
+
+[Modules/TensorMechanics/Master]
+  [copper_and_nickel]
+    use_automatic_differentiation = true
+    #volumetric_locking_correction = true
+    strain = SMALL
+    add_variables = true
+    eigenstrain_names = 'eigenstrain'
+    #incremental = false
+    generate_output = 'max_principal_stress'
+    block = '3 4 5 6 7 8 9 10 11 12 13 14'
+  []
+  [steel_and_rbe]
+    use_automatic_differentiation = true
+    #volumetric_locking_correction = true
+    strain = SMALL
+    add_variables = true
+    #incremental = false
+    generate_output = 'max_principal_stress'
+    block = '1 2 15'
+  []
+[]
   
 [UserObjects]
   [heat_flux_csv]
@@ -125,6 +118,7 @@ steel_blocks = "1 2 15"
 
 # Functions to control variable material parameters
 [Functions]
+  
   [htc_function]
     type = PiecewiseLinear
     scale_factor = 1.0
@@ -215,13 +209,6 @@ steel_blocks = "1 2 15"
     data_file = '../../MaterialData/Nickel/thermal_expansion.csv'
     format = columns
   []
-  
-  [./dts]
-    type = PiecewiseConstant
-    x = '0 0.1 0.5 2 5 10 20 100 1000'
-    y = '0.05 0.1 0.5 1 5 10 80 900 1000'
-    direction = left_inclusive
-  [../]
 []
 
   
@@ -321,24 +308,24 @@ steel_blocks = "1 2 15"
     block = ${steel_blocks}
   []
 
-
   [RBE_nodes_mat]
     type = ADGenericConstantMaterial
     prop_names = 'density'
-    prop_values = '8885'
-    block = 16
+    prop_values = '7850'
+    block = 15
   []
 
   [RBE_nodes_elasticity]
     type = ADComputeIsotropicElasticityTensor
     youngs_modulus = 2e11
     poissons_ratio = 0.3
-    block = 16
+    block = 15
   []
-  
+
   [stress]
     type = ADComputeLinearElasticStress
   []
+  
 []
 
 [BCs]
@@ -372,156 +359,117 @@ steel_blocks = "1 2 15"
       displacements = 'disp_x disp_y disp_z'
     []
   []
-
-  [disp_x_pins]
-    type = ADDirichletBC
-    variable = disp_x
-    boundary = SS.PIN_DIR
-    value = 0
-  []
-  [disp_y_pins]
-    type = ADDirichletBC
-    variable = disp_y
-    boundary = SS.PIN_DIR
-    value = 0
-  []
-  [disp_z_pins]
-    type = ADDirichletBC
-    variable = disp_z
-    boundary = SS.PIN_DIR
-    value = 0
-  []
 []
 
-  
 [Constraints]
     [rbe3_x_hole]
         type = RBEConstraint
         primary_node_set_id = 10
-        secondary_node_set_id = 19
+        secondary_node_set_id = 13
         variable = disp_x
         primary_size = ${pih_size}
-        penalty = 1e6
+        penalty = ${penalty}
+    []
+
+    [rbe3_y_hole]
+        type = RBEConstraint
+        primary_node_set_id = 10
+        secondary_node_set_id = 13
+        variable = disp_y
+        primary_size = ${pih_size}
+        penalty = ${penalty}
+    []
+
+    [rbe3_z_hole]
+        type = RBEConstraint
+        primary_node_set_id = 10
+        secondary_node_set_id = 13
+        variable = disp_z
+        primary_size = ${pih_size}
+        penalty = ${penalty}
+    []
+
+    [rbe3_x_slot]
+        type = RBEConstraint
+        primary_node_set_id = 11
+        secondary_node_set_id = 14
+        variable = disp_x
+        primary_size = ${pis_size}
+        penalty = ${penalty}
+    []
+
+    [rbe3_y_slot]
+        type = RBEConstraint
+        primary_node_set_id = 11
+        secondary_node_set_id = 14
+        variable = disp_y
+        primary_size = ${pis_size}
+        penalty = ${penalty}
     []
 []
-
+    
 [Executioner]
-  type = Transient
-  start_time = 0
-  end_time = 4000
-#  dt = 0.002
-
-  [./TimeStepper]
-    type = FunctionDT
-    function = dts
-    min_dt = 0.00001
-  [../]
+  type = Steady
+  #start_time = 0
+  #end_time = 1.5
+  #dt = 0.1
   #steady_state_tolerance = 1e-6
   #steady_state_detection = true
   automatic_scaling = true
-  scaling_group_variables = 'disp_x disp_y disp_z; temperature'
-  compute_scaling_once = false
+#  compute_scaling_once = true
   solve_type = NEWTON
-						     
+
   nl_rel_tol = 1e-15
   nl_abs_tol = 1e-8
-  l_tol = 1e-6
+  l_tol = 1e-8
   l_abs_tol = 1e-8
-  l_max_its = 1000
-  line_search = 'none'
-  steady_state_detection = true
+  l_max_its = 500
+  line_search = none
+[]
+
+[Outputs]
+#  exodus = true
+  nemesis = true
+  perf_graph = true
+  [pgraph]
+    type = PerfGraphOutput
+    execute_on = 'initial final'  # Default is "final"
+    level = 2                     # Default is 1
+    #heaviest_branch = true        # Default is false
+    #heaviest_sections = 7         # Default is 0
+  []  
 []
 
 [Preconditioning]
   [FSP]
     type = FSP
-    topsplit = 'contact_split'
-    [contact_split]
-      splitting = 'main contact rbe'
-      splitting_type = additive
-      #splitting_type = multiplicative
-      #petsc_options = '-snes_ksp_ew'
-      #petsc_options_iname = '-ksp_type -ksp_gmres_restart -mat_mffd_err'
-      #petsc_options_value = 'gmres 1000  1e-5'
-
-      petsc_options_iname = '-ksp_gmres_restart -mat_mffd_err'
-      petsc_options_value = '1000  1e-5'
-      #schur_pre = 'Sp'
-    []
-    [main]
-      vars = 'disp_x disp_y disp_z temperature'
-      petsc_options_iname = '-ksp_type -pc_type -pc_hypre_type -pc_hypre_boomeramg_strong_threshold -pc_hypre_boomeramg_interp_type -pc_hypre_boomeramg_coarsen_type -pc_hypre_boomeramg_agg_nl -pc_hypre_boomeramg_agg_num_paths -pc_hypre_boomeramg_truncfactor'
-      petsc_options_value = 'preonly hypre boomeramg 0.4 ext+i HMIS 10 5 0.3'
-      unside_by_var_var_name = 'disp_x disp_x disp_x disp_x disp_y disp_y disp_y disp_y disp_z disp_z disp_z disp_z'
-      unside_by_var_boundary_name = 'NS.PIN_HOLE_CONTACT NS.PIN_SLOT_CONTACT NS.PIN_HOLE_RBE NS.PIN_SLOT_RBE NS.PIN_HOLE_CONTACT NS.PIN_SLOT_CONTACT NS.PIN_HOLE_RBE NS.PIN_SLOT_RBE NS.PIN_HOLE_CONTACT NS.PIN_SLOT_CONTACT NS.PIN_HOLE_RBE NS.PIN_SLOT_RBE'
-    []
-
-    [rbe]
-       vars = 'disp_x disp_y disp_z'
-       petsc_options_iname = '-ksp_type -pc_type'
-       petsc_options_value = 'gmres   none'
-       sides = 'NS.PIN_HOLE_CONTACT NS.PIN_SLOT_CONTACT NS.PIN_HOLE_RBE NS.PIN_SLOT_RBE'
-    []						     
-						     
-    [contact]
-      vars = 'hole_normal_lm hole_tangential_lm hole_tangential_3d_lm slot_normal_lm slot_tangential_lm slot_tangential_3d_lm'      
-      petsc_options_iname = '-ksp_type -pc_type'
-      petsc_options_value = 'gmres jacobi'
-      #petsc_options_iname = '-ksp_type -pc_type -pc_factor_mat_solver_type -pc_factor_shift_type'
-      #petsc_options_value = 'preonly lu mumps NONZERO'
-    []
+    topsplit = split
+  [split]
+    splitting = 'sides nosides'
+    splitting_type = additive
+    petsc_options_iname = '-ksp_gmres_restart'
+    petsc_options_value = '500'
+  []
+  [./nosides]
+    vars = 'disp_x disp_y disp_z temperature'
+    petsc_options_iname = '-ksp_type -pc_type -pc_hypre_type -pc_hypre_boomeramg_strong_threshold -pc_hypre_boomeramg_interp_type -pc_hypre_boomeramg_coarsen_type -pc_hypre_boomeramg_agg_nl -pc_hypre_boomeramg_agg_num_paths -pc_hypre_boomeramg_truncfactor'
+    petsc_options_value = 'preonly hypre boomeramg 0.7 ext+i HMIS 10 5 0.3'
+    unside_by_var_var_name = 'disp_x disp_x disp_x disp_x disp_y disp_y disp_y disp_y disp_z disp_z disp_z disp_z'
+    unside_by_var_boundary_name = 'NS.PIN_HOLE_CONTACT NS.PIN_SLOT_CONTACT NS.PIN_HOLE_SUPPORT NS.PIN_SLOT_SUPPORT NS.PIN_HOLE_CONTACT NS.PIN_SLOT_CONTACT NS.PIN_HOLE_SUPPORT NS.PIN_SLOT_SUPPORT NS.PIN_HOLE_CONTACT NS.PIN_SLOT_CONTACT NS.PIN_HOLE_SUPPORT NS.PIN_SLOT_SUPPORT'
+  [../]
+  [./sides]
+    vars = 'disp_x disp_y disp_z'
+    petsc_options_iname = '-ksp_type -pc_type'
+    petsc_options_value = 'gmres   jacobi'
+    sides = 'NS.PIN_HOLE_CONTACT NS.PIN_SLOT_CONTACT NS.PIN_HOLE_SUPPORT NS.PIN_SLOT_SUPPORT'
+  [../]
   []
 []
-						     
-						     
-[Contact]
-  [hole]
-    primary = 'SS.HOLE_CONTACT'
-    secondary = 'NS.PIN_HOLE_CONTACT'
-    model = coulomb
-    friction_coefficient = 0.64
-    formulation = mortar
-    normal_smoothing_distance = 0.1
-    c_normal = 1e6
-    c_tangential = 1.0e6
-    correct_edge_dropping = true
-    use_petrov_galerkin = true
-    quadrature = FOURTH
-  []
+
   
-  [slot]
-    primary = 'SS.SLOT_CONTACT'
-    secondary = 'NS.PIN_SLOT_CONTACT'
-    model = coulomb
-    friction_coefficient = 0.64
-    formulation = mortar
-    normal_smoothing_distance = 0.1
-    c_normal = 1e6
-    c_tangential = 1.0e6
-    correct_edge_dropping = true
-    use_petrov_galerkin = true
-    quadrature = FOURTH
-  []
-[]
-  
-[Outputs]
-#  exodus = true
-  nemesis = true
-  perf_graph = true
-  checkpoint = false
-  #[pgraph]
-  #  type = PerfGraphOutput
-  #  execute_on = 'initial final'  # Default is "final"
-  #  level = 2                     # Default is 1
-  #  heaviest_branch = true        # Default is false
-  #  heaviest_sections = 7         # Default is 0
-  #[]  
-[]
-
 [Debug]
   show_var_residual_norms = true
 []
-
 
 [Postprocessors]
   [max_temp]
@@ -590,4 +538,3 @@ steel_blocks = "1 2 15"
     execute_on = 'INITIAL TIMESTEP_END'
   []
 []
-						     
