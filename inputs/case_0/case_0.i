@@ -81,9 +81,6 @@ steel_blocks = "1 2"
     #incremental = false
     
     generate_output = 'max_principal_stress'
-    #material_output_family = 'LAGRANGE'
-    #material_output_order = 'SECOND'
-  
     block = '3 4 5 6 7 8 9 10 11 12 13 14'
   []
   [steel_and_rbe]
@@ -94,37 +91,59 @@ steel_blocks = "1 2"
     #incremental = false
 
     generate_output = 'max_principal_stress'
-    #material_output_family = 'LAGRANGE'
-    #material_output_order = 'SECOND'
-
     block = '1 2 15'
   []
 []
 
 [AuxVariables]
-  [principal_elemental]
-    order = CONSTANT
+  [phys_mem]
     family = MONOMIAL
-  [../]
+    order = CONSTANT
+  []
+
+  [node_mem]
+    family = MONOMIAL
+    order = CONSTANT
+  []
+  
+  [heat_flux]
+  []
+  
   [principal_nodal]
     order = SECOND
     family = MONOMIAL
-  [../]
+  [../]  
 []
 
 [AuxKernels]
-  [principal_elemental]
-    type = ADRankTwoScalarAux
-    rank_two_tensor = stress
-    variable = principal_elemental
-    scalar_type = MaxPrincipal
-  [../]
+  [heat_flux]
+    type = FunctionAux
+    variable = heat_flux
+    function = heat_profile
+  []
+  
   [principal_nodal]
     type = ADRankTwoScalarAux
     rank_two_tensor = stress
     variable = principal_nodal
     scalar_type = MaxPrincipal
   [../]
+  
+  [phys_mem_kern]
+    type = VectorPostprocessorVisualizationAux
+    vpp = 'mem_vec'
+    vector_name = physical_mem
+    variable = phys_mem
+    execute_on = 'INITIAL TIMESTEP_BEGIN TIMESTEP_END NONLINEAR LINEAR'
+  []
+
+  [node_mem_kern]
+    type = VectorPostprocessorVisualizationAux
+    vpp = 'mem_vec'
+    vector_name = node_utilization
+    variable = node_mem
+    execute_on = 'INITIAL TIMESTEP_BEGIN TIMESTEP_END NONLINEAR LINEAR'
+  []
 []
 
   
@@ -450,12 +469,10 @@ steel_blocks = "1 2"
 []
 
 [Outputs]
-#  exodus = true
+# x exodus = true
   nemesis = true
   perf_graph = true
-  [times_out]
-    type = JSON
-  []
+  
   [pgraph]
     type = PerfGraphOutput
     execute_on = 'initial final'  # Default is "final"
@@ -506,11 +523,6 @@ steel_blocks = "1 2"
     block = '3 4 5 6 7 8 9 10 11 12 13 14'
   []
 
-  [check_inner_fillet]
-    type = SideExtremeValue
-    boundary = NS.MOUNT_INNER_FILLETS
-    variable = principal_elemental
-  []
 
   [peak_elemental_average_inner_fillet]
     type = SideExtremeValue
@@ -571,4 +583,16 @@ steel_blocks = "1 2"
     mem_units = 'mebibytes'
     execute_on = 'INITIAL TIMESTEP_END'
   []
+
+  
+[]
+
+[VectorPostprocessors]
+  [mem_vec]
+    type = VectorMemoryUsage
+    execute_on = 'INITIAL TIMESTEP_BEGIN TIMESTEP_END NONLINEAR LINEAR'
+    report_peak_value = true
+    mem_units = mebibytes
+    parallel_type = replicated
+  [../]
 []

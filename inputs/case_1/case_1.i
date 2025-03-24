@@ -39,15 +39,51 @@ steel_blocks = "1 2"
     order = SECOND
     family = MONOMIAL
   [../]
+
+  [phys_mem]
+    family = MONOMIAL
+    order = CONSTANT
+  []
+
+  [node_mem]
+    family = MONOMIAL
+    order = CONSTANT
+  []
+
+  [heat_flux]
+  []
 []
 
 [AuxKernels]
+  [heat_flux]
+    type = FunctionAux
+    variable = heat_flux
+    function = heat_profile
+  []
+
   [principal_nodal]
     type = ADRankTwoScalarAux
     rank_two_tensor = stress
     variable = principal_nodal
     scalar_type = MaxPrincipal
   [../]
+
+  [phys_mem_kern]
+    type = VectorPostprocessorVisualizationAux
+    vpp = 'mem_vec'
+    vector_name = physical_mem
+    variable = phys_mem
+    execute_on = 'INITIAL TIMESTEP_BEGIN TIMESTEP_END NONLINEAR LINEAR'
+  []
+
+  [node_mem_kern]
+    type = VectorPostprocessorVisualizationAux
+    vpp = 'mem_vec'
+    vector_name = node_utilization
+    variable = node_mem
+    execute_on = 'INITIAL TIMESTEP_BEGIN TIMESTEP_END NONLINEAR LINEAR'
+  []
+
 []
 
 [ICs]
@@ -429,8 +465,13 @@ steel_blocks = "1 2"
 
 [Outputs]
 #  exodus = true
-  nemesis = true
+  
   perf_graph = true
+
+  [nemesis]
+    type = Nemesis
+    execute_on = 'initial timestep_end nonlinear linear' 
+  []
   [pgraph]
     type = PerfGraphOutput
     execute_on = 'initial final'  # Default is "final"
@@ -537,4 +578,14 @@ steel_blocks = "1 2"
     mem_units = 'mebibytes'
     execute_on = 'INITIAL TIMESTEP_END'
   []
+[]
+
+[VectorPostprocessors]
+  [mem_vec]
+    type = VectorMemoryUsage
+    execute_on = 'INITIAL TIMESTEP_END NONLINEAR LINEAR'
+    report_peak_value = true
+    mem_units = mebibytes
+    parallel_type = replicated
+  [../]
 []
