@@ -1,5 +1,4 @@
-
-pih_size = 11502
+pih_size = 273210
 
 ccz_blocks = "7 8 9 10 11 12 13 14"
 nickel_blocks = "3 4 5 6"
@@ -15,7 +14,7 @@ steel_blocks = "1 2 15"
 [Mesh]
   [meshy]
     type = FileMeshGenerator
-    file = '../../mesh/case_0/case_0_contact_rbe.cpa.gz'
+    file = '../../mesh/case_1/case_1_contact_rbe.cpa.gz'
     skip_partitioning = true
     allow_renumbering = false
     show_info=true
@@ -33,6 +32,50 @@ steel_blocks = "1 2 15"
   []
 []
 
+[AuxVariables]
+  [principal_nodal]
+    order = SECOND
+    family = MONOMIAL
+  [../]
+
+  [phys_mem]
+    family = MONOMIAL
+    order = CONSTANT
+  []
+
+  [node_mem]
+    family = MONOMIAL
+    order = CONSTANT
+  []
+
+[]
+
+[AuxKernels]
+  [principal_nodal]
+    type = ADRankTwoScalarAux
+    rank_two_tensor = stress
+    variable = principal_nodal
+    scalar_type = MaxPrincipal
+  [../]
+
+  [phys_mem_kern]
+    type = VectorPostprocessorVisualizationAux
+    vpp = 'mem_vec'
+    vector_name = physical_mem
+    variable = phys_mem
+    execute_on = 'INITIAL TIMESTEP_BEGIN TIMESTEP_END NONLINEAR LINEAR'
+  []
+
+  [node_mem_kern]
+    type = VectorPostprocessorVisualizationAux
+    vpp = 'mem_vec'
+    vector_name = node_utilization
+    variable = node_mem
+    execute_on = 'INITIAL TIMESTEP_BEGIN TIMESTEP_END NONLINEAR LINEAR'
+  []
+[]
+  
+  
 [Problem]
   error_on_jacobian_nonzero_reallocation = false
   
@@ -81,7 +124,7 @@ steel_blocks = "1 2 15"
     strain = SMALL
     add_variables = true
     #incremental = false
-    generate_output = 'max_principal_stress'
+    generate_output = 'max_principal_stress'  
     eigenstrain_names = 'eigenstrain'
     block = '3 4 5 6 7 8 9 10 11 12 13 14'
   []
@@ -95,58 +138,6 @@ steel_blocks = "1 2 15"
     block = '1 2 15 16'
   []
 []
-
-[AuxVariables]
-  [heat_flux]
-  []
-  
-  [principal_nodal]
-    order = SECOND
-    family = MONOMIAL
-  []
-  
-  [phys_mem]
-    family = MONOMIAL
-    order = CONSTANT
-  []
-  
-  [node_mem]
-    family = MONOMIAL
-    order = CONSTANT
-  []
-[]
-
-[AuxKernels]
-  [heat_flux]
-    type = FunctionAux
-    variable = heat_flux
-    function = heat_profile
-  []
-  
-  [principal_nodal]
-    type = ADRankTwoScalarAux
-    rank_two_tensor = stress
-    variable = principal_nodal
-    scalar_type = MaxPrincipal
-  [../]
-
-  [phys_mem_kern]
-    type = VectorPostprocessorVisualizationAux
-    vpp = 'mem_vec'
-    vector_name = physical_mem
-    variable = phys_mem
-    execute_on = 'INITIAL TIMESTEP_BEGIN NONLINEAR TIMESTEP_END'
-  []
-
-  [node_mem_kern]
-    type = VectorPostprocessorVisualizationAux
-    vpp = 'mem_vec'
-    vector_name = node_utilization
-    variable = node_mem
-    execute_on = 'INITIAL TIMESTEP_BEGIN TIMESTEP_END NONLINEAR LINEAR'
-  []
-[]
-
   
 [UserObjects]
   [heat_flux_csv]
@@ -253,8 +244,8 @@ steel_blocks = "1 2 15"
   
   [./dts]
     type = PiecewiseConstant
-    x = '0 0.1 0.5 2 5 10 20 100 1000'
-    y = '0.05 0.1 0.5 1 5 10 80 900 1000'
+    x = '0 0.05 0.1 0.5 2 5 10 20'
+    y = '0.01 0.05 0.1 0.5 1 5 10 80'
     direction = left_inclusive
   [../]
 []
@@ -443,7 +434,7 @@ steel_blocks = "1 2 15"
 [Executioner]
   type = Transient
   start_time = 0
-  end_time = 4000
+  end_time = 100
 #  dt = 0.002
 
   [./TimeStepper]
@@ -457,6 +448,8 @@ steel_blocks = "1 2 15"
   scaling_group_variables = 'disp_x disp_y disp_z; temperature'
   compute_scaling_once = false
   solve_type = NEWTON
+
+
 						     
   nl_rel_tol = 1e-15
   nl_abs_tol = 1e-8
@@ -477,16 +470,16 @@ steel_blocks = "1 2 15"
       #splitting_type = multiplicative
       #petsc_options = '-snes_ksp_ew'
       #petsc_options_iname = '-ksp_type -ksp_gmres_restart -mat_mffd_err'
-      #petsc_options_value = 'gmres 1000  1e-5'
+      #petsc_options_value = 'gmres 300  1e-5'
 
       petsc_options_iname = '-ksp_gmres_restart -mat_mffd_err'
-      petsc_options_value = '1000  1e-5'
+      petsc_options_value = '500  1e-5'
       #schur_pre = 'Sp'
     []
     [main]
       vars = 'disp_x disp_y disp_z temperature'
       petsc_options_iname = '-ksp_type -pc_type -pc_hypre_type -pc_hypre_boomeramg_strong_threshold -pc_hypre_boomeramg_interp_type -pc_hypre_boomeramg_coarsen_type -pc_hypre_boomeramg_agg_nl -pc_hypre_boomeramg_agg_num_paths -pc_hypre_boomeramg_truncfactor'
-      petsc_options_value = 'preonly hypre boomeramg 0.4 ext+i HMIS 10 5 0.3'
+      petsc_options_value = 'preonly hypre boomeramg 0.7 ext+i HMIS 10 5 0.3'
       unside_by_var_var_name = 'disp_x disp_x disp_x disp_x disp_y disp_y disp_y disp_y disp_z disp_z disp_z disp_z'
       unside_by_var_boundary_name = 'NS.PIN_HOLE_CONTACT NS.PIN_SLOT_CONTACT NS.PIN_HOLE_RBE NS.PIN_SLOT_RBE NS.PIN_HOLE_CONTACT NS.PIN_SLOT_CONTACT NS.PIN_HOLE_RBE NS.PIN_SLOT_RBE NS.PIN_HOLE_CONTACT NS.PIN_SLOT_CONTACT NS.PIN_HOLE_RBE NS.PIN_SLOT_RBE'
     []
@@ -541,22 +534,19 @@ steel_blocks = "1 2 15"
   
 [Outputs]
 #  exodus = true
-  nemesis = true
+#  nemesis = true
   perf_graph = true
   checkpoint = false
-  #[pgraph]
-  #  type = PerfGraphOutput
-  #  execute_on = 'initial final'  # Default is "final"
-  #  level = 2                     # Default is 1
-  #  heaviest_branch = true        # Default is false
-  #  heaviest_sections = 7         # Default is 0
-  #[]  
+  [nemesis]
+    type = Nemesis
+    execute_on = 'initial timestep_end nonlinear' 
+  []
+						     
 []
 
 [Debug]
   show_var_residual_norms = true
 []
-
 
 [Postprocessors]
   [max_temp]
@@ -623,13 +613,13 @@ steel_blocks = "1 2 15"
     value_type = "total"
     mem_units = 'mebibytes'
     execute_on = 'INITIAL TIMESTEP_END'
-  []
+  []						     
 []
-						     
+						     						    
 [VectorPostprocessors]
   [mem_vec]
     type = VectorMemoryUsage
-    execute_on = 'INITIAL TIMESTEP_END NONLINEAR LINEAR'
+    execute_on = 'INITIAL TIMESTEP_BEGIN TIMESTEP_END NONLINEAR LINEAR'
     report_peak_value = true
     mem_units = mebibytes
     parallel_type = replicated
